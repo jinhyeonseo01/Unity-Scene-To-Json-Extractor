@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f0f57c7d850aeaf4ba9bf825196188c9
+timeCreated: 1579739024
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Prop_Washingline_04_Convex.asset
+  uploadId: 657865

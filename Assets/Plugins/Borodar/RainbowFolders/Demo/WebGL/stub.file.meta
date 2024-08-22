@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e81de03a8bac0bd4babf40f5a5f50c12
+timeCreated: 1456142802
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143526
+  packageName: Rainbow Folders 2
+  packageVersion: 2.4.1
+  assetPath: Assets/Plugins/Borodar/RainbowFolders/Demo/WebGL/stub.file
+  uploadId: 600109

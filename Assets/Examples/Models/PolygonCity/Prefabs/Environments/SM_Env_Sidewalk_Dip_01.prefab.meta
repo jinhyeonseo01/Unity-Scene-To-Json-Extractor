@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d8e7bc81108d6df4f9af32b0399eb064
+timeCreated: 1499291882
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Environments/SM_Env_Sidewalk_Dip_01.prefab
+  uploadId: 657865

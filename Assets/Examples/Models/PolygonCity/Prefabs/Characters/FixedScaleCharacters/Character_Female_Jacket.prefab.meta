@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5082799ad37f92b4bb2aaba2bdb7a5d4
+timeCreated: 1545009916
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Characters/FixedScaleCharacters/Character_Female_Jacket.prefab
+  uploadId: 657865

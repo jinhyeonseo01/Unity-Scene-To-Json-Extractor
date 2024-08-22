@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7cbed2c339c8db94cb05278ed2f7e14b
+timeCreated: 1499291881
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Environments/SM_Env_Road_Arrow_02.prefab
+  uploadId: 657865

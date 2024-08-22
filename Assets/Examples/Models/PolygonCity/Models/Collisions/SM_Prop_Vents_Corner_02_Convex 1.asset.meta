@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 315832441b45bc44da86fe704dc8c4fe
+timeCreated: 1579739443
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Prop_Vents_Corner_02_Convex
+    1.asset
+  uploadId: 657865

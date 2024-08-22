@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 15dc232cd3fb7284497126cd68dc7ba7
+timeCreated: 1499290737
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_Sign_Hotel_01.prefab
+  uploadId: 657865

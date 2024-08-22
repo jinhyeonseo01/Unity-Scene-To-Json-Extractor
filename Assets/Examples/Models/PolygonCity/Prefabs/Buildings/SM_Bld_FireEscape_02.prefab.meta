@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 530c04ec7ccbeec44b8c9e6f3c681679
+timeCreated: 1499290754
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_FireEscape_02.prefab
+  uploadId: 657865

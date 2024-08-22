@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ee6af68a3d2c1864ebc6cfc3be82d851
+timeCreated: 1499290739
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Environments/SM_Env_Tree_01.prefab
+  uploadId: 657865

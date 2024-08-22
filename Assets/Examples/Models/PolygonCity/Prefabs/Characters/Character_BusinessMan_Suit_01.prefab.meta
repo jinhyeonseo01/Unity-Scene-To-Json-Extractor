@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 471247d5cf89b2c46bcde0f08524197e
+timeCreated: 1499638574
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Characters/Character_BusinessMan_Suit_01.prefab
+  uploadId: 657865

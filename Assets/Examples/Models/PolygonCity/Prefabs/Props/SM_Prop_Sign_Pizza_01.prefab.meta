@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7ab8c96f64066fb48bf1bd7d1bd465c0
+timeCreated: 1499290753
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_Sign_Pizza_01.prefab
+  uploadId: 657865

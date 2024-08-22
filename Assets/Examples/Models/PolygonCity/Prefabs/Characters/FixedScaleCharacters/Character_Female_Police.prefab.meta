@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 6aadac4ba6f145a48863dc87f16916d6
+timeCreated: 1545009933
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Characters/FixedScaleCharacters/Character_Female_Police.prefab
+  uploadId: 657865

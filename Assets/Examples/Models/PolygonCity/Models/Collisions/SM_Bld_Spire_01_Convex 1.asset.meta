@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ba2b512393eab4341a488fa8681866c2
+timeCreated: 1579743311
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Bld_Spire_01_Convex 1.asset
+  uploadId: 657865

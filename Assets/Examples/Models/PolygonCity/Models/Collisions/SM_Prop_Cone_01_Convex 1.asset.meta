@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e903cc14bec7cd246b60487b66ae5167
+timeCreated: 1580419026
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Prop_Cone_01_Convex 1.asset
+  uploadId: 657865

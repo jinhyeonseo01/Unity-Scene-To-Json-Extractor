@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 16dd2e2d30bf97a4282b745980e24bd8
+timeCreated: 1499290755
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_PlanterWindow_01.prefab
+  uploadId: 657865

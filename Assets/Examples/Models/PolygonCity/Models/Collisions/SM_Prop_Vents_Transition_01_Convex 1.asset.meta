@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a17b7560307cc1145bef5f0aed63aeec
+timeCreated: 1579739441
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Prop_Vents_Transition_01_Convex
+    1.asset
+  uploadId: 657865

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3d64129ea690b5840a03b5f2f5c4b588
+timeCreated: 1499290755
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Environments/SM_Env_Path_Junction_01.prefab
+  uploadId: 657865

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bf8c887ce2a3f8f41be86bb54fa20b60
+timeCreated: 1499290744
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_LightPole_Box_01.prefab
+  uploadId: 657865

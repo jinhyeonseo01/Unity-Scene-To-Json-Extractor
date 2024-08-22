@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6412c6bdd410913469520a05a1632885
+timeCreated: 1499638581
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Characters/Character_BusinessWoman_01.prefab
+  uploadId: 657865

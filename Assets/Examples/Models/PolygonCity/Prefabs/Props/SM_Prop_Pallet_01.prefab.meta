@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 21dcc5f62e503f0438b4e490cdd00d44
+timeCreated: 1499290739
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_Pallet_01.prefab
+  uploadId: 657865

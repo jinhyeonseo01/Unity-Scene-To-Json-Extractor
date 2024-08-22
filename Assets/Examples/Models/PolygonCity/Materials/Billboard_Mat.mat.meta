@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 53cf5c0ff424ff9458c56526516b63ec
+timeCreated: 1499290949
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Materials/Billboard_Mat.mat
+  uploadId: 657865

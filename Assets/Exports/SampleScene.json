@@ -1,0 +1,4592 @@
+{
+  "references": {
+    "GameObject": [
+      {
+        "type": "GameObject",
+        "name": "Capsule",
+        "guid": "a9017c68-1174-4318-8136-cbbf5a9ace95",
+        "components": [
+          "eee8bbf5-20e7-486c-85c0-76b84e2ed8be",
+          "7fb13b0c-5d4c-4d1f-ba87-f0e885d4d59d",
+          "25282a77-5e7d-445f-a246-c9ef3cece429"
+        ],
+        "childs": [],
+        "parent": ""
+      },
+      {
+        "type": "GameObject",
+        "name": "Sphere",
+        "guid": "0d3b3505-fa59-4834-b9d5-660c045042a2",
+        "components": [
+          "2413c5b9-8e60-4cb4-8280-e7947cc75e65",
+          "4df18b01-2d95-4b16-81eb-d9652650b25a",
+          "5865d90b-bcb4-4dcb-b198-e5269f99c85a"
+        ],
+        "childs": [],
+        "parent": ""
+      },
+      {
+        "type": "GameObject",
+        "name": "Cube",
+        "guid": "945cf2af-1e2a-44ab-b9fa-51310723ba37",
+        "components": [
+          "85810785-08be-4c89-8df5-3f2315d0d945",
+          "c0e17e1b-0c7c-47ff-85eb-b9a57e859f5d",
+          "1dca46d3-2bf5-4b34-8f5c-e008b130dfed"
+        ],
+        "childs": [],
+        "parent": ""
+      },
+      {
+        "type": "GameObject",
+        "name": "Directional Light",
+        "guid": "1ee4a23b-9a2f-4d79-87d3-3e7d00f0ca68",
+        "components": [
+          "ea70540e-3a1c-4058-aace-495f802a2087",
+          "25f6c2f3-3f90-409a-bc18-c02ac8213809"
+        ],
+        "childs": [],
+        "parent": ""
+      },
+      {
+        "type": "GameObject",
+        "name": "Main Camera",
+        "guid": "04fb3144-b1a4-4298-8ab4-275a2095ebda",
+        "components": [
+          "cf8b2d31-e014-4834-9545-621349273da2",
+          "b51955f8-2fd7-4370-84c9-36a468a69b04"
+        ],
+        "childs": [],
+        "parent": ""
+      },
+      {
+        "type": "GameObject",
+        "name": "Cube",
+        "guid": "026ab39c-fe09-41ac-983e-d75d82dacf73",
+        "components": [
+          "da120c42-ddbe-4335-a715-f1a92674d7f1",
+          "fcaa3b45-057c-492b-bff1-522a13689ee2",
+          "953682e2-6786-484c-82c5-8a139418c0a9"
+        ],
+        "childs": [],
+        "parent": ""
+      },
+      {
+        "type": "GameObject",
+        "name": "kindred_unity",
+        "guid": "7fc1d047-27e8-4ffd-89a8-a2ee0e6ce757",
+        "components": ["b5bda243-fdf4-4b08-89bb-52c23463f3ff"],
+        "childs": [
+          "4e35b6de-2a3b-413c-9e32-ae14295b037d",
+          "e79cbc76-2efe-42b8-90b6-084cbf254aa7",
+          "8a746cc6-0c6a-4577-baee-2496086419e7",
+          "107d8606-14df-45c7-9cfa-74534e2b0ac3",
+          "dd535a7d-6922-4365-9707-d625903e554a",
+          "709b37b2-333f-46f6-b8ec-a190af2f88b9"
+        ],
+        "parent": ""
+      },
+      {
+        "type": "GameObject",
+        "name": "hair",
+        "guid": "709b37b2-333f-46f6-b8ec-a190af2f88b9",
+        "components": [
+          "e3df96b6-919a-4b6d-8f8c-3bea0a4fd670",
+          "db505b51-435a-460d-9c87-f0301b28e434"
+        ],
+        "childs": [],
+        "parent": "7fc1d047-27e8-4ffd-89a8-a2ee0e6ce757"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_R_Toe0Nub",
+        "guid": "37c48923-a86a-4015-a45c-38b5de8f606d",
+        "components": ["a047f02c-d657-4c31-aa95-b5914e6ca2aa"],
+        "childs": [],
+        "parent": "4089f62f-82c3-41be-902f-e577c46c4b5a"
+      },
+      {
+        "type": "GameObject",
+        "name": "Right toe",
+        "guid": "4089f62f-82c3-41be-902f-e577c46c4b5a",
+        "components": ["7ac16aa2-e33b-4adc-a468-976eb2715c31"],
+        "childs": ["37c48923-a86a-4015-a45c-38b5de8f606d"],
+        "parent": "bdd8a908-96b1-48c5-ac28-fe818c671f7c"
+      },
+      {
+        "type": "GameObject",
+        "name": "Right ankle",
+        "guid": "bdd8a908-96b1-48c5-ac28-fe818c671f7c",
+        "components": ["93c06427-6937-48aa-825f-6f9c30a952af"],
+        "childs": ["4089f62f-82c3-41be-902f-e577c46c4b5a"],
+        "parent": "95ebda06-8c1d-4d2b-9d9e-f8015521c759"
+      },
+      {
+        "type": "GameObject",
+        "name": "Right knee",
+        "guid": "95ebda06-8c1d-4d2b-9d9e-f8015521c759",
+        "components": ["3691cd1d-d333-4b88-af93-0b94dfaba236"],
+        "childs": ["bdd8a908-96b1-48c5-ac28-fe818c671f7c"],
+        "parent": "2fea8183-3ffc-480a-8270-9e5c014a8965"
+      },
+      {
+        "type": "GameObject",
+        "name": "Right leg",
+        "guid": "2fea8183-3ffc-480a-8270-9e5c014a8965",
+        "components": ["a1a463bc-b695-45bf-8fb5-6dc1bf2f9be3"],
+        "childs": ["95ebda06-8c1d-4d2b-9d9e-f8015521c759"],
+        "parent": "c47fa189-7561-44dc-851c-30082860677b"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_L_Toe0Nub",
+        "guid": "d097bb7f-db17-4d63-8047-9bacc6bdb1c4",
+        "components": ["be3ebd99-860f-4335-af61-54eec0b42774"],
+        "childs": [],
+        "parent": "fc978d6e-6254-4c6e-aafe-c5c21389ab09"
+      },
+      {
+        "type": "GameObject",
+        "name": "Left toe",
+        "guid": "fc978d6e-6254-4c6e-aafe-c5c21389ab09",
+        "components": ["82258737-56b4-42c8-9a9c-82158de6156f"],
+        "childs": ["d097bb7f-db17-4d63-8047-9bacc6bdb1c4"],
+        "parent": "8cd09dfe-157d-45ac-9d35-018a2dce35e1"
+      },
+      {
+        "type": "GameObject",
+        "name": "Left ankle",
+        "guid": "8cd09dfe-157d-45ac-9d35-018a2dce35e1",
+        "components": ["10c478ba-3535-4c4f-897a-0f5212a047d5"],
+        "childs": ["fc978d6e-6254-4c6e-aafe-c5c21389ab09"],
+        "parent": "be81f514-64e2-41ee-8179-03879cb0cc79"
+      },
+      {
+        "type": "GameObject",
+        "name": "Left knee",
+        "guid": "be81f514-64e2-41ee-8179-03879cb0cc79",
+        "components": ["88e287bc-fff1-4864-a03c-db9935f51e31"],
+        "childs": ["8cd09dfe-157d-45ac-9d35-018a2dce35e1"],
+        "parent": "9e3515a1-b357-4439-a8ac-ec05ede5fadc"
+      },
+      {
+        "type": "GameObject",
+        "name": "Left leg",
+        "guid": "9e3515a1-b357-4439-a8ac-ec05ede5fadc",
+        "components": ["eec0de20-2d3f-4219-bc42-3d3bb5b85e29"],
+        "childs": ["be81f514-64e2-41ee-8179-03879cb0cc79"],
+        "parent": "c47fa189-7561-44dc-851c-30082860677b"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_R_Finger4Nub",
+        "guid": "37c0149d-3fdc-437f-abfa-38935acffad8",
+        "components": ["56c038a6-5f8f-43f6-b92b-d765e5628e68"],
+        "childs": [],
+        "parent": "e5e3c397-399e-4790-b551-d535db314804"
+      },
+      {
+        "type": "GameObject",
+        "name": "LittleFinger3_R",
+        "guid": "e5e3c397-399e-4790-b551-d535db314804",
+        "components": ["472e5b93-59d4-49c7-b91e-9c8c4c240209"],
+        "childs": ["37c0149d-3fdc-437f-abfa-38935acffad8"],
+        "parent": "4b6d9dda-482e-4aff-bea8-3c06d613ba4c"
+      },
+      {
+        "type": "GameObject",
+        "name": "LittleFinger2_R",
+        "guid": "4b6d9dda-482e-4aff-bea8-3c06d613ba4c",
+        "components": ["596fdd0e-b12e-4ef5-a229-d07649cd2e0d"],
+        "childs": ["e5e3c397-399e-4790-b551-d535db314804"],
+        "parent": "5e9b818b-288d-4e04-b090-cccc4ca445f8"
+      },
+      {
+        "type": "GameObject",
+        "name": "LittleFinger1_R",
+        "guid": "5e9b818b-288d-4e04-b090-cccc4ca445f8",
+        "components": ["89a6917c-1773-4d81-a3bd-a8c24dac4a63"],
+        "childs": ["4b6d9dda-482e-4aff-bea8-3c06d613ba4c"],
+        "parent": "c6d02db8-716b-4328-83e4-7ef6a2a13000"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_R_Finger3Nub",
+        "guid": "2d23d1d4-3c13-4458-ad8f-57f49e1950e7",
+        "components": ["efab567e-df8d-4e73-9912-6fb3846b2f71"],
+        "childs": [],
+        "parent": "4bb622ea-7f37-4fd1-ab64-0e902dd94bcd"
+      },
+      {
+        "type": "GameObject",
+        "name": "RingFinger3_R",
+        "guid": "4bb622ea-7f37-4fd1-ab64-0e902dd94bcd",
+        "components": ["33ae3730-d73a-4c8d-bf91-e7a9bfecb41f"],
+        "childs": ["2d23d1d4-3c13-4458-ad8f-57f49e1950e7"],
+        "parent": "278683ac-7b1e-481e-a67a-9c17afabb813"
+      },
+      {
+        "type": "GameObject",
+        "name": "RingFinger2_R",
+        "guid": "278683ac-7b1e-481e-a67a-9c17afabb813",
+        "components": ["5740086a-7d3d-4289-bc9a-c0960fec6379"],
+        "childs": ["4bb622ea-7f37-4fd1-ab64-0e902dd94bcd"],
+        "parent": "689a73c2-2f53-467d-94a7-e16bea6da896"
+      },
+      {
+        "type": "GameObject",
+        "name": "RingFinger1_R",
+        "guid": "689a73c2-2f53-467d-94a7-e16bea6da896",
+        "components": ["c5dde0a6-b730-4b2c-9f83-daf7f7f6f130"],
+        "childs": ["278683ac-7b1e-481e-a67a-9c17afabb813"],
+        "parent": "c6d02db8-716b-4328-83e4-7ef6a2a13000"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_R_Finger2Nub",
+        "guid": "100fb62a-20aa-44a3-a71f-4ba570573532",
+        "components": ["759f8905-f277-4836-a378-f32cb3556baa"],
+        "childs": [],
+        "parent": "26d6e89d-4d2b-4c33-884c-8da3c06702fb"
+      },
+      {
+        "type": "GameObject",
+        "name": "MiddleFinger3_R",
+        "guid": "26d6e89d-4d2b-4c33-884c-8da3c06702fb",
+        "components": ["cc627fc2-c1d9-43a6-b6fc-85539eccfea5"],
+        "childs": ["100fb62a-20aa-44a3-a71f-4ba570573532"],
+        "parent": "33e602b7-71f6-4652-89f5-df18c73a9ff9"
+      },
+      {
+        "type": "GameObject",
+        "name": "MiddleFinger2_R",
+        "guid": "33e602b7-71f6-4652-89f5-df18c73a9ff9",
+        "components": ["7fcd290e-d57d-46f8-b57c-ba6d3f31b03a"],
+        "childs": ["26d6e89d-4d2b-4c33-884c-8da3c06702fb"],
+        "parent": "901cf029-4ca1-4a40-acba-b9d7b801aedb"
+      },
+      {
+        "type": "GameObject",
+        "name": "MiddleFinger1_R",
+        "guid": "901cf029-4ca1-4a40-acba-b9d7b801aedb",
+        "components": ["9b208ccf-8f22-425c-a886-013ff3374f8c"],
+        "childs": ["33e602b7-71f6-4652-89f5-df18c73a9ff9"],
+        "parent": "c6d02db8-716b-4328-83e4-7ef6a2a13000"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_R_Finger1Nub",
+        "guid": "d4def340-16f7-46f4-9202-d53313154b4b",
+        "components": ["1231344b-944a-444c-8b7d-7be2ac9a60f0"],
+        "childs": [],
+        "parent": "c582d43e-6d31-4445-b042-6b618229c9e8"
+      },
+      {
+        "type": "GameObject",
+        "name": "IndexFinger3_R",
+        "guid": "c582d43e-6d31-4445-b042-6b618229c9e8",
+        "components": ["e08ee75a-80ab-4cf4-8089-a77ee7d8fa70"],
+        "childs": ["d4def340-16f7-46f4-9202-d53313154b4b"],
+        "parent": "abe1d4eb-c736-41ab-873d-b4ea9c7a9197"
+      },
+      {
+        "type": "GameObject",
+        "name": "IndexFinger2_R",
+        "guid": "abe1d4eb-c736-41ab-873d-b4ea9c7a9197",
+        "components": ["be3aed0d-4584-45ac-b363-ba0c2f09a804"],
+        "childs": ["c582d43e-6d31-4445-b042-6b618229c9e8"],
+        "parent": "09943d05-30f7-474f-8140-d49d2a719909"
+      },
+      {
+        "type": "GameObject",
+        "name": "IndexFinger1_R",
+        "guid": "09943d05-30f7-474f-8140-d49d2a719909",
+        "components": ["3b7bb5f2-1333-4147-bf73-69ff252c7ff6"],
+        "childs": ["abe1d4eb-c736-41ab-873d-b4ea9c7a9197"],
+        "parent": "c6d02db8-716b-4328-83e4-7ef6a2a13000"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_R_Finger0Nub",
+        "guid": "5f20214d-4bfd-4536-9b9e-6d0083c4db70",
+        "components": ["e58c21ae-3edc-443f-b958-dfcd3c0cdb77"],
+        "childs": [],
+        "parent": "a42229ac-8e75-444b-8a7b-480531370ddd"
+      },
+      {
+        "type": "GameObject",
+        "name": "Thumb2_R",
+        "guid": "a42229ac-8e75-444b-8a7b-480531370ddd",
+        "components": ["41d9e464-2969-45d8-9ff2-a7667bf27185"],
+        "childs": ["5f20214d-4bfd-4536-9b9e-6d0083c4db70"],
+        "parent": "3c03553a-3c71-4509-b703-6bb66cc85acc"
+      },
+      {
+        "type": "GameObject",
+        "name": "Thumb1_R",
+        "guid": "3c03553a-3c71-4509-b703-6bb66cc85acc",
+        "components": ["b191fa3d-4300-4a6c-bbd9-089f89b906ba"],
+        "childs": ["a42229ac-8e75-444b-8a7b-480531370ddd"],
+        "parent": "ab748687-81f7-49db-8224-747c7257b02f"
+      },
+      {
+        "type": "GameObject",
+        "name": "Thumb0_R",
+        "guid": "ab748687-81f7-49db-8224-747c7257b02f",
+        "components": ["d7baa3a9-040e-46f9-9134-cdc5a94cc56d"],
+        "childs": ["3c03553a-3c71-4509-b703-6bb66cc85acc"],
+        "parent": "c6d02db8-716b-4328-83e4-7ef6a2a13000"
+      },
+      {
+        "type": "GameObject",
+        "name": "Right wrist",
+        "guid": "c6d02db8-716b-4328-83e4-7ef6a2a13000",
+        "components": ["b47a249d-fb2e-47d4-998d-21d5b40289d6"],
+        "childs": [
+          "09943d05-30f7-474f-8140-d49d2a719909",
+          "5e9b818b-288d-4e04-b090-cccc4ca445f8",
+          "901cf029-4ca1-4a40-acba-b9d7b801aedb",
+          "689a73c2-2f53-467d-94a7-e16bea6da896",
+          "ab748687-81f7-49db-8224-747c7257b02f"
+        ],
+        "parent": "4a0beff6-25a6-4428-8bcf-813310d3c4aa"
+      },
+      {
+        "type": "GameObject",
+        "name": "Right elbow",
+        "guid": "4a0beff6-25a6-4428-8bcf-813310d3c4aa",
+        "components": ["397e3f98-de1d-4ac2-9e5c-e61df0a7d208"],
+        "childs": ["c6d02db8-716b-4328-83e4-7ef6a2a13000"],
+        "parent": "24c3952a-ceb2-4b9b-a577-eacf9de81cbd"
+      },
+      {
+        "type": "GameObject",
+        "name": "Right arm",
+        "guid": "24c3952a-ceb2-4b9b-a577-eacf9de81cbd",
+        "components": ["3200c5e8-3de0-4928-9f98-69a20d5881b7"],
+        "childs": ["4a0beff6-25a6-4428-8bcf-813310d3c4aa"],
+        "parent": "ba5df587-3dee-40a9-aed3-e668fee81005"
+      },
+      {
+        "type": "GameObject",
+        "name": "Right shoulder",
+        "guid": "ba5df587-3dee-40a9-aed3-e668fee81005",
+        "components": ["57b6bb87-e7d8-42ca-96c3-4a261fc89088"],
+        "childs": ["24c3952a-ceb2-4b9b-a577-eacf9de81cbd"],
+        "parent": "00113db6-c1d1-4a64-8af3-5255a70de739"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_L_Finger4Nub",
+        "guid": "eafc8b47-f9a1-4f28-b420-b60e435143eb",
+        "components": ["8dfd35fa-ec9b-4052-9ec0-19ef7d65e28e"],
+        "childs": [],
+        "parent": "5358e52f-80c2-41d2-a43c-278b0b73fe36"
+      },
+      {
+        "type": "GameObject",
+        "name": "LittleFinger3_L",
+        "guid": "5358e52f-80c2-41d2-a43c-278b0b73fe36",
+        "components": ["3d49ebda-8568-4c70-b3a7-c698ae7301dc"],
+        "childs": ["eafc8b47-f9a1-4f28-b420-b60e435143eb"],
+        "parent": "ebb2be7a-da69-4e02-9627-f3093e393bbf"
+      },
+      {
+        "type": "GameObject",
+        "name": "LittleFinger2_L",
+        "guid": "ebb2be7a-da69-4e02-9627-f3093e393bbf",
+        "components": ["d3322a7a-76d0-4bc8-9a57-a3d00502a21d"],
+        "childs": ["5358e52f-80c2-41d2-a43c-278b0b73fe36"],
+        "parent": "25fefc52-55a3-4f3f-8ea1-59717ba790ea"
+      },
+      {
+        "type": "GameObject",
+        "name": "LittleFinger1_L",
+        "guid": "25fefc52-55a3-4f3f-8ea1-59717ba790ea",
+        "components": ["60f48b49-a96f-45cb-b224-49c5a2780698"],
+        "childs": ["ebb2be7a-da69-4e02-9627-f3093e393bbf"],
+        "parent": "8eccc1d5-6c7d-4ef4-8141-f20981cbc6bc"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_L_Finger3Nub",
+        "guid": "1c1442a3-01e6-4278-aa22-25081e82756d",
+        "components": ["74fc788b-1bc9-49b1-89ae-cf01295e6436"],
+        "childs": [],
+        "parent": "14bcba9d-eaac-47cd-84fc-e2b4ac68eab8"
+      },
+      {
+        "type": "GameObject",
+        "name": "RingFinger3_L",
+        "guid": "14bcba9d-eaac-47cd-84fc-e2b4ac68eab8",
+        "components": ["ae8762cc-0714-4933-a67b-b9750896a330"],
+        "childs": ["1c1442a3-01e6-4278-aa22-25081e82756d"],
+        "parent": "c1dfd916-57bd-4759-b058-267147012765"
+      },
+      {
+        "type": "GameObject",
+        "name": "RingFinger2_L",
+        "guid": "c1dfd916-57bd-4759-b058-267147012765",
+        "components": ["db9b5d74-5e08-45b0-addb-c7b2333abb4e"],
+        "childs": ["14bcba9d-eaac-47cd-84fc-e2b4ac68eab8"],
+        "parent": "c30e3454-a54d-4dbc-9afd-611deb6c05dc"
+      },
+      {
+        "type": "GameObject",
+        "name": "RingFinger1_L",
+        "guid": "c30e3454-a54d-4dbc-9afd-611deb6c05dc",
+        "components": ["42b8ea75-92c2-4788-bc2c-4cd07ba1ebac"],
+        "childs": ["c1dfd916-57bd-4759-b058-267147012765"],
+        "parent": "8eccc1d5-6c7d-4ef4-8141-f20981cbc6bc"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_L_Finger2Nub",
+        "guid": "c842d28d-2ad2-4efb-98d4-2e27c470a902",
+        "components": ["0bace9c3-8b7f-43a4-af43-eecd623cbdec"],
+        "childs": [],
+        "parent": "d702e7ee-33a8-4a4e-aa46-d51ab039f56d"
+      },
+      {
+        "type": "GameObject",
+        "name": "MiddleFinger3_L",
+        "guid": "d702e7ee-33a8-4a4e-aa46-d51ab039f56d",
+        "components": ["0bf5e38d-d00b-4ef4-bb8e-5d88c9ed6cac"],
+        "childs": ["c842d28d-2ad2-4efb-98d4-2e27c470a902"],
+        "parent": "a630466b-6a81-4db8-902b-c2e9369b9a64"
+      },
+      {
+        "type": "GameObject",
+        "name": "MiddleFinger2_L",
+        "guid": "a630466b-6a81-4db8-902b-c2e9369b9a64",
+        "components": ["9b6d382a-6aef-4db0-b407-566075004a0c"],
+        "childs": ["d702e7ee-33a8-4a4e-aa46-d51ab039f56d"],
+        "parent": "0095da2c-4f0a-4839-a72a-5d286516b629"
+      },
+      {
+        "type": "GameObject",
+        "name": "MiddleFinger1_L",
+        "guid": "0095da2c-4f0a-4839-a72a-5d286516b629",
+        "components": ["3b376d14-950a-48f8-9ece-58f25f2b8f6e"],
+        "childs": ["a630466b-6a81-4db8-902b-c2e9369b9a64"],
+        "parent": "8eccc1d5-6c7d-4ef4-8141-f20981cbc6bc"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_L_Finger1Nub",
+        "guid": "7dc1c0f1-a0e2-4d67-96ad-deb918610e98",
+        "components": ["b33d984a-7550-45eb-94ec-7881a74833c1"],
+        "childs": [],
+        "parent": "ed517d3d-e480-4c44-8a4a-efbf5c1482c3"
+      },
+      {
+        "type": "GameObject",
+        "name": "IndexFinger3_L",
+        "guid": "ed517d3d-e480-4c44-8a4a-efbf5c1482c3",
+        "components": ["41815a9b-52e7-45d7-94fd-8be9a94b5923"],
+        "childs": ["7dc1c0f1-a0e2-4d67-96ad-deb918610e98"],
+        "parent": "87b99e57-f911-43d4-806e-0f042e922a8b"
+      },
+      {
+        "type": "GameObject",
+        "name": "IndexFinger2_L",
+        "guid": "87b99e57-f911-43d4-806e-0f042e922a8b",
+        "components": ["bc61b285-4ad7-40cb-8fdf-5ff0a4229ad4"],
+        "childs": ["ed517d3d-e480-4c44-8a4a-efbf5c1482c3"],
+        "parent": "dd5497d0-bed3-4628-9deb-164f810275d7"
+      },
+      {
+        "type": "GameObject",
+        "name": "IndexFinger1_L",
+        "guid": "dd5497d0-bed3-4628-9deb-164f810275d7",
+        "components": ["a4d16dd4-55f1-45f0-bc96-7905c73f96c0"],
+        "childs": ["87b99e57-f911-43d4-806e-0f042e922a8b"],
+        "parent": "8eccc1d5-6c7d-4ef4-8141-f20981cbc6bc"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_L_Finger0Nub",
+        "guid": "bd238d1e-6965-4950-9be3-39ba04a2e549",
+        "components": ["50bba299-0e78-483e-a3fb-27d14f93b7ca"],
+        "childs": [],
+        "parent": "3c4da812-4327-4252-807f-d0773f048479"
+      },
+      {
+        "type": "GameObject",
+        "name": "Thumb2_L",
+        "guid": "3c4da812-4327-4252-807f-d0773f048479",
+        "components": ["8fa95b04-2d09-4fb1-a0a6-5fc4529a9840"],
+        "childs": ["bd238d1e-6965-4950-9be3-39ba04a2e549"],
+        "parent": "84f90837-3204-431e-837e-fe5ed2f35a96"
+      },
+      {
+        "type": "GameObject",
+        "name": "Thumb1_L",
+        "guid": "84f90837-3204-431e-837e-fe5ed2f35a96",
+        "components": ["9bd4350e-e6c4-4ba5-b665-2edaf1045adf"],
+        "childs": ["3c4da812-4327-4252-807f-d0773f048479"],
+        "parent": "8425688e-e62b-479d-b09f-9ef8638db0d0"
+      },
+      {
+        "type": "GameObject",
+        "name": "Thumb0_L",
+        "guid": "8425688e-e62b-479d-b09f-9ef8638db0d0",
+        "components": ["7792b0d4-f6ca-477c-811d-656357e93e6e"],
+        "childs": ["84f90837-3204-431e-837e-fe5ed2f35a96"],
+        "parent": "8eccc1d5-6c7d-4ef4-8141-f20981cbc6bc"
+      },
+      {
+        "type": "GameObject",
+        "name": "Left wrist",
+        "guid": "8eccc1d5-6c7d-4ef4-8141-f20981cbc6bc",
+        "components": ["a7bdd7e1-d408-40e1-aeac-090157f01250"],
+        "childs": [
+          "dd5497d0-bed3-4628-9deb-164f810275d7",
+          "25fefc52-55a3-4f3f-8ea1-59717ba790ea",
+          "0095da2c-4f0a-4839-a72a-5d286516b629",
+          "c30e3454-a54d-4dbc-9afd-611deb6c05dc",
+          "8425688e-e62b-479d-b09f-9ef8638db0d0"
+        ],
+        "parent": "c744883f-edab-4165-87b4-c4468bcf61c6"
+      },
+      {
+        "type": "GameObject",
+        "name": "Left elbow",
+        "guid": "c744883f-edab-4165-87b4-c4468bcf61c6",
+        "components": ["6f348802-f8f8-4e33-b057-aaa29685e992"],
+        "childs": ["8eccc1d5-6c7d-4ef4-8141-f20981cbc6bc"],
+        "parent": "d2846bfd-3868-42e3-bea8-dc04373c0d4c"
+      },
+      {
+        "type": "GameObject",
+        "name": "Left arm",
+        "guid": "d2846bfd-3868-42e3-bea8-dc04373c0d4c",
+        "components": ["127727cf-a9df-4828-99fd-f37e1b81179f"],
+        "childs": ["c744883f-edab-4165-87b4-c4468bcf61c6"],
+        "parent": "928ec2c3-a17f-4d92-a455-c7dc8a1e0333"
+      },
+      {
+        "type": "GameObject",
+        "name": "Left shoulder",
+        "guid": "928ec2c3-a17f-4d92-a455-c7dc8a1e0333",
+        "components": ["121d54ba-54c3-49e6-ade2-a971cfb5fa98"],
+        "childs": ["d2846bfd-3868-42e3-bea8-dc04373c0d4c"],
+        "parent": "00113db6-c1d1-4a64-8af3-5255a70de739"
+      },
+      {
+        "type": "GameObject",
+        "name": "Eye_R",
+        "guid": "2049f570-ce82-45f5-a9cf-4545076ba100",
+        "components": ["7495734d-d658-49c9-bd68-8ef1e6fea03b"],
+        "childs": [],
+        "parent": "376544db-8bb9-4c48-9420-01c15ac8ac61"
+      },
+      {
+        "type": "GameObject",
+        "name": "Eye_L",
+        "guid": "f56f97b1-e235-4fc2-aab4-3229ab7ae73f",
+        "components": ["25891a8e-4c18-4813-95e0-b85a17d8c71d"],
+        "childs": [],
+        "parent": "376544db-8bb9-4c48-9420-01c15ac8ac61"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair_AhogeNub",
+        "guid": "93c6f1f1-008a-4f51-a603-3b1f06c8f615",
+        "components": ["714b8295-fa7e-4aa7-8ad7-69f1ae618e2d"],
+        "childs": [],
+        "parent": "3e5b05a3-b272-4695-8a52-68532618079c"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair_Ahoge05",
+        "guid": "3e5b05a3-b272-4695-8a52-68532618079c",
+        "components": ["2379a215-6278-4c4f-9a24-1ee52c1e757e"],
+        "childs": ["93c6f1f1-008a-4f51-a603-3b1f06c8f615"],
+        "parent": "b8ba8b94-a9e8-4af9-8a79-e727b0d91f60"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair_Ahoge04",
+        "guid": "b8ba8b94-a9e8-4af9-8a79-e727b0d91f60",
+        "components": ["d2a59cc0-751e-423a-8436-d4ee7773bb44"],
+        "childs": ["3e5b05a3-b272-4695-8a52-68532618079c"],
+        "parent": "c25dd014-5578-4404-9541-6d7411714cc7"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair_Ahoge03",
+        "guid": "c25dd014-5578-4404-9541-6d7411714cc7",
+        "components": ["5dea72f6-d4b1-4877-9d31-dc247f3ffd4f"],
+        "childs": ["b8ba8b94-a9e8-4af9-8a79-e727b0d91f60"],
+        "parent": "defda76c-b2f6-4588-821f-35c61e70cefd"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair_Ahoge02",
+        "guid": "defda76c-b2f6-4588-821f-35c61e70cefd",
+        "components": ["f5077989-9bd0-48b0-a237-2fd58e4b8c28"],
+        "childs": ["c25dd014-5578-4404-9541-6d7411714cc7"],
+        "parent": "4aeaeaea-083d-4464-89a8-c8633b485f16"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair_Ahoge",
+        "guid": "4aeaeaea-083d-4464-89a8-c8633b485f16",
+        "components": ["a05d8f94-a83e-4b58-b200-cc1e56eec480"],
+        "childs": ["defda76c-b2f6-4588-821f-35c61e70cefd"],
+        "parent": "376544db-8bb9-4c48-9420-01c15ac8ac61"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair17Nub",
+        "guid": "21863238-99b1-4f94-bd37-6ffdb081e772",
+        "components": ["b59604bd-231b-452f-8b65-f364415b0c5b"],
+        "childs": [],
+        "parent": "6a4a0043-c968-435f-82e9-d134932b3521"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair1705",
+        "guid": "6a4a0043-c968-435f-82e9-d134932b3521",
+        "components": ["a59b955e-ba01-4329-9b70-c4e7aac85778"],
+        "childs": ["21863238-99b1-4f94-bd37-6ffdb081e772"],
+        "parent": "f4a0ce06-0e5e-4525-a944-f0ce697d6ddd"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair1704",
+        "guid": "f4a0ce06-0e5e-4525-a944-f0ce697d6ddd",
+        "components": ["ae790076-1729-4dea-b4cb-007f5ccc0aeb"],
+        "childs": ["6a4a0043-c968-435f-82e9-d134932b3521"],
+        "parent": "c1524e1e-1ead-4e70-89c8-d1ff381ebf7d"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair1703",
+        "guid": "c1524e1e-1ead-4e70-89c8-d1ff381ebf7d",
+        "components": ["4d25060e-66a9-4c48-a532-05adee5fc9d0"],
+        "childs": ["f4a0ce06-0e5e-4525-a944-f0ce697d6ddd"],
+        "parent": "b7ecc103-dc08-4fc3-a557-d6c49da6ca93"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair1702",
+        "guid": "b7ecc103-dc08-4fc3-a557-d6c49da6ca93",
+        "components": ["6e92ac92-abc6-4785-b7ee-67a54317eaca"],
+        "childs": ["c1524e1e-1ead-4e70-89c8-d1ff381ebf7d"],
+        "parent": "7bec2b6d-c443-4793-a352-029d29bf222f"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair17",
+        "guid": "7bec2b6d-c443-4793-a352-029d29bf222f",
+        "components": ["5e5b633a-318f-40a6-a307-2348660d6278"],
+        "childs": ["b7ecc103-dc08-4fc3-a557-d6c49da6ca93"],
+        "parent": "376544db-8bb9-4c48-9420-01c15ac8ac61"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair16Nub",
+        "guid": "40ca9527-aaf2-4348-9345-f7b32299d111",
+        "components": ["d967688c-7ec3-44e3-abba-655f0f9152a3"],
+        "childs": [],
+        "parent": "9205481f-ad48-44ee-a14f-965412d62467"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair1604",
+        "guid": "9205481f-ad48-44ee-a14f-965412d62467",
+        "components": ["31f2d3de-b282-4ce9-8003-280a51926ba1"],
+        "childs": ["40ca9527-aaf2-4348-9345-f7b32299d111"],
+        "parent": "5751b72f-75ef-43e2-8bdd-b0776e8a73d7"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair1603",
+        "guid": "5751b72f-75ef-43e2-8bdd-b0776e8a73d7",
+        "components": ["61f74231-4a69-4024-8b27-dcef165076e7"],
+        "childs": ["9205481f-ad48-44ee-a14f-965412d62467"],
+        "parent": "f0ada5dd-bea8-40ec-b1f9-ba557d4a1794"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair1602",
+        "guid": "f0ada5dd-bea8-40ec-b1f9-ba557d4a1794",
+        "components": ["e29c87fd-ad87-4cf1-bc96-7cb74934c67a"],
+        "childs": ["5751b72f-75ef-43e2-8bdd-b0776e8a73d7"],
+        "parent": "20d4e2f8-ea56-466c-80b0-0c2a00fec5c9"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair16",
+        "guid": "20d4e2f8-ea56-466c-80b0-0c2a00fec5c9",
+        "components": ["4438c54c-6efb-4121-9162-8ab6a38706ed"],
+        "childs": ["f0ada5dd-bea8-40ec-b1f9-ba557d4a1794"],
+        "parent": "376544db-8bb9-4c48-9420-01c15ac8ac61"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair15Nub",
+        "guid": "f6b566c3-5ef2-4d53-a8e1-7840abbc3bfc",
+        "components": ["54c9fd31-2b8f-4af1-a239-59b0b4eaf6e1"],
+        "childs": [],
+        "parent": "eb6ad8b2-9ac8-447a-af44-756f076014bf"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair1502",
+        "guid": "eb6ad8b2-9ac8-447a-af44-756f076014bf",
+        "components": ["873ba700-d3df-4f23-8a70-7e51ac22ded7"],
+        "childs": ["f6b566c3-5ef2-4d53-a8e1-7840abbc3bfc"],
+        "parent": "5fefd942-0f12-4a62-9aac-087979c7da11"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair15",
+        "guid": "5fefd942-0f12-4a62-9aac-087979c7da11",
+        "components": ["fcfa7662-7fb5-4666-9bf8-ec2a61c45d4e"],
+        "childs": ["eb6ad8b2-9ac8-447a-af44-756f076014bf"],
+        "parent": "376544db-8bb9-4c48-9420-01c15ac8ac61"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair14Nub",
+        "guid": "5652423e-fb86-4338-8730-eee1322fcac1",
+        "components": ["1bdc67bb-0cee-4b05-8372-e1db6a257ec0"],
+        "childs": [],
+        "parent": "a171bbe7-deec-4876-9241-e60ea2a897ad"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair14",
+        "guid": "a171bbe7-deec-4876-9241-e60ea2a897ad",
+        "components": ["f14b9df3-ac63-4c0b-92e1-6ce8b16c335f"],
+        "childs": ["5652423e-fb86-4338-8730-eee1322fcac1"],
+        "parent": "376544db-8bb9-4c48-9420-01c15ac8ac61"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair13Nub",
+        "guid": "1ac06cca-187e-443e-ba0b-b768036a906d",
+        "components": ["e648519d-1674-465c-8d96-19ae67e2ddcc"],
+        "childs": [],
+        "parent": "4cd06f37-b0ff-45de-a4fe-dc03f4d3370b"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair13",
+        "guid": "4cd06f37-b0ff-45de-a4fe-dc03f4d3370b",
+        "components": ["271d4dbe-d567-45da-8327-40dee0f28817"],
+        "childs": ["1ac06cca-187e-443e-ba0b-b768036a906d"],
+        "parent": "376544db-8bb9-4c48-9420-01c15ac8ac61"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair12Nub",
+        "guid": "9e2436c4-abb8-4aeb-b523-93376239f9d6",
+        "components": ["cf9bc39a-c38d-4bb1-8761-c831415abda8"],
+        "childs": [],
+        "parent": "64c47b73-90ed-47b7-a880-c817c957d8c5"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair1202",
+        "guid": "64c47b73-90ed-47b7-a880-c817c957d8c5",
+        "components": ["636cac55-adc6-4f82-93e5-80c1530116dd"],
+        "childs": ["9e2436c4-abb8-4aeb-b523-93376239f9d6"],
+        "parent": "2089f5d1-1701-4e25-94af-95cd1104de8f"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair12",
+        "guid": "2089f5d1-1701-4e25-94af-95cd1104de8f",
+        "components": ["9dc44e68-212b-4cfc-b46f-9e608047600b"],
+        "childs": ["64c47b73-90ed-47b7-a880-c817c957d8c5"],
+        "parent": "376544db-8bb9-4c48-9420-01c15ac8ac61"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair11Nub",
+        "guid": "6eede3cb-f926-4ddc-8771-f6281be438d7",
+        "components": ["e06c5e1c-580c-4a24-bde5-e40be29717cd"],
+        "childs": [],
+        "parent": "44d76dd1-bed9-4d90-be01-ade77437724b"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair1102",
+        "guid": "44d76dd1-bed9-4d90-be01-ade77437724b",
+        "components": ["10732755-dbda-445c-80d7-b09318b94cf3"],
+        "childs": ["6eede3cb-f926-4ddc-8771-f6281be438d7"],
+        "parent": "a50b8764-2169-44fc-8607-9308dbcf3c68"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair11",
+        "guid": "a50b8764-2169-44fc-8607-9308dbcf3c68",
+        "components": ["e12d87ad-9fe7-4bae-9240-85c36bd81d4b"],
+        "childs": ["44d76dd1-bed9-4d90-be01-ade77437724b"],
+        "parent": "376544db-8bb9-4c48-9420-01c15ac8ac61"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair10Nub",
+        "guid": "d091e5ad-81ff-458c-950d-b460c06d2649",
+        "components": ["304e3327-f0dc-4130-b1ab-6e5471b13a21"],
+        "childs": [],
+        "parent": "2a531420-cd97-44a0-bc3c-5abd8ee3490e"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair1003",
+        "guid": "2a531420-cd97-44a0-bc3c-5abd8ee3490e",
+        "components": ["c52110eb-8fc5-49c0-aa7a-208a6e9ccc50"],
+        "childs": ["d091e5ad-81ff-458c-950d-b460c06d2649"],
+        "parent": "5f5b2b53-93ed-4ba1-9836-0a7800eb6c7e"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair1002",
+        "guid": "5f5b2b53-93ed-4ba1-9836-0a7800eb6c7e",
+        "components": ["19f6bf00-f1b4-40a4-b69b-22d6307403e6"],
+        "childs": ["2a531420-cd97-44a0-bc3c-5abd8ee3490e"],
+        "parent": "9dc3345a-abb2-4c55-9d63-a2d5d7e33002"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair10",
+        "guid": "9dc3345a-abb2-4c55-9d63-a2d5d7e33002",
+        "components": ["bc15f93e-e792-478d-aeb5-8bc08af5a60a"],
+        "childs": ["5f5b2b53-93ed-4ba1-9836-0a7800eb6c7e"],
+        "parent": "376544db-8bb9-4c48-9420-01c15ac8ac61"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair09Nub",
+        "guid": "612a9924-2ecd-462d-bff5-db81f7b2735c",
+        "components": ["0411ba76-1336-41db-ad30-d4faeeec5d4b"],
+        "childs": [],
+        "parent": "01fa5dc2-10d8-4093-8847-9684f5d28ff5"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair0902",
+        "guid": "01fa5dc2-10d8-4093-8847-9684f5d28ff5",
+        "components": ["b2c0fb80-bb3e-4d16-82bf-69048b61d769"],
+        "childs": ["612a9924-2ecd-462d-bff5-db81f7b2735c"],
+        "parent": "7bf073dd-0ace-4920-8c6c-0132109e2380"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair09",
+        "guid": "7bf073dd-0ace-4920-8c6c-0132109e2380",
+        "components": ["73946c91-1f2c-4f46-a671-96c73531d0c9"],
+        "childs": ["01fa5dc2-10d8-4093-8847-9684f5d28ff5"],
+        "parent": "376544db-8bb9-4c48-9420-01c15ac8ac61"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair08Nub",
+        "guid": "161bc519-b60b-45bf-8213-961c6b6302b3",
+        "components": ["4f6d213b-a099-478c-892c-38dabd4c5fda"],
+        "childs": [],
+        "parent": "9e97c79c-46c2-4fae-9872-c2782f7c9e56"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair08",
+        "guid": "9e97c79c-46c2-4fae-9872-c2782f7c9e56",
+        "components": ["63cc1fc0-d5b6-4ecf-946a-158dd0b53bb2"],
+        "childs": ["161bc519-b60b-45bf-8213-961c6b6302b3"],
+        "parent": "376544db-8bb9-4c48-9420-01c15ac8ac61"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair07Nub",
+        "guid": "6735a1d3-739a-4363-8b4a-1cb0a8470297",
+        "components": ["8ad38d1d-8b21-4014-8896-44eb8a722864"],
+        "childs": [],
+        "parent": "62559cc1-4c4b-4fcc-997a-31e55a77c10a"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair07",
+        "guid": "62559cc1-4c4b-4fcc-997a-31e55a77c10a",
+        "components": ["2ad35a87-c58c-44a1-800e-5344024bfcb7"],
+        "childs": ["6735a1d3-739a-4363-8b4a-1cb0a8470297"],
+        "parent": "376544db-8bb9-4c48-9420-01c15ac8ac61"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair06Nub",
+        "guid": "4c1c3cd4-c5e5-4155-8c24-bc794695fe92",
+        "components": ["18bdf552-d6a8-4532-8459-6a7604e839f6"],
+        "childs": [],
+        "parent": "d3f40b95-9a9d-44e8-8504-b6b61201cbd7"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair0602",
+        "guid": "d3f40b95-9a9d-44e8-8504-b6b61201cbd7",
+        "components": ["a13893a6-96f8-42e5-b443-a7fd9bfd72d9"],
+        "childs": ["4c1c3cd4-c5e5-4155-8c24-bc794695fe92"],
+        "parent": "48e31bec-d4f4-42c1-a6c2-369f1cc09f2c"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair06",
+        "guid": "48e31bec-d4f4-42c1-a6c2-369f1cc09f2c",
+        "components": ["41382235-79a5-4638-8a88-81acfb286d7a"],
+        "childs": ["d3f40b95-9a9d-44e8-8504-b6b61201cbd7"],
+        "parent": "376544db-8bb9-4c48-9420-01c15ac8ac61"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair01Nub",
+        "guid": "152bb05e-9d11-4dbb-9212-b36d85a838de",
+        "components": ["45f04673-e498-4496-96ad-cfa2e9956637"],
+        "childs": [],
+        "parent": "08babde4-86cb-4e9e-85c9-3b3c851eff49"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair0105",
+        "guid": "08babde4-86cb-4e9e-85c9-3b3c851eff49",
+        "components": ["bb13ce09-234b-4648-98f9-0b08ee81af49"],
+        "childs": ["152bb05e-9d11-4dbb-9212-b36d85a838de"],
+        "parent": "1bb6030e-9dfa-42f5-a9e8-797d553860b3"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair0104",
+        "guid": "1bb6030e-9dfa-42f5-a9e8-797d553860b3",
+        "components": ["556b7589-1318-4907-8706-0cf35841187a"],
+        "childs": ["08babde4-86cb-4e9e-85c9-3b3c851eff49"],
+        "parent": "7dbc393d-fa42-4794-ae7a-b27da9144bea"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair0103",
+        "guid": "7dbc393d-fa42-4794-ae7a-b27da9144bea",
+        "components": ["870f0c1b-cc21-462c-b710-63fe42cc05ef"],
+        "childs": ["1bb6030e-9dfa-42f5-a9e8-797d553860b3"],
+        "parent": "2135986b-3e27-4c4c-811e-a30eb86a54e3"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair0102",
+        "guid": "2135986b-3e27-4c4c-811e-a30eb86a54e3",
+        "components": ["e4069426-ec64-4f65-a91d-61c83b5e0d7e"],
+        "childs": ["7dbc393d-fa42-4794-ae7a-b27da9144bea"],
+        "parent": "9bd94472-1f22-426d-8e62-e6d59a1fcb5a"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair01",
+        "guid": "9bd94472-1f22-426d-8e62-e6d59a1fcb5a",
+        "components": ["31c74965-4249-4e65-bfdd-562485d75d44"],
+        "childs": ["2135986b-3e27-4c4c-811e-a30eb86a54e3"],
+        "parent": "376544db-8bb9-4c48-9420-01c15ac8ac61"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair05Nub",
+        "guid": "b1bfd81d-2601-4ad0-99ba-e55ae9fd83dd",
+        "components": ["0a871978-ad46-494f-8223-e504dfcd215d"],
+        "childs": [],
+        "parent": "2e0dc4d2-b606-477b-a61e-abfa40441a04"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair0504",
+        "guid": "2e0dc4d2-b606-477b-a61e-abfa40441a04",
+        "components": ["af9e41fd-6270-4b96-a442-bdccafcb6b66"],
+        "childs": ["b1bfd81d-2601-4ad0-99ba-e55ae9fd83dd"],
+        "parent": "3bdf26a2-7d95-4f47-9c5b-7945b6eca7ba"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair0503",
+        "guid": "3bdf26a2-7d95-4f47-9c5b-7945b6eca7ba",
+        "components": ["323ac8db-d694-4bc2-8897-1c23780636be"],
+        "childs": ["2e0dc4d2-b606-477b-a61e-abfa40441a04"],
+        "parent": "b9cb0561-1ad6-4057-904f-7f6a16d8468f"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair0502",
+        "guid": "b9cb0561-1ad6-4057-904f-7f6a16d8468f",
+        "components": ["b15a44bf-0284-465f-98ba-25ac215b291d"],
+        "childs": ["3bdf26a2-7d95-4f47-9c5b-7945b6eca7ba"],
+        "parent": "97ddeee0-037b-42a4-91c2-a182ab9c14c7"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair05",
+        "guid": "97ddeee0-037b-42a4-91c2-a182ab9c14c7",
+        "components": ["96788f5e-e7c3-477f-95cd-7fe1ceb90fab"],
+        "childs": ["b9cb0561-1ad6-4057-904f-7f6a16d8468f"],
+        "parent": "376544db-8bb9-4c48-9420-01c15ac8ac61"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair04Nub",
+        "guid": "f7db27b0-f2f5-433c-8f41-c048308e8c73",
+        "components": ["28bf1785-6f17-4c0b-872c-5e098654b98b"],
+        "childs": [],
+        "parent": "d7fecd19-45fc-4de6-8f7a-0b5787dd23a5"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair0404",
+        "guid": "d7fecd19-45fc-4de6-8f7a-0b5787dd23a5",
+        "components": ["77e68f64-b508-407b-bd74-3aa0127fecd6"],
+        "childs": ["f7db27b0-f2f5-433c-8f41-c048308e8c73"],
+        "parent": "b957638e-acb2-42c1-b544-86f4665b218b"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair0403",
+        "guid": "b957638e-acb2-42c1-b544-86f4665b218b",
+        "components": ["cc8e2288-bbc5-4cfe-bd1c-f1a73e636119"],
+        "childs": ["d7fecd19-45fc-4de6-8f7a-0b5787dd23a5"],
+        "parent": "27aa8ad0-31a4-4c3e-8e4d-16eed7ec3bab"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair0402",
+        "guid": "27aa8ad0-31a4-4c3e-8e4d-16eed7ec3bab",
+        "components": ["dfaafbfb-9c37-4fda-9034-923f5e7ef520"],
+        "childs": ["b957638e-acb2-42c1-b544-86f4665b218b"],
+        "parent": "c47f9813-07b4-4382-a720-523624595e52"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair04",
+        "guid": "c47f9813-07b4-4382-a720-523624595e52",
+        "components": ["0bc7cd19-aba4-4423-9242-0dce3c642d0b"],
+        "childs": ["27aa8ad0-31a4-4c3e-8e4d-16eed7ec3bab"],
+        "parent": "376544db-8bb9-4c48-9420-01c15ac8ac61"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair02Nub",
+        "guid": "25319338-b8fa-43ef-b9dc-5ca75b8bb2bf",
+        "components": ["c318f095-caa5-4996-885d-92ac7d379f09"],
+        "childs": [],
+        "parent": "632a1952-ce1f-496e-a975-67602ced186e"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair0204",
+        "guid": "632a1952-ce1f-496e-a975-67602ced186e",
+        "components": ["1b54f7c0-e490-4727-8d39-2023c0fa6821"],
+        "childs": ["25319338-b8fa-43ef-b9dc-5ca75b8bb2bf"],
+        "parent": "f183975b-fb29-42c9-8db9-1eab2a23f34f"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair0203",
+        "guid": "f183975b-fb29-42c9-8db9-1eab2a23f34f",
+        "components": ["e379a4ad-b9d7-4ffb-85c2-f8114f32c2a9"],
+        "childs": ["632a1952-ce1f-496e-a975-67602ced186e"],
+        "parent": "a601bc22-cd71-43a1-8d0c-4d0436b2cd6e"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair0202",
+        "guid": "a601bc22-cd71-43a1-8d0c-4d0436b2cd6e",
+        "components": ["ddde57a7-e4d9-461a-85fe-f17fddc25270"],
+        "childs": ["f183975b-fb29-42c9-8db9-1eab2a23f34f"],
+        "parent": "f4285a88-d04a-4e9c-8157-5964c1bfb2ef"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair02",
+        "guid": "f4285a88-d04a-4e9c-8157-5964c1bfb2ef",
+        "components": ["a0254730-5a29-4383-9fc3-249b54b038ad"],
+        "childs": ["a601bc22-cd71-43a1-8d0c-4d0436b2cd6e"],
+        "parent": "376544db-8bb9-4c48-9420-01c15ac8ac61"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair03Nub",
+        "guid": "8b36b6ef-7745-4da6-868d-909aa4f9379e",
+        "components": ["740e66f3-539e-42bd-9b68-954206211641"],
+        "childs": [],
+        "parent": "ff7b6c32-86e9-4bfc-abb8-55fe95e8d59c"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair0303",
+        "guid": "ff7b6c32-86e9-4bfc-abb8-55fe95e8d59c",
+        "components": ["6b4518d7-360e-4b75-bffd-a95e412fd8f4"],
+        "childs": ["8b36b6ef-7745-4da6-868d-909aa4f9379e"],
+        "parent": "cd2f339a-5314-4d95-80ac-f9db7d9c5ae1"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair0302",
+        "guid": "cd2f339a-5314-4d95-80ac-f9db7d9c5ae1",
+        "components": ["5882309c-a075-4951-8b2e-487b6212310f"],
+        "childs": ["ff7b6c32-86e9-4bfc-abb8-55fe95e8d59c"],
+        "parent": "949ffd17-6651-403d-b155-bc51a4eece11"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair03",
+        "guid": "949ffd17-6651-403d-b155-bc51a4eece11",
+        "components": ["a103dfb2-6e20-4840-adfd-3d8573989ee9"],
+        "childs": ["cd2f339a-5314-4d95-80ac-f9db7d9c5ae1"],
+        "parent": "376544db-8bb9-4c48-9420-01c15ac8ac61"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair_FR_TwinNub",
+        "guid": "d2516aaf-af97-487b-afd6-f3aac3f526ec",
+        "components": ["ad2625e2-866c-4baa-8247-b675019947d7"],
+        "childs": [],
+        "parent": "7b9fab21-d140-4372-98d7-1b69c8caa527"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair_FR_Twin05",
+        "guid": "7b9fab21-d140-4372-98d7-1b69c8caa527",
+        "components": ["38c60801-5384-4ca8-aa25-1f3601c7d179"],
+        "childs": ["d2516aaf-af97-487b-afd6-f3aac3f526ec"],
+        "parent": "daafccc3-657d-4201-a60b-3565f8d299c1"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair_FR_Twin04",
+        "guid": "daafccc3-657d-4201-a60b-3565f8d299c1",
+        "components": ["1ce83473-a63d-45c0-946f-544aadca6159"],
+        "childs": ["7b9fab21-d140-4372-98d7-1b69c8caa527"],
+        "parent": "4aca848c-bfc0-49e2-a812-896a1365cc98"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair_FR_Twin03",
+        "guid": "4aca848c-bfc0-49e2-a812-896a1365cc98",
+        "components": ["23edceea-9fca-4439-8488-41f46cd36909"],
+        "childs": ["daafccc3-657d-4201-a60b-3565f8d299c1"],
+        "parent": "3e93837d-9c01-4a4b-a6f4-edbaef57ef58"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair_FR_Twin02",
+        "guid": "3e93837d-9c01-4a4b-a6f4-edbaef57ef58",
+        "components": ["965c40a3-8cbf-4751-907c-01b3b71143a4"],
+        "childs": ["4aca848c-bfc0-49e2-a812-896a1365cc98"],
+        "parent": "60029592-00e4-461d-a0c2-d0d868c0f23a"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair_FR_Twin",
+        "guid": "60029592-00e4-461d-a0c2-d0d868c0f23a",
+        "components": ["fcc97b84-d527-4af1-9684-1f45d308b7cb"],
+        "childs": ["3e93837d-9c01-4a4b-a6f4-edbaef57ef58"],
+        "parent": "376544db-8bb9-4c48-9420-01c15ac8ac61"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair_FL_TwinNub",
+        "guid": "75748de5-90e3-4394-8c3e-f501e650626b",
+        "components": ["51c8dc66-2667-4709-bd47-06213e55206d"],
+        "childs": [],
+        "parent": "59d81b54-880e-4c1d-a60b-7dc1bf6c0cd9"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair_FL_Twin05",
+        "guid": "59d81b54-880e-4c1d-a60b-7dc1bf6c0cd9",
+        "components": ["f60cdfdd-82ee-47bf-855e-6f44962866ed"],
+        "childs": ["75748de5-90e3-4394-8c3e-f501e650626b"],
+        "parent": "ad426e80-b6a7-41c0-a3ef-f44eebabd574"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair_FL_Twin04",
+        "guid": "ad426e80-b6a7-41c0-a3ef-f44eebabd574",
+        "components": ["b3fa02a5-55f8-45e1-b060-424865670a28"],
+        "childs": ["59d81b54-880e-4c1d-a60b-7dc1bf6c0cd9"],
+        "parent": "aa38d1d9-6bb4-4b27-9862-f890764ce61b"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair_FL_Twin03",
+        "guid": "aa38d1d9-6bb4-4b27-9862-f890764ce61b",
+        "components": ["ad72644a-3da4-4eaf-ad30-228f76080e3c"],
+        "childs": ["ad426e80-b6a7-41c0-a3ef-f44eebabd574"],
+        "parent": "464761e0-1ff4-4dc0-835d-d433b14ebc94"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair_FL_Twin02",
+        "guid": "464761e0-1ff4-4dc0-835d-d433b14ebc94",
+        "components": ["1cf77ad5-5e22-4bef-acc5-e2649f90298c"],
+        "childs": ["aa38d1d9-6bb4-4b27-9862-f890764ce61b"],
+        "parent": "d1b5976a-60df-4889-a0f1-88f94b9f2da1"
+      },
+      {
+        "type": "GameObject",
+        "name": "Bip_hair_FL_Twin",
+        "guid": "d1b5976a-60df-4889-a0f1-88f94b9f2da1",
+        "components": ["f1dce7ae-7322-4dc1-8e0c-969b67a771cc"],
+        "childs": ["464761e0-1ff4-4dc0-835d-d433b14ebc94"],
+        "parent": "376544db-8bb9-4c48-9420-01c15ac8ac61"
+      },
+      {
+        "type": "GameObject",
+        "name": "Head",
+        "guid": "376544db-8bb9-4c48-9420-01c15ac8ac61",
+        "components": ["70c0967b-2986-42be-a12e-183815d50762"],
+        "childs": [
+          "9bd94472-1f22-426d-8e62-e6d59a1fcb5a",
+          "f4285a88-d04a-4e9c-8157-5964c1bfb2ef",
+          "949ffd17-6651-403d-b155-bc51a4eece11",
+          "c47f9813-07b4-4382-a720-523624595e52",
+          "97ddeee0-037b-42a4-91c2-a182ab9c14c7",
+          "48e31bec-d4f4-42c1-a6c2-369f1cc09f2c",
+          "62559cc1-4c4b-4fcc-997a-31e55a77c10a",
+          "9e97c79c-46c2-4fae-9872-c2782f7c9e56",
+          "7bf073dd-0ace-4920-8c6c-0132109e2380",
+          "9dc3345a-abb2-4c55-9d63-a2d5d7e33002",
+          "a50b8764-2169-44fc-8607-9308dbcf3c68",
+          "2089f5d1-1701-4e25-94af-95cd1104de8f",
+          "4cd06f37-b0ff-45de-a4fe-dc03f4d3370b",
+          "a171bbe7-deec-4876-9241-e60ea2a897ad",
+          "5fefd942-0f12-4a62-9aac-087979c7da11",
+          "20d4e2f8-ea56-466c-80b0-0c2a00fec5c9",
+          "7bec2b6d-c443-4793-a352-029d29bf222f",
+          "4aeaeaea-083d-4464-89a8-c8633b485f16",
+          "d1b5976a-60df-4889-a0f1-88f94b9f2da1",
+          "60029592-00e4-461d-a0c2-d0d868c0f23a",
+          "f56f97b1-e235-4fc2-aab4-3229ab7ae73f",
+          "2049f570-ce82-45f5-a9cf-4545076ba100"
+        ],
+        "parent": "16f0d363-e733-4042-8cc9-bafca5809c05"
+      },
+      {
+        "type": "GameObject",
+        "name": "Neck",
+        "guid": "16f0d363-e733-4042-8cc9-bafca5809c05",
+        "components": ["d16abe6f-d4cd-44f0-8592-bc16d1b36a3c"],
+        "childs": ["376544db-8bb9-4c48-9420-01c15ac8ac61"],
+        "parent": "00113db6-c1d1-4a64-8af3-5255a70de739"
+      },
+      {
+        "type": "GameObject",
+        "name": "Upper Chest",
+        "guid": "00113db6-c1d1-4a64-8af3-5255a70de739",
+        "components": ["0cc7bef1-2d4c-4754-b390-2c8b0fc9708b"],
+        "childs": [
+          "928ec2c3-a17f-4d92-a455-c7dc8a1e0333",
+          "16f0d363-e733-4042-8cc9-bafca5809c05",
+          "ba5df587-3dee-40a9-aed3-e668fee81005"
+        ],
+        "parent": "21946455-796a-4fc1-bab9-c1087fa355e1"
+      },
+      {
+        "type": "GameObject",
+        "name": "Chest",
+        "guid": "21946455-796a-4fc1-bab9-c1087fa355e1",
+        "components": ["d26c1c85-cbac-4102-afa6-52c3185a378d"],
+        "childs": ["00113db6-c1d1-4a64-8af3-5255a70de739"],
+        "parent": "c8ed0772-fea9-45e7-a745-a439cc26e045"
+      },
+      {
+        "type": "GameObject",
+        "name": "Spine",
+        "guid": "c8ed0772-fea9-45e7-a745-a439cc26e045",
+        "components": ["7500749a-5294-44fc-a8c4-4e9d974ce894"],
+        "childs": ["21946455-796a-4fc1-bab9-c1087fa355e1"],
+        "parent": "c47fa189-7561-44dc-851c-30082860677b"
+      },
+      {
+        "type": "GameObject",
+        "name": "Hips",
+        "guid": "c47fa189-7561-44dc-851c-30082860677b",
+        "components": ["ea79af83-85b2-495d-9361-b3e103fb55b0"],
+        "childs": [
+          "9e3515a1-b357-4439-a8ac-ec05ede5fadc",
+          "2fea8183-3ffc-480a-8270-9e5c014a8965",
+          "c8ed0772-fea9-45e7-a745-a439cc26e045"
+        ],
+        "parent": "4e35b6de-2a3b-413c-9e32-ae14295b037d"
+      },
+      {
+        "type": "GameObject",
+        "name": "clothes",
+        "guid": "dd535a7d-6922-4365-9707-d625903e554a",
+        "components": [
+          "0d0934f0-dff7-46cf-9cad-48a0472e31a6",
+          "93d909bb-1bf3-4fc1-9f9f-d2d1ff926810"
+        ],
+        "childs": [],
+        "parent": "7fc1d047-27e8-4ffd-89a8-a2ee0e6ce757"
+      },
+      {
+        "type": "GameObject",
+        "name": "bow",
+        "guid": "107d8606-14df-45c7-9cfa-74534e2b0ac3",
+        "components": [
+          "a6a09822-72c6-4fa5-b6bb-ed8dbfc600a0",
+          "d2e90dc6-6522-48f9-9953-4acaa9710be6"
+        ],
+        "childs": [],
+        "parent": "7fc1d047-27e8-4ffd-89a8-a2ee0e6ce757"
+      },
+      {
+        "type": "GameObject",
+        "name": "body2",
+        "guid": "8a746cc6-0c6a-4577-baee-2496086419e7",
+        "components": [
+          "c6f67323-dff7-4506-b867-7f950e577430",
+          "854b1f60-a4ac-4322-96c2-fc3c27fc9eec"
+        ],
+        "childs": [],
+        "parent": "7fc1d047-27e8-4ffd-89a8-a2ee0e6ce757"
+      },
+      {
+        "type": "GameObject",
+        "name": "body",
+        "guid": "e79cbc76-2efe-42b8-90b6-084cbf254aa7",
+        "components": [
+          "4083ca7a-46e9-4d87-93f9-5d194af2ac97",
+          "2fc899e5-1a23-4040-afbd-c20260021cec"
+        ],
+        "childs": [],
+        "parent": "7fc1d047-27e8-4ffd-89a8-a2ee0e6ce757"
+      },
+      {
+        "type": "GameObject",
+        "name": "Armature",
+        "guid": "4e35b6de-2a3b-413c-9e32-ae14295b037d",
+        "components": ["90899850-6ae4-45d8-8e34-54af8f6e5db2"],
+        "childs": ["c47fa189-7561-44dc-851c-30082860677b"],
+        "parent": "7fc1d047-27e8-4ffd-89a8-a2ee0e6ce757"
+      }
+    ],
+    "Components": [
+      {
+        "type": "Transform",
+        "guid": "eee8bbf5-20e7-486c-85c0-76b84e2ed8be",
+        "position": [0.295, 1.30583835, 0.224],
+        "rotation": [0.0, 0.0, 0.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "MeshFilter",
+        "guid": "7fb13b0c-5d4c-4d1f-ba87-f0e885d4d59d",
+        "mesh": {
+          "path": "Assets/Capsule.fbx",
+          "fileName": "Capsule.fbx",
+          "modelName": "Capsule",
+          "meshName": "Capsule",
+          "boundCenter": [0.0, 0.0, 0.0],
+          "boundExtent": [0.5, 1.0, 0.5]
+        }
+      },
+      {
+        "type": "MeshRenderer",
+        "guid": "25282a77-5e7d-445f-a246-c9ef3cece429",
+        "shadowCast": "On",
+        "materials": ["05f86672-9021-4e90-b1e5-54875fe8edd3"]
+      },
+      {
+        "type": "Transform",
+        "guid": "2413c5b9-8e60-4cb4-8280-e7947cc75e65",
+        "position": [1.26, 0.424, -1.67],
+        "rotation": [0.0, 0.0, 0.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "MeshFilter",
+        "guid": "4df18b01-2d95-4b16-81eb-d9652650b25a",
+        "mesh": {
+          "path": "Assets/Sphere.fbx",
+          "fileName": "Sphere.fbx",
+          "modelName": "Sphere",
+          "meshName": "Sphere",
+          "boundCenter": [0.0, 0.0, 0.0],
+          "boundExtent": [0.5, 0.5, 0.5]
+        }
+      },
+      {
+        "type": "MeshRenderer",
+        "guid": "5865d90b-bcb4-4dcb-b198-e5269f99c85a",
+        "shadowCast": "On",
+        "materials": ["05f86672-9021-4e90-b1e5-54875fe8edd3"]
+      },
+      {
+        "type": "Transform",
+        "guid": "85810785-08be-4c89-8df5-3f2315d0d945",
+        "position": [-1.29, 0.909, -2.204],
+        "rotation": [0.0, 0.0, 0.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "MeshFilter",
+        "guid": "c0e17e1b-0c7c-47ff-85eb-b9a57e859f5d",
+        "mesh": {
+          "path": "Assets/Cube.fbx",
+          "fileName": "Cube.fbx",
+          "modelName": "Cube",
+          "meshName": "Cube",
+          "boundCenter": [0.0, 0.0, 0.0],
+          "boundExtent": [0.5, 0.5, 0.5]
+        }
+      },
+      {
+        "type": "MeshRenderer",
+        "guid": "1dca46d3-2bf5-4b34-8f5c-e008b130dfed",
+        "shadowCast": "On",
+        "materials": ["05f86672-9021-4e90-b1e5-54875fe8edd3"]
+      },
+      {
+        "type": "Transform",
+        "guid": "ea70540e-3a1c-4058-aace-495f802a2087",
+        "position": [0.0, 3.0, 0.0],
+        "rotation": [50.0, 330.0, 0.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Light",
+        "guid": "25f6c2f3-3f90-409a-bc18-c02ac8213809",
+        "lightType": "Directional",
+        "color": [1.0, 0.956862748, 0.8392157, 1.0],
+        "intensity": 1.0,
+        "range": 9.7,
+        "innerSpotAngle": 21.80208,
+        "spotAngle": 30.0,
+        "shadowAngle": 0.0
+      },
+      {
+        "type": "Transform",
+        "guid": "cf8b2d31-e014-4834-9545-621349273da2",
+        "position": [0.0, 1.0, -10.0],
+        "rotation": [0.0, 0.0, 0.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Camera",
+        "guid": "b51955f8-2fd7-4370-84c9-36a468a69b04",
+        "isOrtho": false,
+        "orthoSize": 5.0,
+        "near": 0.3,
+        "far": 1000.0,
+        "fovy": 66.83109
+      },
+      {
+        "type": "Transform",
+        "guid": "da120c42-ddbe-4335-a715-f1a92674d7f1",
+        "position": [-0.03, -1.16, -0.08],
+        "rotation": [0.0, 0.0, 0.0],
+        "scale": [18.94, 1.0, 15.58]
+      },
+      {
+        "type": "MeshFilter",
+        "guid": "fcaa3b45-057c-492b-bff1-522a13689ee2",
+        "mesh": {
+          "path": "Assets/Cube.fbx",
+          "fileName": "Cube.fbx",
+          "modelName": "Cube",
+          "meshName": "Cube",
+          "boundCenter": [0.0, 0.0, 0.0],
+          "boundExtent": [0.5, 0.5, 0.5]
+        }
+      },
+      {
+        "type": "MeshRenderer",
+        "guid": "953682e2-6786-484c-82c5-8a139418c0a9",
+        "shadowCast": "On",
+        "materials": ["05f86672-9021-4e90-b1e5-54875fe8edd3"]
+      },
+      {
+        "type": "Transform",
+        "guid": "b5bda243-fdf4-4b08-89bb-52c23463f3ff",
+        "position": [-0.452070177, -0.659999847, -0.7911253],
+        "rotation": [0.0, 178.46, 0.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "e3df96b6-919a-4b6d-8f8c-3bea0a4fd670",
+        "position": [0.0, 0.0, 0.0],
+        "rotation": [270.019775, 0.0, 0.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "SkinnedMeshRenderer",
+        "guid": "db505b51-435a-460d-9c87-f0301b28e434",
+        "shadowCast": "On",
+        "mesh": {
+          "path": "Assets/Examples/Models/Kindred/kindred_unity.fbx",
+          "fileName": "kindred_unity.fbx",
+          "modelName": "kindred_unity",
+          "meshName": "hair",
+          "boundCenter": [0.0317214131, 0.09642168, 1.25545728],
+          "boundExtent": [0.370689154, 0.2743575, 0.4872414]
+        },
+        "materials": ["679a9256-4af2-44ca-a677-6103c55aca2a"],
+        "blendShapeCount": 0,
+        "blendShapes": {}
+      },
+      {
+        "type": "Transform",
+        "guid": "a047f02c-d657-4c31-aa95-b5914e6ca2aa",
+        "position": [-1.63506031e-9, 0.0123762274, 4.91064567e-12],
+        "rotation": [270.019775, 180.000061, 0.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "7ac16aa2-e33b-4adc-a468-976eb2715c31",
+        "position": [-3.98783e-9, 0.204895556, 7.22137372e-9],
+        "rotation": [53.4179, 180.000168, 1.44743381e-5],
+        "scale": [1.0, 1.00000024, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "93c06427-6937-48aa-825f-6f9c30a952af",
+        "position": [6.05725825e-9, 0.427958637, 2.69853473e-10],
+        "rotation": [322.6886, -0.000149377927, 0.000143295532],
+        "scale": [1.0, 1.00000012, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "3691cd1d-d333-4b88-af93-0b94dfaba236",
+        "position": [5.95977623e-9, 0.342134774, 2.98660652e-10],
+        "rotation": [1.45887566, 3.937472e-6, -3.628773e-6],
+        "scale": [1.0, 0.99999994, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "a1a463bc-b695-45bf-8fb5-6dc1bf2f9be3",
+        "position": [0.0793273747, -0.0261327624, 1.50874257e-7],
+        "rotation": [0.7295002, 180.0, 180.0],
+        "scale": [1.0, 1.0, 1.0001955]
+      },
+      {
+        "type": "Transform",
+        "guid": "be3ebd99-860f-4335-af61-54eec0b42774",
+        "position": [-1.63456593e-9, 0.012376247, -5.47857072e-12],
+        "rotation": [270.019775, 180.000061, 0.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "82258737-56b4-42c8-9a9c-82158de6156f",
+        "position": [-3.99180555e-9, 0.204895571, -6.13742657e-9],
+        "rotation": [53.4179, 180.000168, 1.44708956e-5],
+        "scale": [1.0, 1.00000024, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "10c478ba-3535-4c4f-897a-0f5212a047d5",
+        "position": [-1.25733841e-8, 0.427958578, 1.50967527e-9],
+        "rotation": [322.6886, -0.000121457822, 0.0001232311],
+        "scale": [1.0, 1.00000012, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "88e287bc-fff1-4864-a03c-db9935f51e31",
+        "position": [-5.40158e-9, 0.342134774, 5.320966e-10],
+        "rotation": [1.45887554, -7.38484346e-7, 6.967002e-7],
+        "scale": [1.0, 0.99999994, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "eec0de20-2d3f-4219-bc42-3d3bb5b85e29",
+        "position": [-0.0793273747, -0.0261327624, -6.70552254e-8],
+        "rotation": [0.7295002, 180.0, 180.0],
+        "scale": [1.0, 1.0, 1.0001955]
+      },
+      {
+        "type": "Transform",
+        "guid": "56c038a6-5f8f-43f6-b92b-d765e5628e68",
+        "position": [-1.11758709e-8, 0.0204378478, 1.86264515e-8],
+        "rotation": [7.853261, 86.16569, 269.999939],
+        "scale": [0.9999998, 0.9999998, 0.9999999]
+      },
+      {
+        "type": "Transform",
+        "guid": "472e5b93-59d4-49c7-b91e-9c8c4c240209",
+        "position": [-5.029142e-8, 0.0187863987, 1.51339918e-8],
+        "rotation": [356.451141, 358.182861, 359.7619],
+        "scale": [0.99999994, 0.9999999, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "596fdd0e-b12e-4ef5-a229-d07649cd2e0d",
+        "position": [5.029142e-8, 0.03277497, 7.450581e-9],
+        "rotation": [356.46048, 358.3398, 359.648682],
+        "scale": [0.99999994, 1.0, 0.9999999]
+      },
+      {
+        "type": "Transform",
+        "guid": "89a6917c-1773-4d81-a3bd-a8c24dac4a63",
+        "position": [-0.0339926556, 0.05982525, -0.00750707835],
+        "rotation": [0.7517483, 347.305084, 9.881758],
+        "scale": [1.00000012, 1.00000012, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "efab567e-df8d-4e73-9912-6fb3846b2f71",
+        "position": [1.08033419e-7, 0.02632001, -4.47034836e-8],
+        "rotation": [4.78898144, 102.156349, 269.999939],
+        "scale": [0.99999994, 1.00000012, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "33ae3730-d73a-4c8d-bf91-e7a9bfecb41f",
+        "position": [1.3038516e-8, 0.0245793015, 7.450581e-9],
+        "rotation": [350.286835, 352.0286, 2.113007],
+        "scale": [0.9999999, 0.99999994, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "5740086a-7d3d-4289-bc9a-c0960fec6379",
+        "position": [4.284084e-8, 0.0386225656, -2.79396772e-8],
+        "rotation": [353.7684, 355.992, 0.477577448],
+        "scale": [1.0, 0.99999994, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "c5dde0a6-b730-4b2c-9f83-daf7f7f6f130",
+        "position": [-0.0166989714, 0.06987511, 0.0008968413],
+        "rotation": [359.8855, 344.689545, 11.1324692],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "759f8905-f277-4836-a378-f32cb3556baa",
+        "position": [-7.82310963e-8, 0.02757062, 1.49011612e-8],
+        "rotation": [11.777957, 100.404007, 270.000061],
+        "scale": [1.0, 0.99999994, 0.9999999]
+      },
+      {
+        "type": "Transform",
+        "guid": "cc627fc2-c1d9-43a6-b6fc-85539eccfea5",
+        "position": [-3.7252903e-9, 0.02912512, -2.98023224e-8],
+        "rotation": [353.11734, 354.3796, 1.27015209],
+        "scale": [0.9999999, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "7fcd290e-d57d-46f8-b57c-ba6d3f31b03a",
+        "position": [2.23517418e-8, 0.04318022, 3.7252903e-8],
+        "rotation": [350.37207, 353.686859, 0.826349556],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "9b208ccf-8f22-425c-a886-013ff3374f8c",
+        "position": [0.0004730858, 0.07363652, 0.0058077164],
+        "rotation": [2.51269269, 348.3952, 10.2464151],
+        "scale": [1.00000012, 1.00000012, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "1231344b-944a-444c-8b7d-7be2ac9a60f0",
+        "position": [-4.09781933e-8, 0.0259330831, -7.450581e-9],
+        "rotation": [27.0478363, 100.854752, 269.999969],
+        "scale": [1.00000012, 1.00000024, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "e08ee75a-80ab-4cf4-8089-a77ee7d8fa70",
+        "position": [1.86264515e-9, 0.024236273, -1.49011612e-8],
+        "rotation": [357.983734, 358.379364, 0.3869012],
+        "scale": [1.0, 0.99999994, 0.9999999]
+      },
+      {
+        "type": "Transform",
+        "guid": "be3aed0d-4584-45ac-b363-ba0c2f09a804",
+        "position": [-7.450581e-9, 0.034657225, -7.450581e-9],
+        "rotation": [349.880646, 352.830566, 1.66381776],
+        "scale": [1.00000012, 0.99999994, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "3b7bb5f2-1333-4147-bf73-69ff252c7ff6",
+        "position": [0.021506276, 0.0769091547, 0.00639246777],
+        "rotation": [3.79781866, 347.205475, 11.8644552],
+        "scale": [1.0, 1.00000012, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "e58c21ae-3edc-443f-b958-dfcd3c0cdb77",
+        "position": [1.11758709e-8, 0.0312447324, -5.96046448e-8],
+        "rotation": [64.3418655, 336.2615, 89.9997559],
+        "scale": [0.9999999, 0.99999994, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "41d9e464-2969-45d8-9ff2-a7667bf27185",
+        "position": [7.4505806e-8, 0.0246970057, -7.450581e-9],
+        "rotation": [1.59587669, 7.07234859, 356.367554],
+        "scale": [1.0, 0.9999998, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "b191fa3d-4300-4a6c-bbd9-089f89b906ba",
+        "position": [-4.47034836e-8, 0.03596337, -6.70552254e-8],
+        "rotation": [356.244446, 333.9981, 12.7080069],
+        "scale": [1.0, 1.0, 1.00000012]
+      },
+      {
+        "type": "Transform",
+        "guid": "d7baa3a9-040e-46f9-9134-cdc5a94cc56d",
+        "position": [0.0287125744, 0.0233181287, -0.00558984652],
+        "rotation": [13.2904158, 37.3429756, 334.9851],
+        "scale": [1.0, 0.99999994, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "b47a249d-fb2e-47d4-998d-21d5b40289d6",
+        "position": [2.79396772e-8, 0.178996369, 2.60770321e-8],
+        "rotation": [356.7035, 9.13195, 349.762665],
+        "scale": [1.0, 1.0, 1.00000012]
+      },
+      {
+        "type": "Transform",
+        "guid": "397e3f98-de1d-4ac2-9e5c-e61df0a7d208",
+        "position": [-5.26197255e-8, 0.204043761, 2.561137e-8],
+        "rotation": [349.0558, 2.87069845, 351.7801],
+        "scale": [1.0, 0.9999999, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "3200c5e8-3de0-4928-9f98-69a20d5881b7",
+        "position": [1.95577741e-8, 0.09861092, -5.21540642e-8],
+        "rotation": [340.747131, 308.7382, 39.9290352],
+        "scale": [1.0, 1.00000012, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "57b6bb87-e7d8-42ca-96c3-4a261fc89088",
+        "position": [0.0242855716, 0.11847166, -0.0007305636],
+        "rotation": [290.031982, 113.508041, 161.869629],
+        "scale": [0.99999994, 0.9999999, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "8dfd35fa-ec9b-4052-9ec0-19ef7d65e28e",
+        "position": [-3.7252903e-8, 0.0204377584, 0.0],
+        "rotation": [7.852787, 273.8345, 90.000145],
+        "scale": [0.9999999, 0.9999998, 0.9999999]
+      },
+      {
+        "type": "Transform",
+        "guid": "3d49ebda-8568-4c70-b3a7-c698ae7301dc",
+        "position": [6.33299351e-8, 0.0187864359, -2.8871e-8],
+        "rotation": [356.45105, 1.81726408, 0.2380234],
+        "scale": [0.9999998, 0.99999994, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "d3322a7a-76d0-4bc8-9a57-a3d00502a21d",
+        "position": [-7.450581e-9, 0.0327751637, 3.7252903e-9],
+        "rotation": [356.460541, 1.66014731, 0.351308942],
+        "scale": [0.9999999, 1.0, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "60f48b49-a96f-45cb-b224-49c5a2780698",
+        "position": [0.0339926779, 0.0598250628, -0.00750730559],
+        "rotation": [0.7517806, 12.6949453, 350.118164],
+        "scale": [0.9999998, 0.99999994, 0.9999999]
+      },
+      {
+        "type": "Transform",
+        "guid": "74fc788b-1bc9-49b1-89ae-cf01295e6436",
+        "position": [1.49011612e-8, 0.0263201073, 0.0],
+        "rotation": [4.78876543, 257.8439, 90.00004],
+        "scale": [1.0, 1.00000012, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "ae8762cc-0714-4933-a67b-b9750896a330",
+        "position": [1.11758709e-8, 0.0245791972, 0.0],
+        "rotation": [350.286926, 7.971181, 357.887115],
+        "scale": [1.0, 0.9999998, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "db9b5d74-5e08-45b0-addb-c7b2333abb4e",
+        "position": [1.3038516e-8, 0.0386227742, -1.21071935e-8],
+        "rotation": [353.768158, 4.00816059, 359.522369],
+        "scale": [1.00000012, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "42b8ea75-92c2-4788-bc2c-4cd07ba1ebac",
+        "position": [0.016699, 0.0698748752, 0.000896696],
+        "rotation": [359.8856, 15.310482, 348.867462],
+        "scale": [1.0, 1.00000012, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "0bace9c3-8b7f-43a4-af43-eecd623cbdec",
+        "position": [-3.7252903e-8, 0.0275704563, 1.49011612e-8],
+        "rotation": [11.7775593, 259.5967, 89.99997],
+        "scale": [0.99999994, 0.9999999, 0.9999999]
+      },
+      {
+        "type": "Transform",
+        "guid": "0bf5e38d-d00b-4ef4-bb8e-5d88c9ed6cac",
+        "position": [-8.381903e-8, 0.0291253775, -1.49011612e-8],
+        "rotation": [353.117065, 5.62013865, 358.730133],
+        "scale": [1.0, 1.0, 1.00000012]
+      },
+      {
+        "type": "Transform",
+        "guid": "9b6d382a-6aef-4db0-b407-566075004a0c",
+        "position": [5.58793545e-8, 0.0431804061, 7.450581e-9],
+        "rotation": [350.372253, 6.31285, 359.173828],
+        "scale": [0.9999999, 0.99999994, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "3b376d14-950a-48f8-9ece-58f25f2b8f6e",
+        "position": [-0.000473015, 0.0736363754, 0.0058076866],
+        "rotation": [2.5126996, 11.6048336, 349.75354],
+        "scale": [0.9999999, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "b33d984a-7550-45eb-94ec-7881a74833c1",
+        "position": [2.23517418e-8, 0.0259330124, 4.47034836e-8],
+        "rotation": [27.0475521, 259.14566, 90.0000458],
+        "scale": [0.9999999, 0.9999999, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "41815a9b-52e7-45d7-94fd-8be9a94b5923",
+        "position": [-1.3038516e-8, 0.0242363214, 5.96046448e-8],
+        "rotation": [357.983826, 1.62020981, 359.613342],
+        "scale": [0.99999994, 0.99999994, 0.9999999]
+      },
+      {
+        "type": "Transform",
+        "guid": "bc61b285-4ad7-40cb-8fdf-5ff0a4229ad4",
+        "position": [-8.195639e-8, 0.0346574262, -1.11758709e-8],
+        "rotation": [349.8805, 7.169706, 358.336],
+        "scale": [1.0, 1.0, 1.00000012]
+      },
+      {
+        "type": "Transform",
+        "guid": "a4d16dd4-55f1-45f0-bc96-7905c73f96c0",
+        "position": [-0.0215062089, 0.07690899, 0.00639249],
+        "rotation": [3.79787421, 12.7945185, 348.1355],
+        "scale": [0.9999999, 1.0, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "50bba299-0e78-483e-a3fb-27d14f93b7ca",
+        "position": [-9.872019e-8, 0.03124462, -2.23517418e-8],
+        "rotation": [64.34189, 23.73854, 270.000183],
+        "scale": [0.99999994, 0.9999999, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "8fa95b04-2d09-4fb1-a0a6-5fc4529a9840",
+        "position": [2.23517418e-8, 0.0246969983, 1.86264515e-8],
+        "rotation": [1.59598958, 352.927338, 3.632584],
+        "scale": [1.0, 0.9999998, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "9bd4350e-e6c4-4ba5-b665-2edaf1045adf",
+        "position": [-1.11758709e-8, 0.0359634124, -1.86264515e-8],
+        "rotation": [356.244415, 26.0020981, 347.29187],
+        "scale": [1.0, 0.99999994, 0.9999999]
+      },
+      {
+        "type": "Transform",
+        "guid": "7792b0d4-f6ca-477c-811d-656357e93e6e",
+        "position": [-0.028712634, 0.02331804, -0.005589787],
+        "rotation": [13.2902756, 322.657349, 25.0147552],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "a7bdd7e1-d408-40e1-aeac-090157f01250",
+        "position": [3.16649675e-8, 0.1789963, 2.98023224e-8],
+        "rotation": [356.7035, 350.868, 10.2373991],
+        "scale": [1.0, 1.00000012, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "6f348802-f8f8-4e33-b057-aaa29685e992",
+        "position": [1.97906047e-8, 0.2040437, 1.95577741e-8],
+        "rotation": [349.055817, 357.129242, 8.219971],
+        "scale": [1.0, 1.00000012, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "127727cf-a9df-4828-99fd-f37e1b81179f",
+        "position": [4.656613e-9, 0.09861087, -6.053597e-8],
+        "rotation": [340.74704, 51.2617073, 320.071045],
+        "scale": [1.0, 0.9999999, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "121d54ba-54c3-49e6-ade2-a971cfb5fa98",
+        "position": [-0.024285432, 0.11847169, -0.0007306368],
+        "rotation": [290.0319, 246.491821, 198.130341],
+        "scale": [1.0, 0.99999994, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "7495734d-d658-49c9-bd68-8ef1e6fea03b",
+        "position": [0.04150034, 0.0789836645, 0.029048875],
+        "rotation": [270.0, 180.045532, 0.0],
+        "scale": [1.0, 0.9999998, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "25891a8e-4c18-4813-95e0-b85a17d8c71d",
+        "position": [-0.04150041, 0.0789836645, 0.029048752],
+        "rotation": [270.0, 179.9543, 0.0],
+        "scale": [1.0, 0.9999998, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "714b8295-fa7e-4aa7-8ad7-69f1ae618e2d",
+        "position": [-2.7474016e-8, 0.06310997, -7.532071e-8],
+        "rotation": [359.955078, 0.0251740031, 0.00614109],
+        "scale": [0.999999762, 1.0, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "2379a215-6278-4c4f-9a24-1ee52c1e757e",
+        "position": [0.0, 0.0429989621, -1.792796e-7],
+        "rotation": [358.118, 359.533142, 345.5934],
+        "scale": [1.0, 1.0, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "d2a59cc0-751e-423a-8436-d4ee7773bb44",
+        "position": [5.7742e-8, 0.0383266173, -3.35276127e-8],
+        "rotation": [336.066864, 19.9329567, 350.030731],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "5dea72f6-d4b1-4877-9d31-dc247f3ffd4f",
+        "position": [5.58793545e-9, 0.03847345, -1.53668225e-8],
+        "rotation": [301.4364, 42.4208069, 52.0032158],
+        "scale": [0.99999994, 0.9999998, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "f5077989-9bd0-48b0-a237-2fd58e4b8c28",
+        "position": [2.81725079e-8, 0.0384946838, 1.74622983e-8],
+        "rotation": [8.937628, 16.65289, 13.29799],
+        "scale": [1.0, 1.00000012, 1.00000012]
+      },
+      {
+        "type": "Transform",
+        "guid": "a05d8f94-a83e-4b58-b200-cc1e56eec480",
+        "position": [-0.0145777874, 0.218262911, 0.06132459],
+        "rotation": [346.807343, 334.6793, 334.6793],
+        "scale": [1.0, 0.9999999, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "b59604bd-231b-452f-8b65-f364415b0c5b",
+        "position": [6.70552254e-8, 0.06823138, 3.7252903e-9],
+        "rotation": [359.962952, 0.0161909033, 0.0265899785],
+        "scale": [1.0, 1.00000012, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "a59b955e-ba01-4329-9b70-c4e7aac85778",
+        "position": [2.514571e-8, 0.09708856, 2.42143869e-8],
+        "rotation": [53.0871239, 206.092926, 286.905579],
+        "scale": [1.0, 1.00000024, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "ae790076-1729-4dea-b4cb-007f5ccc0aeb",
+        "position": [-1.90921128e-8, 0.10463769, -5.96046448e-8],
+        "rotation": [346.991364, 353.466675, 359.794861],
+        "scale": [0.99999994, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "4d25060e-66a9-4c48-a532-05adee5fc9d0",
+        "position": [4.47034836e-8, 0.06912098, -3.7252903e-8],
+        "rotation": [348.959137, 109.95546, 276.418518],
+        "scale": [1.0, 0.999999642, 0.9999999]
+      },
+      {
+        "type": "Transform",
+        "guid": "6e92ac92-abc6-4785-b7ee-67a54317eaca",
+        "position": [3.7252903e-9, 0.11279121, -2.98023224e-8],
+        "rotation": [22.4061165, 337.083466, 27.757143],
+        "scale": [1.00000012, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "5e5b633a-318f-40a6-a307-2348660d6278",
+        "position": [-0.1203231, -0.2382406, -0.06194828],
+        "rotation": [342.445465, 193.4269, 193.42688],
+        "scale": [1.00000036, 1.0, 1.00000012]
+      },
+      {
+        "type": "Transform",
+        "guid": "d967688c-7ec3-44e3-abba-655f0f9152a3",
+        "position": [-3.7252903e-9, 0.0436084121, -5.58793545e-8],
+        "rotation": [359.956146, 359.923065, 0.0130005227],
+        "scale": [1.0, 0.9999999, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "31f2d3de-b282-4ce9-8003-280a51926ba1",
+        "position": [4.47034836e-8, 0.03471527, -1.86264515e-8],
+        "rotation": [38.610302, 56.0215, 346.3983],
+        "scale": [1.0, 1.0, 0.9999999]
+      },
+      {
+        "type": "Transform",
+        "guid": "61f74231-4a69-4024-8b27-dcef165076e7",
+        "position": [-6.146729e-8, 0.05317142, -1.49011612e-8],
+        "rotation": [4.06846952, 20.9963741, 341.732849],
+        "scale": [0.9999998, 0.9999999, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "e29c87fd-ad87-4cf1-bc96-7cb74934c67a",
+        "position": [-7.450581e-9, 0.0710842758, 2.23517418e-8],
+        "rotation": [346.01947, 347.433228, 6.932252],
+        "scale": [0.99999994, 0.99999994, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "4438c54c-6efb-4121-9162-8ab6a38706ed",
+        "position": [0.2777444, -0.2061578, -0.0684492141],
+        "rotation": [344.8986, 154.154724, 154.154724],
+        "scale": [0.9999995, 0.9999998, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "54c9fd31-2b8f-4af1-a239-59b0b4eaf6e1",
+        "position": [-1.11758709e-8, 0.0564669073, -7.450581e-9],
+        "rotation": [359.967163, 359.958435, 359.968445],
+        "scale": [0.99999994, 0.99999994, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "873ba700-d3df-4f23-8a70-7e51ac22ded7",
+        "position": [1.49011612e-8, 0.0592254773, -7.4505806e-8],
+        "rotation": [21.1344433, 28.5534248, 21.8442535],
+        "scale": [1.0, 0.9999999, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "fcfa7662-7fb5-4666-9bf8-ec2a61c45d4e",
+        "position": [0.290002972, -0.242515087, -0.147957981],
+        "rotation": [323.420319, 330.33725, 330.33725],
+        "scale": [1.0, 1.00000012, 1.00000012]
+      },
+      {
+        "type": "Transform",
+        "guid": "1bdc67bb-0cee-4b05-8372-e1db6a257ec0",
+        "position": [5.58793545e-9, 0.0913943946, -4.31900844e-8],
+        "rotation": [359.9545, 0.00631260267, -0.00298596686],
+        "scale": [1.0, 0.99999994, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "f14b9df3-ac63-4c0b-92e1-6ce8b16c335f",
+        "position": [0.0469696373, -0.195684552, -0.233221591],
+        "rotation": [294.3881, 8.696873, 8.696885],
+        "scale": [0.9999999, 1.0, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "e648519d-1674-465c-8d96-19ae67e2ddcc",
+        "position": [-5.96046448e-8, 0.108640686, 2.98023224e-8],
+        "rotation": [359.974548, 0.0319799036, 0.03797857],
+        "scale": [1.0, 0.99999994, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "271d4dbe-d567-45da-8327-40dee0f28817",
+        "position": [-0.136022165, -0.2237798, -0.193201587],
+        "rotation": [315.9957, 28.2740021, 28.2739964],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "cf9bc39a-c38d-4bb1-8761-c831415abda8",
+        "position": [-1.49011612e-8, 0.0584578142, -9.359792e-8],
+        "rotation": [359.9544, 359.991516, -0.00323414034],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "636cac55-adc6-4f82-93e5-80c1530116dd",
+        "position": [-7.450581e-9, 0.0419797972, -8.312054e-8],
+        "rotation": [52.32749, 11.4576063, 5.25964069],
+        "scale": [0.99999994, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "9dc44e68-212b-4cfc-b46f-9e608047600b",
+        "position": [0.0441038, -0.03872764, -0.178111553],
+        "rotation": [282.828217, 171.131424, 171.131424],
+        "scale": [0.99999994, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "e06c5e1c-580c-4a24-bde5-e40be29717cd",
+        "position": [0.0, 0.07644507, -5.21540642e-8],
+        "rotation": [359.954651, 0.0196597874, 0.004471119],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "10732755-dbda-445c-80d7-b09318b94cf3",
+        "position": [2.23517418e-8, 0.04268425, 1.58324838e-8],
+        "rotation": [75.04352, 333.099121, 356.7871],
+        "scale": [0.99999994, 1.00000012, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "e12d87ad-9fe7-4bae-9240-85c36bd81d4b",
+        "position": [-0.08684915, -0.034694314, -0.158318967],
+        "rotation": [296.0198, 193.1311, 193.131058],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "304e3327-f0dc-4130-b1ab-6e5471b13a21",
+        "position": [3.7252903e-9, 0.04460995, 1.49011612e-8],
+        "rotation": [359.972046, 359.959442, 359.964142],
+        "scale": [1.0, 0.99999994, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "c52110eb-8fc5-49c0-aa7a-208a6e9ccc50",
+        "position": [6.70552254e-8, 0.047560934, -1.13621354e-7],
+        "rotation": [37.14484, 99.49613, 76.66096],
+        "scale": [1.00000012, 1.00000024, 1.00000012]
+      },
+      {
+        "type": "Transform",
+        "guid": "19f6bf00-f1b4-40a4-b69b-22d6307403e6",
+        "position": [-5.96046448e-8, 0.05188277, -3.7252903e-8],
+        "rotation": [38.9356346, 33.17312, 345.109558],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "bc15f93e-e792-478d-aeb5-8bc08af5a60a",
+        "position": [0.121041477, 0.007061839, -0.028959427],
+        "rotation": [348.125336, 156.692215, 156.69223],
+        "scale": [0.9999983, 0.9999996, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "0411ba76-1336-41db-ad30-d4faeeec5d4b",
+        "position": [-1.49011612e-8, 0.0360347331, -5.401671e-8],
+        "rotation": [359.9546, 359.9764, -0.00332420785],
+        "scale": [0.99999994, 1.0, 1.00000012]
+      },
+      {
+        "type": "Transform",
+        "guid": "b2c0fb80-bb3e-4d16-82bf-69048b61d769",
+        "position": [3.7252903e-8, 0.0576453, -1.15484e-7],
+        "rotation": [62.2541771, 37.17876, 8.056801],
+        "scale": [0.99999994, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "73946c91-1f2c-4f46-a671-96c73531d0c9",
+        "position": [0.09627429, 0.09436011, -0.1121546],
+        "rotation": [320.0632, 160.042816, 160.042862],
+        "scale": [1.00000012, 1.00000012, 1.00000012]
+      },
+      {
+        "type": "Transform",
+        "guid": "4f6d213b-a099-478c-892c-38dabd4c5fda",
+        "position": [-7.450581e-9, 0.0537327, -2.6030466e-7],
+        "rotation": [359.956268, 0.0121496273, 359.986023],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "63cc1fc0-d5b6-4ecf-946a-158dd0b53bb2",
+        "position": [-0.051386185, 0.07629907, -0.149400175],
+        "rotation": [300.185547, 190.748489, 190.748474],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "8ad38d1d-8b21-4014-8896-44eb8a722864",
+        "position": [6.98491931e-10, 0.05525839, 1.47654646e-7],
+        "rotation": [359.955048, -0.00155300717, 359.9935],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "2ad35a87-c58c-44a1-800e-5344024bfcb7",
+        "position": [0.0197591856, 0.150231123, -0.123649165],
+        "rotation": [273.713837, 358.286469, 358.286438],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "18bdf552-d6a8-4532-8459-6a7604e839f6",
+        "position": [-3.7252903e-9, 0.06673531, -6.146729e-8],
+        "rotation": [359.9557, 0.03667086, 359.988983],
+        "scale": [1.0, 0.99999994, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "a13893a6-96f8-42e5-b443-a7fd9bfd72d9",
+        "position": [-6.146729e-8, 0.08346569, 0.0],
+        "rotation": [44.15571, 327.223572, 13.9269991],
+        "scale": [1.0, 0.99999994, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "41382235-79a5-4638-8a88-81acfb286d7a",
+        "position": [-0.130922869, 0.03261268, -0.009677637],
+        "rotation": [344.448639, 201.599747, 201.599762],
+        "scale": [0.9999994, 0.9999999, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "45f04673-e498-4496-96ad-cfa2e9956637",
+        "position": [2.23517418e-8, 0.06514627, 8.568168e-8],
+        "rotation": [359.9559, 0.03676874, 0.0116278017],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "bb13ce09-234b-4648-98f9-0b08ee81af49",
+        "position": [-8.381903e-9, 0.04170733, -5.96046448e-8],
+        "rotation": [63.93411, 258.4986, 327.195557],
+        "scale": [0.999999762, 0.999999762, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "556b7589-1318-4907-8706-0cf35841187a",
+        "position": [-1.76951289e-8, 0.1078689, -2.98023224e-8],
+        "rotation": [359.988983, 0.009250582, -0.00386965857],
+        "scale": [1.0, 1.00000012, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "870f0c1b-cc21-462c-b710-63fe42cc05ef",
+        "position": [-4.47034836e-8, 0.112097241, 7.450581e-9],
+        "rotation": [319.0965, 48.54877, 327.0942],
+        "scale": [0.9999999, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "e4069426-ec64-4f65-a91d-61c83b5e0d7e",
+        "position": [-9.313226e-9, 0.106450081, -1.88592821e-8],
+        "rotation": [26.5247059, 341.717834, 5.676146],
+        "scale": [0.9999999, 0.99999994, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "31c74965-4249-4e65-bfdd-562485d75d44",
+        "position": [-0.165805772, -0.0799666643, -0.08184854],
+        "rotation": [359.8563, 199.373474, 199.3735],
+        "scale": [1.00000167, 1.00000024, 1.00000012]
+      },
+      {
+        "type": "Transform",
+        "guid": "0a871978-ad46-494f-8223-e504dfcd215d",
+        "position": [-4.19095159e-8, 0.0798512, -1.62981451e-8],
+        "rotation": [0.0412287153, 359.888947, 359.98056],
+        "scale": [0.99999994, 1.0, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "af9e41fd-6270-4b96-a442-bdccafcb6b66",
+        "position": [-1.49011612e-8, 0.07729529, 3.35276127e-8],
+        "rotation": [30.12778, 261.82962, 12.2062845],
+        "scale": [0.9999999, 0.9999998, 0.9999999]
+      },
+      {
+        "type": "Transform",
+        "guid": "323ac8db-d694-4bc2-8897-1c23780636be",
+        "position": [5.58793545e-9, 0.08913572, -3.7252903e-8],
+        "rotation": [350.936859, 314.3457, 24.1376648],
+        "scale": [0.99999994, 0.99999994, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "b15a44bf-0284-465f-98ba-25ac215b291d",
+        "position": [-2.23517418e-8, 0.102757558, 2.98023224e-8],
+        "rotation": [330.979279, 332.102234, 12.1437807],
+        "scale": [0.9999999, 1.0, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "96788f5e-e7c3-477f-95cd-7fe1ceb90fab",
+        "position": [0.2751735, -0.257907271, -0.146226078],
+        "rotation": [345.640564, 147.446335, 147.44632],
+        "scale": [0.9999999, 0.9999999, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "28bf1785-6f17-4c0b-872c-5e098654b98b",
+        "position": [-6.98491931e-9, 0.10678412, 4.749745e-8],
+        "rotation": [0.00529142655, 359.654083, 0.0452925041],
+        "scale": [0.99999994, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "77e68f64-b508-407b-bd74-3aa0127fecd6",
+        "position": [6.70552254e-8, 0.14476046, -7.450581e-9],
+        "rotation": [0.842549562, 262.6767, 34.3660049],
+        "scale": [1.0, 1.0, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "cc8e2288-bbc5-4cfe-bd1c-f1a73e636119",
+        "position": [5.96046448e-8, 0.1443578, 2.98023224e-8],
+        "rotation": [316.937927, 353.042023, 346.5312],
+        "scale": [0.99999994, 0.9999999, 0.9999999]
+      },
+      {
+        "type": "Transform",
+        "guid": "dfaafbfb-9c37-4fda-9034-923f5e7ef520",
+        "position": [1.49011612e-8, 0.121976621, -5.58793545e-8],
+        "rotation": [333.6558, 5.988081, 338.7679],
+        "scale": [0.9999999, 0.9999999, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "0bc7cd19-aba4-4423-9242-0dce3c642d0b",
+        "position": [0.129303515, -0.248399258, -0.206893936],
+        "rotation": [320.1327, 162.357681, 162.357651],
+        "scale": [0.9999999, 0.99999994, 0.9999999]
+      },
+      {
+        "type": "Transform",
+        "guid": "c318f095-caa5-4996-885d-92ac7d379f09",
+        "position": [1.11758709e-8, 0.106784046, -2.42143869e-8],
+        "rotation": [359.976624, -0.00219792384, 0.03918995],
+        "scale": [0.9999999, 0.99999994, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "1b54f7c0-e490-4727-8d39-2023c0fa6821",
+        "position": [7.683411e-9, 0.1068152, -1.49011612e-8],
+        "rotation": [40.8187866, 259.870453, 357.18634],
+        "scale": [1.00000012, 0.99999994, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "e379a4ad-b9d7-4ffb-85c2-f8114f32c2a9",
+        "position": [7.450581e-9, 0.184704557, -1.67638063e-8],
+        "rotation": [318.220276, 31.50878, 339.807922],
+        "scale": [1.00000012, 1.0, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "ddde57a7-e4d9-461a-85fe-f17fddc25270",
+        "position": [1.49011612e-8, 0.09842832, 1.86264515e-8],
+        "rotation": [316.44455, 16.8526115, 353.683319],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "a0254730-5a29-4383-9fc3-249b54b038ad",
+        "position": [-0.1030633, -0.241534233, -0.169616655],
+        "rotation": [315.5218, 197.411285, 197.411285],
+        "scale": [1.00000012, 1.00000012, 1.00000012]
+      },
+      {
+        "type": "Transform",
+        "guid": "740e66f3-539e-42bd-9b68-954206211641",
+        "position": [-1.16415322e-9, 0.19724898, 2.32103048e-8],
+        "rotation": [359.9544, -0.00230224268, 0.00164677843],
+        "scale": [1.0, 1.00000012, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "6b4518d7-360e-4b75-bffd-a95e412fd8f4",
+        "position": [-2.32830644e-10, 0.179613188, 6.213668e-8],
+        "rotation": [317.2761, 358.014954, 1.90328646],
+        "scale": [1.00000012, 1.00000012, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "5882309c-a075-4951-8b2e-487b6212310f",
+        "position": [-1.39698386e-9, 0.11702995, 8.880306e-8],
+        "rotation": [322.9262, 359.2775, 0.6188895],
+        "scale": [0.99999994, 1.00000024, 0.9999998]
+      },
+      {
+        "type": "Transform",
+        "guid": "a103dfb2-6e20-4840-adfd-3d8573989ee9",
+        "position": [0.0119550079, -0.247754455, -0.209937945],
+        "rotation": [318.799133, 179.486877, 179.486877],
+        "scale": [0.99999994, 1.00000012, 1.00000036]
+      },
+      {
+        "type": "Transform",
+        "guid": "ad2625e2-866c-4baa-8247-b675019947d7",
+        "position": [-9.778887e-9, 0.055757843, 9.313226e-9],
+        "rotation": [0.0445700549, 359.9902, 0.009579651],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "38c60801-5384-4ca8-aa25-1f3601c7d179",
+        "position": [-6.519258e-9, 0.0544249341, -1.3038516e-8],
+        "rotation": [13.9189224, 353.273773, 7.29280472],
+        "scale": [0.99999994, 1.0, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "1ce83473-a63d-45c0-946f-544aadca6159",
+        "position": [1.11758709e-8, 0.0507068262, 2.98023224e-8],
+        "rotation": [10.3499813, 357.093842, 3.6431427],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "23edceea-9fca-4439-8488-41f46cd36909",
+        "position": [-4.656613e-8, 0.04112684, -3.7252903e-9],
+        "rotation": [6.18951845, 357.724762, 2.56449938],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "965c40a3-8cbf-4751-907c-01b3b71143a4",
+        "position": [2.98023224e-8, 0.03774101, 7.82310963e-8],
+        "rotation": [24.6289558, 345.620178, 12.24926],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "fcc97b84-d527-4af1-9684-1f45d308b7cb",
+        "position": [0.07431766, -0.08008134, 0.09940864],
+        "rotation": [33.36573, 135.436615, 135.4366],
+        "scale": [1.0, 1.0, 1.00000012]
+      },
+      {
+        "type": "Transform",
+        "guid": "51c8dc66-2667-4709-bd47-06213e55206d",
+        "position": [0.0, 0.05597416, 1.58324838e-8],
+        "rotation": [0.04555226, 0.00167894212, 0.00166766066],
+        "scale": [1.00000012, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "f60cdfdd-82ee-47bf-855e-6f44962866ed",
+        "position": [-9.313226e-10, 0.04595478, 5.029142e-8],
+        "rotation": [15.1140242, 0.7117712, 0.5633649],
+        "scale": [1.0, 0.99999994, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "b3fa02a5-55f8-45e1-b060-424865670a28",
+        "position": [0.0, 0.03875773, 4.33065e-8],
+        "rotation": [12.143322, 0.701748133, 0.311556667],
+        "scale": [1.0, 0.9999999, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "ad72644a-3da4-4eaf-ad30-228f76080e3c",
+        "position": [-4.19095159e-9, 0.0484149121, 3.678724e-8],
+        "rotation": [6.721776, 0.468252122, 0.09194481],
+        "scale": [0.99999994, 1.0, 0.9999999]
+      },
+      {
+        "type": "Transform",
+        "guid": "1cf77ad5-5e22-4bef-acc5-e2649f90298c",
+        "position": [4.656613e-9, 0.0691341758, -1.53668225e-8],
+        "rotation": [27.331583, 3.48024178, 0.163548023],
+        "scale": [0.9999999, 0.99999994, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "f1dce7ae-7322-4dc1-8e0c-969b67a771cc",
+        "position": [-0.0717216, -0.0727818, 0.09063467],
+        "rotation": [53.483284, 177.187332, 177.187332],
+        "scale": [0.99999994, 1.0, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "70c0967b-2986-42be-a12e-183815d50762",
+        "position": [4.67507977e-15, 0.0532093458, 3.492459e-10],
+        "rotation": [359.954376, -6.252887e-8, -6.25292245e-8],
+        "scale": [1.0, 1.00000012, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "d16abe6f-d4cd-44f0-8592-bc16d1b36a3c",
+        "position": [-8.881784e-15, 0.1698649, 5.587923e-9],
+        "rotation": [12.3137255, -1.75124951e-5, -1.7489092e-5],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "0cc7bef1-2d4c-4754-b390-2c8b0fc9708b",
+        "position": [2.68882139e-16, 0.0611245073, -2.32830644e-10],
+        "rotation": [347.79303, 1.42160425e-5, 1.42549352e-5],
+        "scale": [1.0, 0.9999999, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "d26c1c85-cbac-4102-afa6-52c3185a378d",
+        "position": [-2.16840434e-17, 0.1152381, 4.947651e-10],
+        "rotation": [359.917419, -1.13069049e-7, -1.13069063e-7],
+        "scale": [1.0, 0.9999999, 0.99999994]
+      },
+      {
+        "type": "Transform",
+        "guid": "7500749a-5294-44fc-a8c4-4e9d974ce894",
+        "position": [-5.39384759e-10, 0.0530574322, 0.0269416664],
+        "rotation": [0.021427121, 2.93703355e-8, 2.93703337e-8],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "ea79af83-85b2-495d-9361-b3e103fb55b0",
+        "position": [0.0, 0.0144653479, 0.9609314],
+        "rotation": [89.98022, 0.0, 0.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "0d0934f0-dff7-46cf-9cad-48a0472e31a6",
+        "position": [0.0, 0.0, 0.0],
+        "rotation": [270.019775, 0.0, 0.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "SkinnedMeshRenderer",
+        "guid": "93d909bb-1bf3-4fc1-9f9f-d2d1ff926810",
+        "shadowCast": "On",
+        "mesh": {
+          "path": "Assets/Examples/Models/Kindred/kindred_unity.fbx",
+          "fileName": "kindred_unity.fbx",
+          "modelName": "kindred_unity",
+          "meshName": "clothes",
+          "boundCenter": [0.0, -0.0006970018, 0.9539179],
+          "boundExtent": [0.324373573, 0.146218762, 0.461780369]
+        },
+        "materials": ["8be17eb3-9be6-46be-b0a8-c8f300d5688e"],
+        "blendShapeCount": 0,
+        "blendShapes": {}
+      },
+      {
+        "type": "Transform",
+        "guid": "a6a09822-72c6-4fa5-b6bb-ed8dbfc600a0",
+        "position": [0.0, 0.0, 0.0],
+        "rotation": [270.019775, 0.0, 0.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "SkinnedMeshRenderer",
+        "guid": "d2e90dc6-6522-48f9-9953-4acaa9710be6",
+        "shadowCast": "On",
+        "mesh": {
+          "path": "Assets/Examples/Models/Kindred/kindred_unity.fbx",
+          "fileName": "kindred_unity.fbx",
+          "modelName": "kindred_unity",
+          "meshName": "bow",
+          "boundCenter": [-0.3461057, -0.05789624, 0.8716566],
+          "boundExtent": [0.6422327, 0.33247298, 0.28183645]
+        },
+        "materials": ["08730857-a0f5-4839-a087-bdab6e6ed7a5"],
+        "blendShapeCount": 0,
+        "blendShapes": {}
+      },
+      {
+        "type": "Transform",
+        "guid": "c6f67323-dff7-4506-b867-7f950e577430",
+        "position": [0.0, 0.0, 0.0],
+        "rotation": [270.019775, 0.0, 0.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "SkinnedMeshRenderer",
+        "guid": "854b1f60-a4ac-4322-96c2-fc3c27fc9eec",
+        "shadowCast": "On",
+        "mesh": {
+          "path": "Assets/Examples/Models/Kindred/kindred_unity.fbx",
+          "fileName": "kindred_unity.fbx",
+          "modelName": "kindred_unity",
+          "meshName": "body2",
+          "boundCenter": [0.000474154949, -0.0101997927, 0.6922715],
+          "boundExtent": [0.383530349, 0.119620346, 0.6924155]
+        },
+        "materials": ["441e364e-942a-4de1-b11e-ae0a0f12f348"],
+        "blendShapeCount": 0,
+        "blendShapes": {}
+      },
+      {
+        "type": "Transform",
+        "guid": "4083ca7a-46e9-4d87-93f9-5d194af2ac97",
+        "position": [0.0, 0.0, 0.0],
+        "rotation": [270.019775, 0.0, 0.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "SkinnedMeshRenderer",
+        "guid": "2fc899e5-1a23-4040-afbd-c20260021cec",
+        "shadowCast": "On",
+        "mesh": {
+          "path": "Assets/Examples/Models/Kindred/kindred_unity.fbx",
+          "fileName": "kindred_unity.fbx",
+          "modelName": "kindred_unity",
+          "meshName": "body",
+          "boundCenter": [7.450581e-9, 0.00305916741, 1.49972785],
+          "boundExtent": [0.102660179, 0.118787989, 0.125894666]
+        },
+        "materials": ["3f076dfa-ff79-4b8b-89a4-7070a08a4988"],
+        "blendShapeCount": 27,
+        "blendShapes": {
+          "vrc.v_aa": 23.8,
+          "vrc.v_ch": 0.0,
+          "vrc.v_dd": 0.0,
+          "vrc.v_e": 0.0,
+          "vrc.v_ff": 0.0,
+          "vrc.v_ih": 0.0,
+          "vrc.v_kk": 0.0,
+          "vrc.v_nn": 7.4,
+          "vrc.v_oh": 0.0,
+          "vrc.v_ou": 45.0,
+          "vrc.v_pp": 0.0,
+          "vrc.v_rr": 0.0,
+          "vrc.v_sil": 0.0,
+          "vrc.v_ss": 0.0,
+          "vrc.v_th": 39.2,
+          "pupil_small": 0.0,
+          "eye_big": 0.0,
+          "smile": 0.0,
+          "sad": 0.0,
+          "surprise": 0.0,
+          "blink_L": 0.0,
+          "blink_R": 0.0,
+          "blink": 0.0,
+          "look_Left": 0.0,
+          "look_right": 0.0,
+          "look_up": 0.0,
+          "look_down": 0.0
+        }
+      },
+      {
+        "type": "Transform",
+        "guid": "90899850-6ae4-45d8-8e34-54af8f6e5db2",
+        "position": [0.0, 0.0, 0.0],
+        "rotation": [270.019775, 0.0, 0.0],
+        "scale": [1.0, 1.0, 1.0]
+      }
+    ],
+    "Materials": [
+      {
+        "name": "Lit",
+        "guid": "05f86672-9021-4e90-b1e5-54875fe8edd3",
+        "renderOrder": 2000,
+        "culling": "back",
+        "datas": {
+          "textures": [],
+          "floats": [
+            {
+              "name": "_SrcBlend",
+              "data": 1.0
+            },
+            {
+              "name": "_DstBlend",
+              "data": 0.0
+            },
+            {
+              "name": "_Cutoff",
+              "data": 0.5
+            },
+            {
+              "name": "_ZWrite",
+              "data": 1.0
+            },
+            {
+              "name": "_Glossiness",
+              "data": 0.5
+            },
+            {
+              "name": "_GlossMapScale",
+              "data": 1.0
+            },
+            {
+              "name": "_SmoothnessTextureChannel",
+              "data": 0.0
+            },
+            {
+              "name": "_Metallic",
+              "data": 0.0
+            },
+            {
+              "name": "_SpecularHighlights",
+              "data": 1.0
+            },
+            {
+              "name": "_GlossyReflections",
+              "data": 1.0
+            },
+            {
+              "name": "_BumpScale",
+              "data": 1.0
+            },
+            {
+              "name": "_Parallax",
+              "data": 0.02
+            },
+            {
+              "name": "_OcclusionStrength",
+              "data": 1.0
+            },
+            {
+              "name": "_DetailNormalMapScale",
+              "data": 1.0
+            },
+            {
+              "name": "_AlphaClip",
+              "data": 0.0
+            },
+            {
+              "name": "_AlphaToMask",
+              "data": 0.0
+            },
+            {
+              "name": "_Blend",
+              "data": 0.0
+            },
+            {
+              "name": "_BlendModePreserveSpecular",
+              "data": 1.0
+            },
+            {
+              "name": "_ClearCoatMask",
+              "data": 0.0
+            },
+            {
+              "name": "_ClearCoatSmoothness",
+              "data": 0.0
+            },
+            {
+              "name": "_Cull",
+              "data": 2.0
+            },
+            {
+              "name": "_DetailAlbedoMapScale",
+              "data": 1.0
+            },
+            {
+              "name": "_DstBlendAlpha",
+              "data": 0.0
+            },
+            {
+              "name": "_EnvironmentReflections",
+              "data": 1.0
+            },
+            {
+              "name": "_QueueOffset",
+              "data": 0.0
+            },
+            {
+              "name": "_ReceiveShadows",
+              "data": 1.0
+            },
+            {
+              "name": "_Smoothness",
+              "data": 0.5
+            },
+            {
+              "name": "_SrcBlendAlpha",
+              "data": 1.0
+            },
+            {
+              "name": "_Surface",
+              "data": 0.0
+            },
+            {
+              "name": "_WorkflowMode",
+              "data": 1.0
+            },
+            {
+              "name": "_AddPrecomputedVelocity",
+              "data": 0.0
+            }
+          ],
+          "ints": [],
+          "vectors": [
+            {
+              "name": "_MainTex_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_MainTex_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_MainTex_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_EmissionColor",
+              "data": [0.0, 0.0, 0.0, 1.0]
+            },
+            {
+              "name": "_Color",
+              "data": [0.5, 0.5, 0.5, 1.0]
+            },
+            {
+              "name": "_MetallicGlossMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_MetallicGlossMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_MetallicGlossMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_BumpMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_BumpMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_BumpMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_ParallaxMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_ParallaxMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_ParallaxMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_OcclusionMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_OcclusionMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_OcclusionMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_EmissionMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_EmissionMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_EmissionMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailMask_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailMask_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_DetailMask_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailAlbedoMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailAlbedoMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_DetailAlbedoMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailNormalMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailNormalMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_DetailNormalMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_SpecColor",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_BaseColor",
+              "data": [0.5, 0.5, 0.5, 1.0]
+            },
+            {
+              "name": "_BaseMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_BaseMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_BaseMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_SpecGlossMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_SpecGlossMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_SpecGlossMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_Lightmaps_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_Lightmaps_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "unity_Lightmaps_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_LightmapsInd_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_LightmapsInd_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "unity_LightmapsInd_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_ShadowMasks_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_ShadowMasks_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "unity_ShadowMasks_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            }
+          ],
+          "matrixs": []
+        }
+      },
+      {
+        "name": "Lit",
+        "guid": "05f86672-9021-4e90-b1e5-54875fe8edd3",
+        "renderOrder": 2000,
+        "culling": "back",
+        "datas": {
+          "textures": [],
+          "floats": [
+            {
+              "name": "_SrcBlend",
+              "data": 1.0
+            },
+            {
+              "name": "_DstBlend",
+              "data": 0.0
+            },
+            {
+              "name": "_Cutoff",
+              "data": 0.5
+            },
+            {
+              "name": "_ZWrite",
+              "data": 1.0
+            },
+            {
+              "name": "_Glossiness",
+              "data": 0.5
+            },
+            {
+              "name": "_GlossMapScale",
+              "data": 1.0
+            },
+            {
+              "name": "_SmoothnessTextureChannel",
+              "data": 0.0
+            },
+            {
+              "name": "_Metallic",
+              "data": 0.0
+            },
+            {
+              "name": "_SpecularHighlights",
+              "data": 1.0
+            },
+            {
+              "name": "_GlossyReflections",
+              "data": 1.0
+            },
+            {
+              "name": "_BumpScale",
+              "data": 1.0
+            },
+            {
+              "name": "_Parallax",
+              "data": 0.02
+            },
+            {
+              "name": "_OcclusionStrength",
+              "data": 1.0
+            },
+            {
+              "name": "_DetailNormalMapScale",
+              "data": 1.0
+            },
+            {
+              "name": "_AlphaClip",
+              "data": 0.0
+            },
+            {
+              "name": "_AlphaToMask",
+              "data": 0.0
+            },
+            {
+              "name": "_Blend",
+              "data": 0.0
+            },
+            {
+              "name": "_BlendModePreserveSpecular",
+              "data": 1.0
+            },
+            {
+              "name": "_ClearCoatMask",
+              "data": 0.0
+            },
+            {
+              "name": "_ClearCoatSmoothness",
+              "data": 0.0
+            },
+            {
+              "name": "_Cull",
+              "data": 2.0
+            },
+            {
+              "name": "_DetailAlbedoMapScale",
+              "data": 1.0
+            },
+            {
+              "name": "_DstBlendAlpha",
+              "data": 0.0
+            },
+            {
+              "name": "_EnvironmentReflections",
+              "data": 1.0
+            },
+            {
+              "name": "_QueueOffset",
+              "data": 0.0
+            },
+            {
+              "name": "_ReceiveShadows",
+              "data": 1.0
+            },
+            {
+              "name": "_Smoothness",
+              "data": 0.5
+            },
+            {
+              "name": "_SrcBlendAlpha",
+              "data": 1.0
+            },
+            {
+              "name": "_Surface",
+              "data": 0.0
+            },
+            {
+              "name": "_WorkflowMode",
+              "data": 1.0
+            },
+            {
+              "name": "_AddPrecomputedVelocity",
+              "data": 0.0
+            }
+          ],
+          "ints": [],
+          "vectors": [
+            {
+              "name": "_MainTex_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_MainTex_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_MainTex_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_EmissionColor",
+              "data": [0.0, 0.0, 0.0, 1.0]
+            },
+            {
+              "name": "_Color",
+              "data": [0.5, 0.5, 0.5, 1.0]
+            },
+            {
+              "name": "_MetallicGlossMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_MetallicGlossMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_MetallicGlossMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_BumpMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_BumpMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_BumpMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_ParallaxMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_ParallaxMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_ParallaxMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_OcclusionMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_OcclusionMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_OcclusionMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_EmissionMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_EmissionMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_EmissionMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailMask_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailMask_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_DetailMask_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailAlbedoMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailAlbedoMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_DetailAlbedoMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailNormalMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailNormalMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_DetailNormalMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_SpecColor",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_BaseColor",
+              "data": [0.5, 0.5, 0.5, 1.0]
+            },
+            {
+              "name": "_BaseMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_BaseMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_BaseMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_SpecGlossMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_SpecGlossMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_SpecGlossMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_Lightmaps_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_Lightmaps_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "unity_Lightmaps_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_LightmapsInd_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_LightmapsInd_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "unity_LightmapsInd_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_ShadowMasks_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_ShadowMasks_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "unity_ShadowMasks_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            }
+          ],
+          "matrixs": []
+        }
+      },
+      {
+        "name": "Lit",
+        "guid": "05f86672-9021-4e90-b1e5-54875fe8edd3",
+        "renderOrder": 2000,
+        "culling": "back",
+        "datas": {
+          "textures": [],
+          "floats": [
+            {
+              "name": "_SrcBlend",
+              "data": 1.0
+            },
+            {
+              "name": "_DstBlend",
+              "data": 0.0
+            },
+            {
+              "name": "_Cutoff",
+              "data": 0.5
+            },
+            {
+              "name": "_ZWrite",
+              "data": 1.0
+            },
+            {
+              "name": "_Glossiness",
+              "data": 0.5
+            },
+            {
+              "name": "_GlossMapScale",
+              "data": 1.0
+            },
+            {
+              "name": "_SmoothnessTextureChannel",
+              "data": 0.0
+            },
+            {
+              "name": "_Metallic",
+              "data": 0.0
+            },
+            {
+              "name": "_SpecularHighlights",
+              "data": 1.0
+            },
+            {
+              "name": "_GlossyReflections",
+              "data": 1.0
+            },
+            {
+              "name": "_BumpScale",
+              "data": 1.0
+            },
+            {
+              "name": "_Parallax",
+              "data": 0.02
+            },
+            {
+              "name": "_OcclusionStrength",
+              "data": 1.0
+            },
+            {
+              "name": "_DetailNormalMapScale",
+              "data": 1.0
+            },
+            {
+              "name": "_AlphaClip",
+              "data": 0.0
+            },
+            {
+              "name": "_AlphaToMask",
+              "data": 0.0
+            },
+            {
+              "name": "_Blend",
+              "data": 0.0
+            },
+            {
+              "name": "_BlendModePreserveSpecular",
+              "data": 1.0
+            },
+            {
+              "name": "_ClearCoatMask",
+              "data": 0.0
+            },
+            {
+              "name": "_ClearCoatSmoothness",
+              "data": 0.0
+            },
+            {
+              "name": "_Cull",
+              "data": 2.0
+            },
+            {
+              "name": "_DetailAlbedoMapScale",
+              "data": 1.0
+            },
+            {
+              "name": "_DstBlendAlpha",
+              "data": 0.0
+            },
+            {
+              "name": "_EnvironmentReflections",
+              "data": 1.0
+            },
+            {
+              "name": "_QueueOffset",
+              "data": 0.0
+            },
+            {
+              "name": "_ReceiveShadows",
+              "data": 1.0
+            },
+            {
+              "name": "_Smoothness",
+              "data": 0.5
+            },
+            {
+              "name": "_SrcBlendAlpha",
+              "data": 1.0
+            },
+            {
+              "name": "_Surface",
+              "data": 0.0
+            },
+            {
+              "name": "_WorkflowMode",
+              "data": 1.0
+            },
+            {
+              "name": "_AddPrecomputedVelocity",
+              "data": 0.0
+            }
+          ],
+          "ints": [],
+          "vectors": [
+            {
+              "name": "_MainTex_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_MainTex_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_MainTex_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_EmissionColor",
+              "data": [0.0, 0.0, 0.0, 1.0]
+            },
+            {
+              "name": "_Color",
+              "data": [0.5, 0.5, 0.5, 1.0]
+            },
+            {
+              "name": "_MetallicGlossMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_MetallicGlossMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_MetallicGlossMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_BumpMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_BumpMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_BumpMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_ParallaxMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_ParallaxMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_ParallaxMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_OcclusionMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_OcclusionMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_OcclusionMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_EmissionMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_EmissionMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_EmissionMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailMask_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailMask_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_DetailMask_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailAlbedoMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailAlbedoMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_DetailAlbedoMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailNormalMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailNormalMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_DetailNormalMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_SpecColor",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_BaseColor",
+              "data": [0.5, 0.5, 0.5, 1.0]
+            },
+            {
+              "name": "_BaseMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_BaseMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_BaseMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_SpecGlossMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_SpecGlossMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_SpecGlossMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_Lightmaps_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_Lightmaps_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "unity_Lightmaps_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_LightmapsInd_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_LightmapsInd_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "unity_LightmapsInd_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_ShadowMasks_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_ShadowMasks_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "unity_ShadowMasks_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            }
+          ],
+          "matrixs": []
+        }
+      },
+      {
+        "name": "Lit",
+        "guid": "05f86672-9021-4e90-b1e5-54875fe8edd3",
+        "renderOrder": 2000,
+        "culling": "back",
+        "datas": {
+          "textures": [],
+          "floats": [
+            {
+              "name": "_SrcBlend",
+              "data": 1.0
+            },
+            {
+              "name": "_DstBlend",
+              "data": 0.0
+            },
+            {
+              "name": "_Cutoff",
+              "data": 0.5
+            },
+            {
+              "name": "_ZWrite",
+              "data": 1.0
+            },
+            {
+              "name": "_Glossiness",
+              "data": 0.5
+            },
+            {
+              "name": "_GlossMapScale",
+              "data": 1.0
+            },
+            {
+              "name": "_SmoothnessTextureChannel",
+              "data": 0.0
+            },
+            {
+              "name": "_Metallic",
+              "data": 0.0
+            },
+            {
+              "name": "_SpecularHighlights",
+              "data": 1.0
+            },
+            {
+              "name": "_GlossyReflections",
+              "data": 1.0
+            },
+            {
+              "name": "_BumpScale",
+              "data": 1.0
+            },
+            {
+              "name": "_Parallax",
+              "data": 0.02
+            },
+            {
+              "name": "_OcclusionStrength",
+              "data": 1.0
+            },
+            {
+              "name": "_DetailNormalMapScale",
+              "data": 1.0
+            },
+            {
+              "name": "_AlphaClip",
+              "data": 0.0
+            },
+            {
+              "name": "_AlphaToMask",
+              "data": 0.0
+            },
+            {
+              "name": "_Blend",
+              "data": 0.0
+            },
+            {
+              "name": "_BlendModePreserveSpecular",
+              "data": 1.0
+            },
+            {
+              "name": "_ClearCoatMask",
+              "data": 0.0
+            },
+            {
+              "name": "_ClearCoatSmoothness",
+              "data": 0.0
+            },
+            {
+              "name": "_Cull",
+              "data": 2.0
+            },
+            {
+              "name": "_DetailAlbedoMapScale",
+              "data": 1.0
+            },
+            {
+              "name": "_DstBlendAlpha",
+              "data": 0.0
+            },
+            {
+              "name": "_EnvironmentReflections",
+              "data": 1.0
+            },
+            {
+              "name": "_QueueOffset",
+              "data": 0.0
+            },
+            {
+              "name": "_ReceiveShadows",
+              "data": 1.0
+            },
+            {
+              "name": "_Smoothness",
+              "data": 0.5
+            },
+            {
+              "name": "_SrcBlendAlpha",
+              "data": 1.0
+            },
+            {
+              "name": "_Surface",
+              "data": 0.0
+            },
+            {
+              "name": "_WorkflowMode",
+              "data": 1.0
+            },
+            {
+              "name": "_AddPrecomputedVelocity",
+              "data": 0.0
+            }
+          ],
+          "ints": [],
+          "vectors": [
+            {
+              "name": "_MainTex_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_MainTex_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_MainTex_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_EmissionColor",
+              "data": [0.0, 0.0, 0.0, 1.0]
+            },
+            {
+              "name": "_Color",
+              "data": [0.5, 0.5, 0.5, 1.0]
+            },
+            {
+              "name": "_MetallicGlossMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_MetallicGlossMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_MetallicGlossMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_BumpMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_BumpMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_BumpMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_ParallaxMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_ParallaxMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_ParallaxMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_OcclusionMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_OcclusionMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_OcclusionMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_EmissionMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_EmissionMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_EmissionMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailMask_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailMask_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_DetailMask_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailAlbedoMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailAlbedoMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_DetailAlbedoMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailNormalMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_DetailNormalMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_DetailNormalMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_SpecColor",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_BaseColor",
+              "data": [0.5, 0.5, 0.5, 1.0]
+            },
+            {
+              "name": "_BaseMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_BaseMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_BaseMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_SpecGlossMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_SpecGlossMap_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_SpecGlossMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_Lightmaps_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_Lightmaps_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "unity_Lightmaps_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_LightmapsInd_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_LightmapsInd_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "unity_LightmapsInd_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_ShadowMasks_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "unity_ShadowMasks_TexelSize",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "unity_ShadowMasks_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            }
+          ],
+          "matrixs": []
+        }
+      },
+      {
+        "name": "New Material 3 (Instance)",
+        "guid": "679a9256-4af2-44ca-a677-6103c55aca2a",
+        "renderOrder": 2000,
+        "culling": "back",
+        "datas": {
+          "textures": [
+            {
+              "name": "_MainTex",
+              "path": "Assets/Examples/Models/Kindred/hair_texture.png",
+              "fileName": "hair_texture.png",
+              "originalName": "hair_texture"
+            },
+            {
+              "name": "_BaseMap",
+              "path": "Assets/Examples/Models/Kindred/hair_texture.png",
+              "fileName": "hair_texture.png",
+              "originalName": "hair_texture"
+            }
+          ],
+          "floats": [
+            {
+              "name": "_SrcBlend",
+              "data": 1.0
+            },
+            {
+              "name": "_DstBlend",
+              "data": 0.0
+            },
+            {
+              "name": "_Cutoff",
+              "data": 0.5
+            },
+            {
+              "name": "_ZWrite",
+              "data": 1.0
+            },
+            {
+              "name": "_AlphaClip",
+              "data": 0.0
+            },
+            {
+              "name": "_AlphaToMask",
+              "data": 0.0
+            },
+            {
+              "name": "_Blend",
+              "data": 0.0
+            },
+            {
+              "name": "_Cull",
+              "data": 2.0
+            },
+            {
+              "name": "_DstBlendAlpha",
+              "data": 0.0
+            },
+            {
+              "name": "_QueueOffset",
+              "data": 0.0
+            },
+            {
+              "name": "_SrcBlendAlpha",
+              "data": 1.0
+            },
+            {
+              "name": "_Surface",
+              "data": 0.0
+            },
+            {
+              "name": "_BlendOp",
+              "data": 0.0
+            },
+            {
+              "name": "_AddPrecomputedVelocity",
+              "data": 0.0
+            },
+            {
+              "name": "_SampleGI",
+              "data": 0.0
+            }
+          ],
+          "ints": [],
+          "vectors": [
+            {
+              "name": "_MainTex_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_MainTex_TexelSize",
+              "data": [0.00048828125, 0.00048828125, 2048.0, 2048.0]
+            },
+            {
+              "name": "_MainTex_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_Color",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_BaseColor",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_BaseMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_BaseMap_TexelSize",
+              "data": [0.00048828125, 0.00048828125, 2048.0, 2048.0]
+            },
+            {
+              "name": "_BaseMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            }
+          ],
+          "matrixs": []
+        }
+      },
+      {
+        "name": "New Material 2 (Instance)",
+        "guid": "8be17eb3-9be6-46be-b0a8-c8f300d5688e",
+        "renderOrder": 2000,
+        "culling": "back",
+        "datas": {
+          "textures": [
+            {
+              "name": "_MainTex",
+              "path": "Assets/Examples/Models/Kindred/clothes_texture.png",
+              "fileName": "clothes_texture.png",
+              "originalName": "clothes_texture"
+            },
+            {
+              "name": "_BaseMap",
+              "path": "Assets/Examples/Models/Kindred/clothes_texture.png",
+              "fileName": "clothes_texture.png",
+              "originalName": "clothes_texture"
+            }
+          ],
+          "floats": [
+            {
+              "name": "_SrcBlend",
+              "data": 1.0
+            },
+            {
+              "name": "_DstBlend",
+              "data": 0.0
+            },
+            {
+              "name": "_Cutoff",
+              "data": 0.5
+            },
+            {
+              "name": "_ZWrite",
+              "data": 1.0
+            },
+            {
+              "name": "_AlphaClip",
+              "data": 0.0
+            },
+            {
+              "name": "_AlphaToMask",
+              "data": 0.0
+            },
+            {
+              "name": "_Blend",
+              "data": 0.0
+            },
+            {
+              "name": "_Cull",
+              "data": 2.0
+            },
+            {
+              "name": "_DstBlendAlpha",
+              "data": 0.0
+            },
+            {
+              "name": "_QueueOffset",
+              "data": 0.0
+            },
+            {
+              "name": "_SrcBlendAlpha",
+              "data": 1.0
+            },
+            {
+              "name": "_Surface",
+              "data": 0.0
+            },
+            {
+              "name": "_BlendOp",
+              "data": 0.0
+            },
+            {
+              "name": "_AddPrecomputedVelocity",
+              "data": 0.0
+            },
+            {
+              "name": "_SampleGI",
+              "data": 0.0
+            }
+          ],
+          "ints": [],
+          "vectors": [
+            {
+              "name": "_MainTex_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_MainTex_TexelSize",
+              "data": [0.00048828125, 0.00048828125, 2048.0, 2048.0]
+            },
+            {
+              "name": "_MainTex_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_Color",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_BaseColor",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_BaseMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_BaseMap_TexelSize",
+              "data": [0.00048828125, 0.00048828125, 2048.0, 2048.0]
+            },
+            {
+              "name": "_BaseMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            }
+          ],
+          "matrixs": []
+        }
+      },
+      {
+        "name": "New Material 1 (Instance)",
+        "guid": "08730857-a0f5-4839-a087-bdab6e6ed7a5",
+        "renderOrder": 2000,
+        "culling": "back",
+        "datas": {
+          "textures": [
+            {
+              "name": "_MainTex",
+              "path": "Assets/Examples/Models/Kindred/bow_texture.png",
+              "fileName": "bow_texture.png",
+              "originalName": "bow_texture"
+            },
+            {
+              "name": "_BaseMap",
+              "path": "Assets/Examples/Models/Kindred/bow_texture.png",
+              "fileName": "bow_texture.png",
+              "originalName": "bow_texture"
+            }
+          ],
+          "floats": [
+            {
+              "name": "_SrcBlend",
+              "data": 1.0
+            },
+            {
+              "name": "_DstBlend",
+              "data": 0.0
+            },
+            {
+              "name": "_Cutoff",
+              "data": 0.5
+            },
+            {
+              "name": "_ZWrite",
+              "data": 1.0
+            },
+            {
+              "name": "_AlphaClip",
+              "data": 0.0
+            },
+            {
+              "name": "_AlphaToMask",
+              "data": 0.0
+            },
+            {
+              "name": "_Blend",
+              "data": 0.0
+            },
+            {
+              "name": "_Cull",
+              "data": 2.0
+            },
+            {
+              "name": "_DstBlendAlpha",
+              "data": 0.0
+            },
+            {
+              "name": "_QueueOffset",
+              "data": 0.0
+            },
+            {
+              "name": "_SrcBlendAlpha",
+              "data": 1.0
+            },
+            {
+              "name": "_Surface",
+              "data": 0.0
+            },
+            {
+              "name": "_BlendOp",
+              "data": 0.0
+            },
+            {
+              "name": "_AddPrecomputedVelocity",
+              "data": 0.0
+            },
+            {
+              "name": "_SampleGI",
+              "data": 0.0
+            }
+          ],
+          "ints": [],
+          "vectors": [
+            {
+              "name": "_MainTex_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_MainTex_TexelSize",
+              "data": [0.00048828125, 0.00048828125, 2048.0, 2048.0]
+            },
+            {
+              "name": "_MainTex_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_Color",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_BaseColor",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_BaseMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_BaseMap_TexelSize",
+              "data": [0.00048828125, 0.00048828125, 2048.0, 2048.0]
+            },
+            {
+              "name": "_BaseMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            }
+          ],
+          "matrixs": []
+        }
+      },
+      {
+        "name": "New Material (Instance)",
+        "guid": "441e364e-942a-4de1-b11e-ae0a0f12f348",
+        "renderOrder": 2000,
+        "culling": "back",
+        "datas": {
+          "textures": [
+            {
+              "name": "_MainTex",
+              "path": "Assets/Examples/Models/Kindred/Body_texture.png",
+              "fileName": "Body_texture.png",
+              "originalName": "Body_texture"
+            },
+            {
+              "name": "_BaseMap",
+              "path": "Assets/Examples/Models/Kindred/Body_texture.png",
+              "fileName": "Body_texture.png",
+              "originalName": "Body_texture"
+            }
+          ],
+          "floats": [
+            {
+              "name": "_SrcBlend",
+              "data": 1.0
+            },
+            {
+              "name": "_DstBlend",
+              "data": 0.0
+            },
+            {
+              "name": "_Cutoff",
+              "data": 0.5
+            },
+            {
+              "name": "_ZWrite",
+              "data": 1.0
+            },
+            {
+              "name": "_AlphaClip",
+              "data": 0.0
+            },
+            {
+              "name": "_AlphaToMask",
+              "data": 0.0
+            },
+            {
+              "name": "_Blend",
+              "data": 0.0
+            },
+            {
+              "name": "_Cull",
+              "data": 2.0
+            },
+            {
+              "name": "_DstBlendAlpha",
+              "data": 0.0
+            },
+            {
+              "name": "_QueueOffset",
+              "data": 0.0
+            },
+            {
+              "name": "_SrcBlendAlpha",
+              "data": 1.0
+            },
+            {
+              "name": "_Surface",
+              "data": 0.0
+            },
+            {
+              "name": "_BlendOp",
+              "data": 0.0
+            },
+            {
+              "name": "_AddPrecomputedVelocity",
+              "data": 0.0
+            },
+            {
+              "name": "_SampleGI",
+              "data": 0.0
+            }
+          ],
+          "ints": [],
+          "vectors": [
+            {
+              "name": "_MainTex_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_MainTex_TexelSize",
+              "data": [0.00048828125, 0.00048828125, 2048.0, 2048.0]
+            },
+            {
+              "name": "_MainTex_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_Color",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_BaseColor",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_BaseMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_BaseMap_TexelSize",
+              "data": [0.00048828125, 0.00048828125, 2048.0, 2048.0]
+            },
+            {
+              "name": "_BaseMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            }
+          ],
+          "matrixs": []
+        }
+      },
+      {
+        "name": "New Material (Instance)",
+        "guid": "3f076dfa-ff79-4b8b-89a4-7070a08a4988",
+        "renderOrder": 2000,
+        "culling": "back",
+        "datas": {
+          "textures": [
+            {
+              "name": "_MainTex",
+              "path": "Assets/Examples/Models/Kindred/Body_texture.png",
+              "fileName": "Body_texture.png",
+              "originalName": "Body_texture"
+            },
+            {
+              "name": "_BaseMap",
+              "path": "Assets/Examples/Models/Kindred/Body_texture.png",
+              "fileName": "Body_texture.png",
+              "originalName": "Body_texture"
+            }
+          ],
+          "floats": [
+            {
+              "name": "_SrcBlend",
+              "data": 1.0
+            },
+            {
+              "name": "_DstBlend",
+              "data": 0.0
+            },
+            {
+              "name": "_Cutoff",
+              "data": 0.5
+            },
+            {
+              "name": "_ZWrite",
+              "data": 1.0
+            },
+            {
+              "name": "_AlphaClip",
+              "data": 0.0
+            },
+            {
+              "name": "_AlphaToMask",
+              "data": 0.0
+            },
+            {
+              "name": "_Blend",
+              "data": 0.0
+            },
+            {
+              "name": "_Cull",
+              "data": 2.0
+            },
+            {
+              "name": "_DstBlendAlpha",
+              "data": 0.0
+            },
+            {
+              "name": "_QueueOffset",
+              "data": 0.0
+            },
+            {
+              "name": "_SrcBlendAlpha",
+              "data": 1.0
+            },
+            {
+              "name": "_Surface",
+              "data": 0.0
+            },
+            {
+              "name": "_BlendOp",
+              "data": 0.0
+            },
+            {
+              "name": "_AddPrecomputedVelocity",
+              "data": 0.0
+            },
+            {
+              "name": "_SampleGI",
+              "data": 0.0
+            }
+          ],
+          "ints": [],
+          "vectors": [
+            {
+              "name": "_MainTex_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_MainTex_TexelSize",
+              "data": [0.00048828125, 0.00048828125, 2048.0, 2048.0]
+            },
+            {
+              "name": "_MainTex_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_Color",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_BaseColor",
+              "data": [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "_BaseMap_ST",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            },
+            {
+              "name": "_BaseMap_TexelSize",
+              "data": [0.00048828125, 0.00048828125, 2048.0, 2048.0]
+            },
+            {
+              "name": "_BaseMap_HDR",
+              "data": [1.0, 1.0, 0.0, 0.0]
+            }
+          ],
+          "matrixs": []
+        }
+      }
+    ]
+  },
+  "path": {
+    "resources": []
+  }
+}

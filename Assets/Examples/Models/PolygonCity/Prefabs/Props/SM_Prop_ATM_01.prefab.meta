@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 78393129033e7904a9479b03588cd8aa
+timeCreated: 1499290744
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_ATM_01.prefab
+  uploadId: 657865

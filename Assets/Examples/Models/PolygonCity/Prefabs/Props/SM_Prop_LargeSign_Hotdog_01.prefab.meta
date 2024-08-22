@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f52a5629a2062924bafe8d5ad7a3c5f5
+timeCreated: 1499290757
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_LargeSign_Hotdog_01.prefab
+  uploadId: 657865

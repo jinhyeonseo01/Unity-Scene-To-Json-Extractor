@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0010f21083fab7f4db27cceaebd346fc
+timeCreated: 1579739107
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Prop_CarboardBox_04_Convex.asset
+  uploadId: 657865

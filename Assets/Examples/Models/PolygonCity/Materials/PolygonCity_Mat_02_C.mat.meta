@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f145fd98abc7a354f83c3a2e8df80a75
+timeCreated: 1499381945
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Materials/PolygonCity_Mat_02_C.mat
+  uploadId: 657865

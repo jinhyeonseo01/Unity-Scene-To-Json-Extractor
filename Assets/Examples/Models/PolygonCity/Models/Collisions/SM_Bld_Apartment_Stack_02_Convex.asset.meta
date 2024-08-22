@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b8702454cecb2ae4e95a3ecf4f69f178
+timeCreated: 1579742093
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Bld_Apartment_Stack_02_Convex.asset
+  uploadId: 657865

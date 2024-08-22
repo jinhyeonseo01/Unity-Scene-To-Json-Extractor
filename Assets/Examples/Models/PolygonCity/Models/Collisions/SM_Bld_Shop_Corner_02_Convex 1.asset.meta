@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ca39e32191f9a5c42a316c1f9fa08588
+timeCreated: 1579742420
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Bld_Shop_Corner_02_Convex 1.asset
+  uploadId: 657865

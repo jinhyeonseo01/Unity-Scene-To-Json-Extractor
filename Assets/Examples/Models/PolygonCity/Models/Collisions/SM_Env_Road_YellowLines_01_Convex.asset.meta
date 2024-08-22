@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4f4c7f0068c3b15408098a421a374bc4
+timeCreated: 1579748518
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Env_Road_YellowLines_01_Convex.asset
+  uploadId: 657865

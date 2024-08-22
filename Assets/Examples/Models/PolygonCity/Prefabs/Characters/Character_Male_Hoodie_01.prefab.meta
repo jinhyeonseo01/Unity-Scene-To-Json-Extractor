@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 48b470c6a762f60438c631f219257520
+timeCreated: 1499638572
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Characters/Character_Male_Hoodie_01.prefab
+  uploadId: 657865

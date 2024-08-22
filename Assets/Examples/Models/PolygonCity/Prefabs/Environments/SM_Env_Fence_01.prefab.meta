@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cc10ce20cd2faea4ca8cb6505e5861d5
+timeCreated: 1499290746
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Environments/SM_Env_Fence_01.prefab
+  uploadId: 657865

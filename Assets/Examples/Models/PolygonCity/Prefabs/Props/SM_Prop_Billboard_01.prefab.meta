@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cba063d2715f7a345b1c64609f0e864e
+timeCreated: 1499290736
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_Billboard_01.prefab
+  uploadId: 657865

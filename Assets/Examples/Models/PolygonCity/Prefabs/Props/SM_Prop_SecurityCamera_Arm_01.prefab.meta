@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 928a99e5a0200f24fb2084c90b0b88c4
+timeCreated: 1499391460
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_SecurityCamera_Arm_01.prefab
+  uploadId: 657865

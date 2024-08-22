@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: cf707266b7730b24e95d89c3a681b7eb
+timeCreated: 1579741860
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Bld_Apartment_Corner_03_Convex
+    2.asset
+  uploadId: 657865

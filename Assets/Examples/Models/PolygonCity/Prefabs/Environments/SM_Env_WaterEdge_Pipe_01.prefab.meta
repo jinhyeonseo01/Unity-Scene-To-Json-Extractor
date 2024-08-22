@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 31bea3e529df47e4eaa3fad5fda198b2
+timeCreated: 1499290747
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Environments/SM_Env_WaterEdge_Pipe_01.prefab
+  uploadId: 657865

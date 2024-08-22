@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2ecc0b496791eed43906204037035d18
+timeCreated: 1499290738
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_CardboardBox_04.prefab
+  uploadId: 657865

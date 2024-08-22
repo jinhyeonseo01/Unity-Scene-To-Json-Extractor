@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 03ade969ba0f5d842a49161d00145831
+timeCreated: 1499290743
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_ParkingMeter_01.prefab
+  uploadId: 657865

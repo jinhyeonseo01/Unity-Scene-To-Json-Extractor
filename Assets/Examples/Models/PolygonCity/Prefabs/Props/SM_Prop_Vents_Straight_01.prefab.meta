@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4fa42fc4cca532640a6592f05bb6414a
+timeCreated: 1499290740
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_Vents_Straight_01.prefab
+  uploadId: 657865

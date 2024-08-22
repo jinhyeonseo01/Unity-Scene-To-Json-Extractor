@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f92afb10a52ba044aaae610f085c3b0b
+timeCreated: 1579739062
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Prop_ShopInterior_Desk_02_Convex.asset
+  uploadId: 657865

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f91a7b3d9aa8ad64ab1d31bb2ae7608e
+timeCreated: 1499637576
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_Sign_Stop_01.prefab
+  uploadId: 657865

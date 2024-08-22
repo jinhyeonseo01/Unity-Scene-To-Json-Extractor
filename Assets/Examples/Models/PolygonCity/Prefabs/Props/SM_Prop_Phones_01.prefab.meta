@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 521c305b3d17bc149affb6c1f1016889
+timeCreated: 1499290758
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_Phones_01.prefab
+  uploadId: 657865

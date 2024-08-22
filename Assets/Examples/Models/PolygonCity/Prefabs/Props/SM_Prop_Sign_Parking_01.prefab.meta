@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 11a167f53a2c97047a282aec51d34096
+timeCreated: 1499290751
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_Sign_Parking_01.prefab
+  uploadId: 657865

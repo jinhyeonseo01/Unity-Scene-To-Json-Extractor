@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ea327a19ffc7db74385ac3d6e1899182
+timeCreated: 1499290742
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_Washingline_04.prefab
+  uploadId: 657865

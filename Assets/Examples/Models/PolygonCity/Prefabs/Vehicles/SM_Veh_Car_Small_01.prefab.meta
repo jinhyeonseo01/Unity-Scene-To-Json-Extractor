@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0383b854a926f1643b20f9c7cdb2e4de
+timeCreated: 1499396471
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Small_01.prefab
+  uploadId: 657865

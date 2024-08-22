@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: e400db9d7869c094495e4ed2c240220a
+timeCreated: 1579752598
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Prop_SidewalkPoles_01_Convex
+    1.asset
+  uploadId: 657865

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fe6f11fc019ec62418161c178bc03c9b
+timeCreated: 1499290757
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_LargeSign_Taco_01.prefab
+  uploadId: 657865

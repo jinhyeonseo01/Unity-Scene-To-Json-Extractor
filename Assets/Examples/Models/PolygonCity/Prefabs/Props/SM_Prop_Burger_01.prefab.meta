@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a4a36f473384c3c489b6458561ff07ac
+timeCreated: 1499290748
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_Burger_01.prefab
+  uploadId: 657865

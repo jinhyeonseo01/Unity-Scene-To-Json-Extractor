@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b86cca9e28f0fc84fa9e0cef843289c1
+timeCreated: 1579742568
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Bld_OfficeOld_Small_Base_01_Convex
+    1.asset
+  uploadId: 657865

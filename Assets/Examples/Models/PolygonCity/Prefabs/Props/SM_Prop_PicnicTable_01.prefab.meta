@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 41513fd395dbe4942ae6a147484bc996
+timeCreated: 1499650422
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_PicnicTable_01.prefab
+  uploadId: 657865

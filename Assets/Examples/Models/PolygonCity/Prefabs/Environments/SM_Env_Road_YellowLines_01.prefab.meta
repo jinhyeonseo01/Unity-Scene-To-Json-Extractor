@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7e547ff22275ff24389c0fcbaf1f0afc
+timeCreated: 1499291882
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Environments/SM_Env_Road_YellowLines_01.prefab
+  uploadId: 657865

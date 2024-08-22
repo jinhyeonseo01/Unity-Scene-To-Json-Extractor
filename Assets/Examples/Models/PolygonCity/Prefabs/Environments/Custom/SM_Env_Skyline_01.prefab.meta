@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c2c402e99a56ad749b560bee7cdc6b2a
+timeCreated: 1499638008
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Environments/Custom/SM_Env_Skyline_01.prefab
+  uploadId: 657865

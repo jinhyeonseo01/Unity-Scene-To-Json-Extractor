@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c838be5f7abd9c64db9643ebadf0c932
+timeCreated: 1499291882
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Environments/SM_Env_Road_Crossing_01.prefab
+  uploadId: 657865

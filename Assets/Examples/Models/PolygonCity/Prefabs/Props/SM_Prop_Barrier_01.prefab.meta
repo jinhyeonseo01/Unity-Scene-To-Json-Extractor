@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c149960d9485b394e8d52ae30578e3f3
+timeCreated: 1499290737
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_Barrier_01.prefab
+  uploadId: 657865

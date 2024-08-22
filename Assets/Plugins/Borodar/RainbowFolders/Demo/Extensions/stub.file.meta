@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 39d502a787099e3459529776e752babe
+timeCreated: 1449002763
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143526
+  packageName: Rainbow Folders 2
+  packageVersion: 2.4.1
+  assetPath: Assets/Plugins/Borodar/RainbowFolders/Demo/Extensions/stub.file
+  uploadId: 600109

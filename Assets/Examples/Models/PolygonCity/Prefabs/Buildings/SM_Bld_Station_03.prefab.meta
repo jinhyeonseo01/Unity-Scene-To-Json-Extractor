@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8a86432aa20034e49aa63a2c97cee0f2
+timeCreated: 1499290743
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Station_03.prefab
+  uploadId: 657865

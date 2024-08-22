@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ccc70d3ae8c17394f981d9af684e9312
+timeCreated: 1499290739
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_ShopInterior_Shelf_03.prefab
+  uploadId: 657865

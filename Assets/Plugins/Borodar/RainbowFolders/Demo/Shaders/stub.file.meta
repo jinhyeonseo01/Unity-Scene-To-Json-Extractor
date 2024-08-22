@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1fe6cc4482d84b8439a78b886b50aed7
+timeCreated: 1465731532
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 143526
+  packageName: Rainbow Folders 2
+  packageVersion: 2.4.1
+  assetPath: Assets/Plugins/Borodar/RainbowFolders/Demo/Shaders/stub.file
+  uploadId: 600109

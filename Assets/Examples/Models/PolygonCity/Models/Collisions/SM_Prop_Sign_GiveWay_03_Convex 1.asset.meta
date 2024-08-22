@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f98f0a02a34044745896a35d8904780c
+timeCreated: 1579739436
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Prop_Sign_GiveWay_03_Convex
+    1.asset
+  uploadId: 657865

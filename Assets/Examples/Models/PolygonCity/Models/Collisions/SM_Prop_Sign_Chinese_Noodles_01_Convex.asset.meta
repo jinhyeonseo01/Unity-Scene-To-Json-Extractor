@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c9b7be6917bc77349be5b6562d0a06a4
+timeCreated: 1579739050
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Prop_Sign_Chinese_Noodles_01_Convex.asset
+  uploadId: 657865

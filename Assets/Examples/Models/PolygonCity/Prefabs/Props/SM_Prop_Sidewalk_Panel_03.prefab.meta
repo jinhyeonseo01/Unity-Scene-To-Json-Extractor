@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c51e2e65db99b8d4185819e89654d5d1
+timeCreated: 1499290752
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_Sidewalk_Panel_03.prefab
+  uploadId: 657865

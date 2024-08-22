@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 008c6febfb8d88a4496fe51f2a2d409a
+timeCreated: 1499290745
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_Trashbin_01.prefab
+  uploadId: 657865

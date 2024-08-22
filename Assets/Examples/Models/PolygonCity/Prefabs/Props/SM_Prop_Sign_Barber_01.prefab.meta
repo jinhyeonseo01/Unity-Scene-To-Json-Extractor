@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6f13e404c814e8d4aa20a5f3d4469109
+timeCreated: 1499290739
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_Sign_Barber_01.prefab
+  uploadId: 657865

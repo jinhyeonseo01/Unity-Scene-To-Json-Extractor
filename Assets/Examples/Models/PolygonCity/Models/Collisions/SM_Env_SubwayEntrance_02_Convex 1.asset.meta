@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: fde106306e5531143bd6acff06cb3614
+timeCreated: 1579737622
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Env_SubwayEntrance_02_Convex
+    1.asset
+  uploadId: 657865

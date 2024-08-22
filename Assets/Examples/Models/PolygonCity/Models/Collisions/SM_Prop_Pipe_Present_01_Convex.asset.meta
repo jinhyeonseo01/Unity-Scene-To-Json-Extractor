@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9f766a4a6df06cf4aba19efebcdf57c7
+timeCreated: 1579739076
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Prop_Pipe_Present_01_Convex.asset
+  uploadId: 657865

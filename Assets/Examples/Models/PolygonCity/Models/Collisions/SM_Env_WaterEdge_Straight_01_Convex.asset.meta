@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4c8e325a51c54fa4eb86a4eed36c02b1
+timeCreated: 1579737570
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Env_WaterEdge_Straight_01_Convex.asset
+  uploadId: 657865

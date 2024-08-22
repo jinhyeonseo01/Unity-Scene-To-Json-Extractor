@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 91ccf0d6e58213544b5f911bb77f24c0
+timeCreated: 1499290748
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Environments/SM_Env_WaterEdge_Straight_01.prefab
+  uploadId: 657865

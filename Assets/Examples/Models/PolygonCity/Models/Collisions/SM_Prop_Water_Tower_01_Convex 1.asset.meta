@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d49906f1cd194f54ba59e4e710513a77
+timeCreated: 1579742686
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Prop_Water_Tower_01_Convex 1.asset
+  uploadId: 657865

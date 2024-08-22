@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 35d21aaf608eba24285e42aad64a70a8
+timeCreated: 1499291881
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Environments/SM_Env_Sidewalk_Grate_01.prefab
+  uploadId: 657865

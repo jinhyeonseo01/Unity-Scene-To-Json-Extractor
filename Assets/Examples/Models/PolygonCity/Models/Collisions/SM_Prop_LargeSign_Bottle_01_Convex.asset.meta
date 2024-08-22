@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 673a431d239ec5f4981bfcc8ff5bb7e8
+timeCreated: 1579739100
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Prop_LargeSign_Bottle_01_Convex.asset
+  uploadId: 657865

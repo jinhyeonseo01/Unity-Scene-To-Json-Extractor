@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5e3dc10a50a37434c9c2c84315d7df53
+timeCreated: 1499290742
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_Sign_Attachment_01.prefab
+  uploadId: 657865

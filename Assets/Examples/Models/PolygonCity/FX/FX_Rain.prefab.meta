@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 004c0bf81fbf1a342af7262f965b564f
+timeCreated: 1496978236
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/FX/FX_Rain.prefab
+  uploadId: 657865

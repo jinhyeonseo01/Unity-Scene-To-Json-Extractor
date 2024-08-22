@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7060787e086bcea4d9b099d024413d10
+timeCreated: 1579737664
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Env_Bridge_Wall_01_Convex 1.asset
+  uploadId: 657865

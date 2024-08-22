@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b85f6a9c93e0f094588465b33b451a06
+timeCreated: 1579748639
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Env_Sidewalk_Panel_02_Convex.asset
+  uploadId: 657865

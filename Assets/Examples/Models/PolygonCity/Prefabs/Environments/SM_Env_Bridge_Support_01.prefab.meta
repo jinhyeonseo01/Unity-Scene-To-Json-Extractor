@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f2ca19289c480c447ba0542e93b13da1
+timeCreated: 1499290737
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Environments/SM_Env_Bridge_Support_01.prefab
+  uploadId: 657865

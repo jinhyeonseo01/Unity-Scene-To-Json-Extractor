@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e97c4383dd13fb54fb98ecc4e4be2ec3
+timeCreated: 1499290749
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Roof_Access_01.prefab
+  uploadId: 657865

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4290c366a38253b4f87a53b8a3654483
+timeCreated: 1499290737
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeOld_Small_Floor_01.prefab
+  uploadId: 657865

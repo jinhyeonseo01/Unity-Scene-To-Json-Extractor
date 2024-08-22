@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a2507b8e2681bcc44ad4183e48f4589c
+timeCreated: 1499290742
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_OfficeRound_Roof_01.prefab
+  uploadId: 657865

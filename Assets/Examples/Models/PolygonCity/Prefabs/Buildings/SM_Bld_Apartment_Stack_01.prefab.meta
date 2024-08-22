@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c498c5a0f7820b142b3b929366f2cf35
+timeCreated: 1499290742
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Buildings/SM_Bld_Apartment_Stack_01.prefab
+  uploadId: 657865

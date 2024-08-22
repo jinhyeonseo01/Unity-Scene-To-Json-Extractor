@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f1754e7bc1938a64a987b1f5fa38743a
+timeCreated: 1499290757
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Prefabs/Props/SM_Prop_Sign_Warning_01.prefab
+  uploadId: 657865

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 48a45c6fc26afb044aa8c203da5ca6a1
+timeCreated: 1579737662
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95214
+  packageName: POLYGON City - Low Poly 3D Art by Synty
+  packageVersion: 1.11.0
+  assetPath: Assets/PolygonCity/Models/Collisions/SM_Env_Fence_End_01_Convex 1.asset
+  uploadId: 657865
