@@ -81,6 +81,33 @@ public class BaseBakeComponent
             property = skinnedMeshRendererProperty;
         }
 
+        if (component.GetType().Name == "BoxCollider")
+        {
+            var boxCollider = new BoxColliderProperty();
+
+            property = boxCollider;
+        }
+        if (component.GetType().Name == "SphereCollider")
+        {
+            var sphereCollider = new CapualeColliderProperty();
+
+            property = sphereCollider;
+        }
+
+        if (component.GetType().Name == "CapsuleCollider")
+        {
+            var capsuleCollider = new CapsuleColliderProperty();
+
+            property = capsuleCollider;
+        }
+
+        if (component.GetType().Name == "MeshCollider")
+        {
+            var meshCollider = new MeshColliderProperty();
+
+            property = meshCollider;
+        }
+
         //Debug.Log(component.GetType().Name);
 
         if (property != null)
@@ -262,11 +289,78 @@ public class ColliderProperty : BaseBakeComponent
     {
         JObject json = base.BakeComponent();
         var obj = (Collider)target;
-        json.Add("colliderType", "box");
         json.Add("aabbCenter", BakeExtensions.ToJson(obj.bounds.center));
         json.Add("aabbExtent", BakeExtensions.ToJson(obj.bounds.extents));
 
-        json.Add("aabbExtent", BakeExtensions.ToJson(obj));
+        json.Add("isTrigger", obj.isTrigger);
+
+        return json;
+    }
+}
+
+[Serializable]
+public class BoxColliderProperty : ColliderProperty
+{
+
+    public override JObject BakeComponent()
+    {
+        JObject json = base.BakeComponent();
+        var obj = (BoxCollider)target;
+        json.Add("colliderType", "box");
+        json.Add("center", BakeExtensions.ToJson(obj.center));
+        json.Add("size", BakeExtensions.ToJson(obj.size)); 
+
+        return json;
+    }
+}
+
+[Serializable]
+public class CapualeColliderProperty : ColliderProperty
+{
+
+    public override JObject BakeComponent()
+    {
+        JObject json = base.BakeComponent();
+        var obj = (SphereCollider)target;
+        //json\
+        json.Add("colliderType", "sphere");
+        json.Add("center", BakeExtensions.ToJson(obj.center));
+        json.Add("radius", obj.radius);
+
+        return json;
+    }
+}
+[Serializable]
+public class CapsuleColliderProperty : ColliderProperty
+{
+
+    public override JObject BakeComponent()
+    {
+        JObject json = base.BakeComponent();
+        var obj = (CapsuleCollider)target;
+        //json\
+        json.Add("colliderType", "capsule");
+        json.Add("center", BakeExtensions.ToJson(obj.center));
+        json.Add("radius", obj.radius);
+        json.Add("height", obj.height);
+
+        return json;
+    }
+}
+
+
+[Serializable]
+public class MeshColliderProperty : ColliderProperty
+{
+
+    public override JObject BakeComponent()
+    {
+        JObject json = base.BakeComponent();
+        var obj = (MeshCollider)target;
+        //json
+        json.Add("colliderType", "mesh");
+        json.Add("convex", obj.convex);
+        json.Add("mesh", BakeExtensions.ToJson(obj.sharedMesh));
 
         return json;
     }
@@ -277,5 +371,6 @@ public enum ColliderType
 {
     box,
     sphere,
-    capsule
+    capsule,
+    mesh
 }
