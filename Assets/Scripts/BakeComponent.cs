@@ -132,7 +132,7 @@ public class TransformProperty : BaseBakeComponent
         var trans = (Transform)target;
 
         json["position"] = BakeExtensions.ToJson(trans.localPosition);
-        json["rotation"] = BakeExtensions.ToJson(trans.localEulerAngles);
+        json["rotation"] = BakeExtensions.ToJson(trans.localRotation);
         json["scale"] = BakeExtensions.ToJson(trans.localScale);
 
         return json;
@@ -150,7 +150,7 @@ public class UITransformProperty : BaseBakeComponent
 
 
         json["position"] = BakeExtensions.ToJson(trans.localPosition);
-        json["rotation"] = BakeExtensions.ToJson(trans.localEulerAngles);
+        json["rotation"] = BakeExtensions.ToJson(trans.localRotation);
         json["scale"] = BakeExtensions.ToJson(trans.localScale);
         json["pivot"] = BakeExtensions.ToJson(trans.pivot);
         json["anchorMax"] = BakeExtensions.ToJson(trans.anchorMax);

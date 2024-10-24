@@ -19,6 +19,16 @@ public class BakeExtensions
                 array.Add(value[i]);
             return array;
         }
+        if (obj is Quaternion)
+        {
+            var value = (Quaternion)obj;
+            JArray array = new JArray();
+            array.Add(value.x);
+            array.Add(value.y);
+            array.Add(value.z);
+            array.Add(value.w);
+            return array;
+        }
         if (obj is Vector4)
         {
             var value = (Vector4)obj;
