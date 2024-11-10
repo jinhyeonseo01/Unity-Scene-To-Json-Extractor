@@ -178,7 +178,7 @@ public class MeshRendererProperty : BaseBakeComponent
         var obj = (MeshRenderer)target;
         var materialList = obj.sharedMaterials.ToList();
         var materials = new JArray();
-
+        json.Add("mesh", BakeExtensions.ToJson(obj.gameObject.GetComponent<MeshFilter>().sharedMesh));
         json.Add("shadowCast", obj.shadowCastingMode.ToString());
 
         json.Add("materials", materials);

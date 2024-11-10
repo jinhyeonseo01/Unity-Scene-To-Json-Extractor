@@ -132,6 +132,7 @@ public class BakeExtensions
                     data["name"] = value;
 
                     var path = AssetDatabase.GetAssetPath(material.GetTexture(value)).Trim();
+                    path = path.Replace("Assets/", BakeUnity.definePath_Resources);
                     var fileName = path.Split("/").Last();
                     var name = string.Join(".", fileName.Split(".")[0..^1]);
 
@@ -202,11 +203,12 @@ public class BakeExtensions
                                 if (!BakeUnity.nameToPathTable.ContainsKey(mesh.name))
                                     BakeUnity.nameToPathTable[mesh.name] = mesh.name + ".fbx";
 
-                                path = BakeUnity.definePath_Resources + BakeUnity.nameToPathTable[mesh.name];
+                                path = BakeUnity.definePath_Resources + "Models/" + BakeUnity.nameToPathTable[mesh.name];
                                 break;
                             }
                         default:
                             {
+                                path = path.Replace("Assets/", BakeUnity.definePath_Resources);
                                 break;
                             }
                     }

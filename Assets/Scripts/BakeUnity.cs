@@ -18,6 +18,7 @@ using System.IO;
 [InitializeOnLoad]
 public class BakeUnity : MonoBehaviour
 {
+    [OdinSerialize]
     public static string definePath_Resources = "Assets/";
     public static Dictionary<string, string> nameToPathTable = new Dictionary<string, string>(4092);
     public static Dictionary<int, string> hashToGuidTable = new Dictionary<int, string>(4092);
@@ -31,8 +32,9 @@ public class BakeUnity : MonoBehaviour
 
     [NonSerialized, HideInInspector]
     protected static string finalJson;
-
+    [OdinSerialize]
     public static string exportPath = "./Assets/Exports/";
+
 
     [Button]
     public static void Baking()
