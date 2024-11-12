@@ -36,7 +36,6 @@ public class BakeUnity : MonoBehaviour
     [OdinSerialize]
     public static string exportPath = "./Assets/Exports/";
 
-
     [Button]
     public static void Baking()
     {
