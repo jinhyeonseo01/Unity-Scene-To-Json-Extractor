@@ -10,7 +10,6 @@ public class FBXUnitAdjuster : EditorWindow
 {
     // 기본 설정
     private string folderPath = "Assets/Models"; // FBX 파일이 위치한 기본 폴더
-    private float originalUnitScale = 0.01f; // 원본 단위 스케일 (예: 1 단위 = 1cm)
 
     [MenuItem("Tools/FBX Unit Adjuster")]
     public static void ShowWindow()
@@ -18,22 +17,38 @@ public class FBXUnitAdjuster : EditorWindow
         GetWindow<FBXUnitAdjuster>("FBX Unit Adjuster");
     }
 
+    private string ConvertToRelativePath(string absolutePath)
+    {
+        if (absolutePath.StartsWith(Application.dataPath))
+        {
+            return "Assets" + absolutePath.Substring(Application.dataPath.Length);
+        }
+        else
+        {
+            Debug.LogWarning("선택된 경로가 프로젝트 폴더 내에 없습니다.");
+            return "";
+        }
+    }
+
     private void OnGUI()
     {
         GUILayout.Label("FBX Unit Adjuster", EditorStyles.boldLabel);
         GUILayout.Space(10);
 
-        // 폴더 경로 입력
+
         EditorGUILayout.BeginHorizontal();
-        GUILayout.Label("Folder Path:", GUILayout.Width(80));
-        folderPath = EditorGUILayout.TextField(folderPath);
+        folderPath = EditorGUILayout.TextField("파일 경로", folderPath);
+
+        if (GUILayout.Button("찾아보기", GUILayout.Width(70)))
+        {
+            string selectedPath = EditorUtility.OpenFolderPanel("파일 선택", "", "");
+            if (!string.IsNullOrEmpty(selectedPath))
+            {
+                folderPath = ConvertToRelativePath(selectedPath);
+            }
+        }
         EditorGUILayout.EndHorizontal();
 
-        // 원본 단위 스케일 입력
-        EditorGUILayout.BeginHorizontal();
-        GUILayout.Label("Original Unit Scale:", GUILayout.Width(120));
-        originalUnitScale = EditorGUILayout.FloatField(originalUnitScale);
-        EditorGUILayout.EndHorizontal();
 
         GUILayout.Space(20);
 
@@ -67,7 +82,6 @@ public class FBXUnitAdjuster : EditorWindow
 
         // 원본 단위를 1로 변경하기 위한 스케일 팩터 계산
         float targetUnitScale = 1.0f; // 목표 단위 스케일 (1 단위 = 1m)
-        float scaleFactor = targetUnitScale / originalUnitScale;
 
         // 처리된 파일 목록 저장 (성공 및 실패)
         List<string> successFiles = new List<string>();
