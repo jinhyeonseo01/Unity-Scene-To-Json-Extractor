@@ -13,6 +13,7 @@ using Sirenix.OdinInspector;
 using Sirenix.Serialization;
 using UnityEditor;
 using System.IO;
+using UnityEditor.SearchService;
 
 
 [InitializeOnLoad]
@@ -71,15 +72,15 @@ public class BakeUnity : MonoBehaviour
 
         Debug.Log($"total Json Line : {finalJson.Count((e) => e == '\n')}");
 
-        Save(finalJson);
+        UnityEngine.SceneManagement.Scene scene = SceneManager.GetActiveScene();
+        Save(finalJson, scene.name);
     }
 
     [Button]
-    private static void Save(string data)
+    private static void Save(string data, string name)
     {
-        Scene scene = SceneManager.GetActiveScene();
-        var sceneName = scene.name;
-        Debug.Log($"Baking Scene : {sceneName}");
+        var sceneName = name;
+        Debug.Log($"Baking Name : {sceneName}");
 
         string dirPath = Path.GetDirectoryName(exportPath);
         string filePath = $"{dirPath}/{sceneName}.json";
@@ -94,12 +95,44 @@ public class BakeUnity : MonoBehaviour
         Console.WriteLine("파일에 저장되었습니다.");
     }
 
-    public static List<GameObject> selectGameObject;
     [Button]
     public static void SelectBaking()
     {
-        selectGameObject ??= new List<GameObject>();
+        refList_GameObject = Selection.gameObjects.ToList().Where(e => !e.name.Contains("#")).ToList();
 
+        if (refList_GameObject.Count == 0)
+            return;
+
+        InitBake();
+        JObject totalJson;
+        InitJson(out totalJson);
+
+        foreach (var gameObject in refList_GameObject)
+            PrevProcessingGameObject(gameObject);
+        foreach (var component in refList_Component)
+            PrevProcessingComponent(component);
+        foreach (var material in refList_Material)
+            PrevProcessingMaterial(material);
+
+        Debug.Log($"total GameObject : {refList_GameObject.Count}");
+        Debug.Log($"total Component : {refList_Component.Count}");
+        Debug.Log($"total Material : {refList_Material.Count}");
+
+        foreach (var gameObject in refList_GameObject)
+            BakeGameObject(totalJson, gameObject);
+        foreach (var component in refList_Component)
+            BakeComponent(totalJson, component);
+        foreach (var material in refList_Material)
+            BakeMaterial(totalJson, material);
+        foreach (var obj in refList_GameObject)
+            BakeObject(totalJson, obj);
+
+        finalJson = totalJson.ToSafeString();
+
+        Debug.Log($"total Json Line : {finalJson.Count((e) => e == '\n')}");
+
+        UnityEngine.SceneManagement.Scene scene = SceneManager.GetActiveScene();
+        Save(finalJson, scene.name + $"_{Selection.gameObjects[0].name} and {Selection.gameObjects.Length}");
     }
     public static void InitBake()
     {
