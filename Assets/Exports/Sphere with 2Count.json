@@ -1,0 +1,1313 @@
+{
+  "references": {
+    "GameObjects": [
+      {
+        "name": "Sphere",
+        "guid": "991c5db7-6dbe-46f6-93b2-9592d847204e",
+        "components": [
+          "bb211292-fdc4-444b-bc22-4801ec203712",
+          "3808a3fb-497e-43d0-a92c-b61ae6cf8333",
+          "75f98347-cfae-42b2-8bfc-423a6c38d573",
+          "4bdf6f44-6cf9-48de-ac7f-94c8451c380a"
+        ],
+        "childs": [],
+        "parent": ""
+      },
+      {
+        "name": "Capsule",
+        "guid": "8d4059ff-2c5d-4cf8-ac31-857bdf4263d0",
+        "components": [
+          "7a58be23-fa83-49ca-9805-b43bc72aa93c",
+          "67887c32-1655-4f48-af5f-fb629d777582",
+          "e5fb413a-ad1d-4398-978b-e202650db5e9",
+          "7f64b567-0bd5-42b2-9169-422017c7a8d5"
+        ],
+        "childs": [],
+        "parent": ""
+      }
+    ],
+    "Materials": [
+      {
+        "name": "Lit",
+        "guid": "285bdcca-2cb3-4085-a319-18900845fa79",
+        "renderOrder": 2000,
+        "culling": "back",
+        "datas": {
+          "textures": [],
+          "floats": [
+            {
+              "name": "_SrcBlend",
+              "data": 1.0
+            },
+            {
+              "name": "_DstBlend",
+              "data": 0.0
+            },
+            {
+              "name": "_Cutoff",
+              "data": 0.5
+            },
+            {
+              "name": "_ZWrite",
+              "data": 1.0
+            },
+            {
+              "name": "_Glossiness",
+              "data": 0.5
+            },
+            {
+              "name": "_GlossMapScale",
+              "data": 1.0
+            },
+            {
+              "name": "_SmoothnessTextureChannel",
+              "data": 0.0
+            },
+            {
+              "name": "_Metallic",
+              "data": 0.0
+            },
+            {
+              "name": "_SpecularHighlights",
+              "data": 1.0
+            },
+            {
+              "name": "_GlossyReflections",
+              "data": 1.0
+            },
+            {
+              "name": "_BumpScale",
+              "data": 1.0
+            },
+            {
+              "name": "_Parallax",
+              "data": 0.02
+            },
+            {
+              "name": "_OcclusionStrength",
+              "data": 1.0
+            },
+            {
+              "name": "_DetailNormalMapScale",
+              "data": 1.0
+            },
+            {
+              "name": "_Cull",
+              "data": 2.0
+            },
+            {
+              "name": "_SrcBlendAlpha",
+              "data": 1.0
+            },
+            {
+              "name": "_DstBlendAlpha",
+              "data": 0.0
+            },
+            {
+              "name": "_AlphaToMask",
+              "data": 0.0
+            },
+            {
+              "name": "_WorkflowMode",
+              "data": 1.0
+            },
+            {
+              "name": "_Smoothness",
+              "data": 0.5
+            },
+            {
+              "name": "_EnvironmentReflections",
+              "data": 1.0
+            },
+            {
+              "name": "_DetailAlbedoMapScale",
+              "data": 1.0
+            },
+            {
+              "name": "_ClearCoatMask",
+              "data": 0.0
+            },
+            {
+              "name": "_ClearCoatSmoothness",
+              "data": 0.0
+            },
+            {
+              "name": "_Surface",
+              "data": 0.0
+            },
+            {
+              "name": "_Blend",
+              "data": 0.0
+            },
+            {
+              "name": "_AlphaClip",
+              "data": 0.0
+            },
+            {
+              "name": "_BlendModePreserveSpecular",
+              "data": 1.0
+            },
+            {
+              "name": "_AddPrecomputedVelocity",
+              "data": 0.0
+            },
+            {
+              "name": "_ReceiveShadows",
+              "data": 1.0
+            },
+            {
+              "name": "_QueueOffset",
+              "data": 0.0
+            }
+          ],
+          "ints": [],
+          "vectors": [
+            {
+              "name": "_MainTex_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_MainTex_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_MainTex_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_EmissionColor",
+              "data": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_Color",
+              "data": [
+                0.5,
+                0.5,
+                0.5,
+                1.0
+              ]
+            },
+            {
+              "name": "_MetallicGlossMap_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_MetallicGlossMap_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_MetallicGlossMap_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_BumpMap_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_BumpMap_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_BumpMap_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_ParallaxMap_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_ParallaxMap_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_ParallaxMap_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_OcclusionMap_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_OcclusionMap_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_OcclusionMap_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_EmissionMap_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_EmissionMap_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_EmissionMap_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_DetailMask_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_DetailMask_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_DetailMask_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_DetailAlbedoMap_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_DetailAlbedoMap_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_DetailAlbedoMap_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_DetailNormalMap_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_DetailNormalMap_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_DetailNormalMap_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_SpecColor",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_BaseMap_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_BaseMap_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_BaseMap_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_BaseColor",
+              "data": [
+                0.5,
+                0.5,
+                0.5,
+                1.0
+              ]
+            },
+            {
+              "name": "_SpecGlossMap_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_SpecGlossMap_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_SpecGlossMap_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "unity_Lightmaps_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "unity_Lightmaps_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "unity_Lightmaps_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "unity_LightmapsInd_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "unity_LightmapsInd_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "unity_LightmapsInd_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "unity_ShadowMasks_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "unity_ShadowMasks_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "unity_ShadowMasks_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            }
+          ],
+          "matrixs": []
+        }
+      },
+      {
+        "name": "Lit",
+        "guid": "285bdcca-2cb3-4085-a319-18900845fa79",
+        "renderOrder": 2000,
+        "culling": "back",
+        "datas": {
+          "textures": [],
+          "floats": [
+            {
+              "name": "_SrcBlend",
+              "data": 1.0
+            },
+            {
+              "name": "_DstBlend",
+              "data": 0.0
+            },
+            {
+              "name": "_Cutoff",
+              "data": 0.5
+            },
+            {
+              "name": "_ZWrite",
+              "data": 1.0
+            },
+            {
+              "name": "_Glossiness",
+              "data": 0.5
+            },
+            {
+              "name": "_GlossMapScale",
+              "data": 1.0
+            },
+            {
+              "name": "_SmoothnessTextureChannel",
+              "data": 0.0
+            },
+            {
+              "name": "_Metallic",
+              "data": 0.0
+            },
+            {
+              "name": "_SpecularHighlights",
+              "data": 1.0
+            },
+            {
+              "name": "_GlossyReflections",
+              "data": 1.0
+            },
+            {
+              "name": "_BumpScale",
+              "data": 1.0
+            },
+            {
+              "name": "_Parallax",
+              "data": 0.02
+            },
+            {
+              "name": "_OcclusionStrength",
+              "data": 1.0
+            },
+            {
+              "name": "_DetailNormalMapScale",
+              "data": 1.0
+            },
+            {
+              "name": "_Cull",
+              "data": 2.0
+            },
+            {
+              "name": "_SrcBlendAlpha",
+              "data": 1.0
+            },
+            {
+              "name": "_DstBlendAlpha",
+              "data": 0.0
+            },
+            {
+              "name": "_AlphaToMask",
+              "data": 0.0
+            },
+            {
+              "name": "_WorkflowMode",
+              "data": 1.0
+            },
+            {
+              "name": "_Smoothness",
+              "data": 0.5
+            },
+            {
+              "name": "_EnvironmentReflections",
+              "data": 1.0
+            },
+            {
+              "name": "_DetailAlbedoMapScale",
+              "data": 1.0
+            },
+            {
+              "name": "_ClearCoatMask",
+              "data": 0.0
+            },
+            {
+              "name": "_ClearCoatSmoothness",
+              "data": 0.0
+            },
+            {
+              "name": "_Surface",
+              "data": 0.0
+            },
+            {
+              "name": "_Blend",
+              "data": 0.0
+            },
+            {
+              "name": "_AlphaClip",
+              "data": 0.0
+            },
+            {
+              "name": "_BlendModePreserveSpecular",
+              "data": 1.0
+            },
+            {
+              "name": "_AddPrecomputedVelocity",
+              "data": 0.0
+            },
+            {
+              "name": "_ReceiveShadows",
+              "data": 1.0
+            },
+            {
+              "name": "_QueueOffset",
+              "data": 0.0
+            }
+          ],
+          "ints": [],
+          "vectors": [
+            {
+              "name": "_MainTex_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_MainTex_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_MainTex_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_EmissionColor",
+              "data": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_Color",
+              "data": [
+                0.5,
+                0.5,
+                0.5,
+                1.0
+              ]
+            },
+            {
+              "name": "_MetallicGlossMap_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_MetallicGlossMap_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_MetallicGlossMap_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_BumpMap_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_BumpMap_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_BumpMap_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_ParallaxMap_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_ParallaxMap_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_ParallaxMap_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_OcclusionMap_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_OcclusionMap_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_OcclusionMap_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_EmissionMap_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_EmissionMap_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_EmissionMap_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_DetailMask_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_DetailMask_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_DetailMask_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_DetailAlbedoMap_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_DetailAlbedoMap_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_DetailAlbedoMap_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_DetailNormalMap_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_DetailNormalMap_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_DetailNormalMap_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_SpecColor",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_BaseMap_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_BaseMap_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_BaseMap_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_BaseColor",
+              "data": [
+                0.5,
+                0.5,
+                0.5,
+                1.0
+              ]
+            },
+            {
+              "name": "_SpecGlossMap_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "_SpecGlossMap_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "_SpecGlossMap_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "unity_Lightmaps_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "unity_Lightmaps_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "unity_Lightmaps_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "unity_LightmapsInd_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "unity_LightmapsInd_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "unity_LightmapsInd_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "unity_ShadowMasks_ST",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "name": "unity_ShadowMasks_TexelSize",
+              "data": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "name": "unity_ShadowMasks_HDR",
+              "data": [
+                1.0,
+                1.0,
+                0.0,
+                0.0
+              ]
+            }
+          ],
+          "matrixs": []
+        }
+      }
+    ],
+    "Components": [
+      {
+        "type": "Transform",
+        "guid": "bb211292-fdc4-444b-bc22-4801ec203712",
+        "position": [
+          1.26,
+          0.424,
+          -1.67
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "type": "MeshFilter",
+        "guid": "3808a3fb-497e-43d0-a92c-b61ae6cf8333",
+        "mesh": {
+          "path": "Assets/Models/Sphere.fbx",
+          "fileName": "Sphere.fbx",
+          "modelName": "Sphere",
+          "meshName": "Sphere",
+          "boundCenter": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "boundExtent": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        }
+      },
+      {
+        "type": "MeshRenderer",
+        "guid": "75f98347-cfae-42b2-8bfc-423a6c38d573",
+        "mesh": {
+          "path": "Assets/Models/Sphere.fbx",
+          "fileName": "Sphere.fbx",
+          "modelName": "Sphere",
+          "meshName": "Sphere",
+          "boundCenter": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "boundExtent": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        "shadowCast": "On",
+        "materials": [
+          "285bdcca-2cb3-4085-a319-18900845fa79"
+        ]
+      },
+      {
+        "type": "SphereCollider",
+        "guid": "4bdf6f44-6cf9-48de-ac7f-94c8451c380a",
+        "aabbCenter": [
+          1.26,
+          0.424000025,
+          -1.67000008
+        ],
+        "aabbExtent": [
+          0.5,
+          0.5,
+          0.50000006
+        ],
+        "isTrigger": false,
+        "colliderType": "sphere",
+        "center": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radius": 0.5
+      },
+      {
+        "type": "Transform",
+        "guid": "7a58be23-fa83-49ca-9805-b43bc72aa93c",
+        "position": [
+          0.295,
+          1.30583835,
+          0.224
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "type": "MeshFilter",
+        "guid": "67887c32-1655-4f48-af5f-fb629d777582",
+        "mesh": {
+          "path": "Assets/Models/Capsule.fbx",
+          "fileName": "Capsule.fbx",
+          "modelName": "Capsule",
+          "meshName": "Capsule",
+          "boundCenter": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "boundExtent": [
+            0.5,
+            1.0,
+            0.5
+          ]
+        }
+      },
+      {
+        "type": "MeshRenderer",
+        "guid": "e5fb413a-ad1d-4398-978b-e202650db5e9",
+        "mesh": {
+          "path": "Assets/Models/Capsule.fbx",
+          "fileName": "Capsule.fbx",
+          "modelName": "Capsule",
+          "meshName": "Capsule",
+          "boundCenter": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "boundExtent": [
+            0.5,
+            1.0,
+            0.5
+          ]
+        },
+        "shadowCast": "On",
+        "materials": [
+          "285bdcca-2cb3-4085-a319-18900845fa79"
+        ]
+      },
+      {
+        "type": "CapsuleCollider",
+        "guid": "7f64b567-0bd5-42b2-9169-422017c7a8d5",
+        "aabbCenter": [
+          0.295000017,
+          1.30583835,
+          0.223999992
+        ],
+        "aabbExtent": [
+          0.50000006,
+          1.0,
+          0.5
+        ],
+        "isTrigger": false,
+        "colliderType": "capsule",
+        "center": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "radius": 0.5,
+        "height": 2.0
+      }
+    ]
+  }
+}

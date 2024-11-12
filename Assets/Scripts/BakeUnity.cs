@@ -98,14 +98,14 @@ public class BakeUnity : MonoBehaviour
     [Button]
     public static void SelectBaking()
     {
+        InitBake();
+        JObject totalJson;
+        InitJson(out totalJson);
+
         refList_GameObject = Selection.gameObjects.ToList().Where(e => !e.name.Contains("#")).ToList();
 
         if (refList_GameObject.Count == 0)
             return;
-
-        InitBake();
-        JObject totalJson;
-        InitJson(out totalJson);
 
         foreach (var gameObject in refList_GameObject)
             PrevProcessingGameObject(gameObject);
@@ -131,8 +131,8 @@ public class BakeUnity : MonoBehaviour
 
         Debug.Log($"total Json Line : {finalJson.Count((e) => e == '\n')}");
 
-        UnityEngine.SceneManagement.Scene scene = SceneManager.GetActiveScene();
-        Save(finalJson, scene.name + $"_{Selection.gameObjects[0].name} and {Selection.gameObjects.Length}");
+        //UnityEngine.SceneManagement.Scene scene = SceneManager.GetActiveScene();
+        Save(finalJson, $"{Selection.gameObjects[0].name} with {Selection.gameObjects.Length}Count");
     }
     public static void InitBake()
     {
