@@ -82,7 +82,7 @@ public class BakeUnity : MonoBehaviour
         var sceneName = name;
         Debug.Log($"Baking Name : {sceneName}");
 
-        string dirPath = Path.GetDirectoryName(exportPath);
+        string dirPath = exportPath;// Path.GetDirectoryName(exportPath);
         string filePath = $"{dirPath}/{sceneName}.json";
         // StreamWriter를 사용하여 문자열을 파일에 저장
         if (!Directory.Exists(dirPath))
