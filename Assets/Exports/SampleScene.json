@@ -2,3426 +2,234 @@
   "references": {
     "GameObjects": [
       {
-        "name": "Cube (1)",
-        "guid": "f2f9f500-9968-4048-8007-a44392e82ba0",
+        "name": "w",
+        "guid": "20b1b237-4d93-4cf4-8f9c-b9d1220fbf28",
         "components": [
-          "fe1995e4-e9ac-482d-962e-04eb71fd1cae",
-          "dcdf41c6-ec03-4381-a864-fff4294cf112",
-          "07c49607-40f4-48ea-949a-dd7f3065ef5c",
-          "476521e2-bb3a-420b-9ffe-32805a8a128d"
-        ],
-        "childs": [],
-        "parent": ""
-      },
-      {
-        "name": "Quad",
-        "guid": "9a3b232d-a77c-4020-be51-7da71adf6877",
-        "components": [
-          "b975b97a-467c-471e-b248-e7b67b7ff50b",
-          "d7503681-4be5-4261-8aaa-cd4205556b6e",
-          "5d0a0f41-b108-43c9-be99-536f8ec3029d",
-          "5d37ebf6-d512-4524-80b0-d40f540950fb"
-        ],
-        "childs": [],
-        "parent": ""
-      },
-      {
-        "name": "Sphere",
-        "guid": "11d27fca-6d90-42cc-9654-071827a45c8e",
-        "components": [
-          "b512e2cc-db2c-477a-a6f1-fa4de7962994",
-          "b282bdd6-75b1-4305-9a8d-d95d2afafdb3",
-          "c9f57477-946f-45e6-a785-5776332607ba",
-          "2571eade-12eb-45ba-b921-02e84c5e9e6e"
+          "41d2ec5b-0d7a-40db-8510-1e37183a8c16",
+          "008f472b-0c90-4cab-8479-eb7749576b50",
+          "23bc50b7-c1b2-49c6-b510-0b17680ebf6c",
+          "1d98f0b0-e981-47c1-82db-79c63bd16d0a"
         ],
         "childs": [],
         "parent": ""
       },
       {
         "name": "Directional Light",
-        "guid": "3e9aabbf-6716-403d-b023-e315c984259e",
+        "guid": "82d0abd9-f3af-445a-96d8-42b9fffbc298",
         "components": [
-          "7272d0b9-9d3a-4370-a358-93105c6db904",
-          "4e83366e-2b33-4d3e-bee2-c5a44b874a18"
-        ],
-        "childs": [],
-        "parent": ""
-      },
-      {
-        "name": "Capsule",
-        "guid": "3a90d871-7371-4207-b6c7-b02d58da10d5",
-        "components": [
-          "2eaa1425-45a7-44b1-bb47-e9f1ee0c59f1",
-          "8ff7ea1b-aba8-4b81-a303-0b87401f2d8e",
-          "af0a577c-78e8-49da-9135-ff1c92ab4019",
-          "1c97ce6c-4f6d-4c3e-ba18-a920b6e53719"
+          "8dbeab2c-854f-4536-a63f-001a7ed5d84b",
+          "00e52120-de9c-47ec-87d1-13b67f24b81c"
         ],
         "childs": [],
         "parent": ""
       },
       {
         "name": "Main Camera",
-        "guid": "7de50742-19ba-4a9a-bec5-3e01580bfb2c",
+        "guid": "3047f87f-594e-461e-9e12-b7474fc8ffed",
         "components": [
-          "f3e6ca16-3e53-47b9-8822-0458a5b9155d",
-          "ce66c5ef-c835-43b6-aac0-65d5d003b259"
+          "847bfe32-10a6-42e5-9456-d5ea5443830b",
+          "0b29c648-a889-4afd-bdac-802b6cdbef96"
+        ],
+        "childs": [],
+        "parent": ""
+      },
+      {
+        "name": "we",
+        "guid": "d0ac695b-21d1-46d3-9e39-f8e5b9d577e7",
+        "components": [
+          "3bebdd18-dc50-4a6f-93db-35f4fa585545",
+          "52b11040-acd5-4cca-9d8a-ab8e03727b6d",
+          "0f281fcd-439f-443a-a335-4e774741260c",
+          "065fe958-36ae-41eb-9b25-4c5388c1135e"
         ],
         "childs": [],
         "parent": ""
       },
       {
         "name": "Cube",
-        "guid": "e78a6aaf-1ee5-4733-917d-51adc7b64a99",
+        "guid": "0319c0f6-5592-4975-9d90-6e08c36b0fe6",
         "components": [
-          "4b58497d-1cf8-48d9-a9e1-43393d562f5b",
-          "e6ed14fd-36ae-486b-9013-a2323061c4a4",
-          "fb9f3901-68e7-4456-8e28-344f67271db0",
-          "a9d5ecee-3468-49b4-b7cf-b1c3e9b2c815"
+          "34da6804-94e8-4dc2-9c9c-a861c671aa8f",
+          "c8f9e3b1-3cf8-4ab6-b21c-3ad89501dc6b",
+          "b0438a8b-2481-48be-bfd8-6e271f9de576",
+          "696ae111-4146-4b52-b079-8f2e3f1610b4"
         ],
         "childs": [],
         "parent": ""
       },
       {
         "name": "Cube2",
-        "guid": "2bf8f852-2811-4cbf-94f2-1906d3f1d86f",
+        "guid": "3fb79267-f798-422d-8c0a-908d90a63e6f",
         "components": [
-          "28d447fa-b00f-4c13-9846-8930aef2b355",
-          "34290c3d-ad87-4044-91d5-7cf3c5bb44d9",
-          "b7eb80a0-c8e6-4e2b-bf9b-d245c5e480ad",
-          "c8408d66-3794-4331-a026-a0cd7d79d1c5"
+          "f62736ef-6b74-4f0e-a3aa-f74fc3b205d4",
+          "5592f1a1-3347-4f35-9ce6-8720540e3262",
+          "f165cc00-287d-4d71-889f-8c37a08c0313",
+          "edbdfd84-2e70-4c06-9b75-de354eba45fc"
         ],
-        "childs": [
-          "0e77ef12-f53f-4e20-84eb-080a4beac5a2"
-        ],
+        "childs": ["c3f50113-beda-4853-8e89-a31fc017b2c2"],
         "parent": ""
       },
       {
         "name": "Cube2",
-        "guid": "0e77ef12-f53f-4e20-84eb-080a4beac5a2",
+        "guid": "c3f50113-beda-4853-8e89-a31fc017b2c2",
         "components": [
-          "0cd7dd84-136c-4130-8751-fdb3db2d0086",
-          "f6e27c36-d379-4bfa-bbc9-0200654732f1",
-          "fc9e9acb-acf9-4499-bf58-27f8c6f87139",
-          "148a8d95-7db4-4b74-ba7e-dbb17358c1a3"
+          "16c0ff0b-d81d-4775-9607-0ca292ccd1e6",
+          "58b75191-89bf-41f7-afab-5c27c82a3794",
+          "17a09486-2267-4010-be67-f28b6bb8b854",
+          "32ecad76-267e-4185-9193-3d2d55473c1f"
         ],
         "childs": [],
-        "parent": "2bf8f852-2811-4cbf-94f2-1906d3f1d86f"
+        "parent": "3fb79267-f798-422d-8c0a-908d90a63e6f"
       }
     ],
     "Materials": [
       {
-        "name": "Lit",
-        "guid": "c3009b9f-8cb3-42e4-8c2c-8db5f8605364",
+        "name": "LitMaterial2",
+        "guid": "92252e3d-3cf0-440f-990b-72983ce9897b",
+        "shaderName": "forward",
         "renderOrder": 2000,
-        "culling": "back",
+        "culling": "both",
         "datas": {
           "textures": [],
           "floats": [
             {
-              "name": "_SrcBlend",
-              "data": 1.0
-            },
-            {
-              "name": "_DstBlend",
-              "data": 0.0
-            },
-            {
-              "name": "_Cutoff",
-              "data": 0.5
-            },
-            {
-              "name": "_ZWrite",
-              "data": 1.0
-            },
-            {
-              "name": "_Glossiness",
-              "data": 0.5
-            },
-            {
-              "name": "_GlossMapScale",
-              "data": 1.0
-            },
-            {
-              "name": "_SmoothnessTextureChannel",
-              "data": 0.0
-            },
-            {
-              "name": "_Metallic",
-              "data": 0.0
-            },
-            {
-              "name": "_SpecularHighlights",
-              "data": 1.0
-            },
-            {
-              "name": "_GlossyReflections",
-              "data": 1.0
-            },
-            {
-              "name": "_BumpScale",
-              "data": 1.0
-            },
-            {
-              "name": "_Parallax",
-              "data": 0.02
-            },
-            {
-              "name": "_OcclusionStrength",
-              "data": 1.0
-            },
-            {
-              "name": "_DetailNormalMapScale",
-              "data": 1.0
-            },
-            {
-              "name": "_SrcBlendAlpha",
-              "data": 1.0
-            },
-            {
-              "name": "_DstBlendAlpha",
-              "data": 0.0
-            },
-            {
-              "name": "_Cull",
-              "data": 2.0
-            },
-            {
-              "name": "_AlphaToMask",
-              "data": 0.0
-            },
-            {
-              "name": "_WorkflowMode",
-              "data": 1.0
-            },
-            {
-              "name": "_Smoothness",
-              "data": 0.5
-            },
-            {
-              "name": "_EnvironmentReflections",
-              "data": 1.0
-            },
-            {
-              "name": "_DetailAlbedoMapScale",
-              "data": 1.0
-            },
-            {
-              "name": "_ClearCoatMask",
-              "data": 0.0
-            },
-            {
-              "name": "_ClearCoatSmoothness",
-              "data": 0.0
-            },
-            {
-              "name": "_Surface",
-              "data": 0.0
-            },
-            {
-              "name": "_Blend",
-              "data": 0.0
-            },
-            {
-              "name": "_AlphaClip",
-              "data": 0.0
-            },
-            {
-              "name": "_BlendModePreserveSpecular",
-              "data": 1.0
-            },
-            {
-              "name": "_AddPrecomputedVelocity",
-              "data": 0.0
-            },
-            {
-              "name": "_ReceiveShadows",
-              "data": 1.0
-            },
-            {
               "name": "_QueueOffset",
+              "data": 0.0
+            },
+            {
+              "name": "_QueueControl",
               "data": 0.0
             }
           ],
           "ints": [],
           "vectors": [
             {
-              "name": "_MainTex_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_MainTex_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_MainTex_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_EmissionColor",
-              "data": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-              ]
-            },
-            {
               "name": "_Color",
-              "data": [
-                0.5,
-                0.5,
-                0.5,
-                1.0
-              ]
-            },
-            {
-              "name": "_MetallicGlossMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_MetallicGlossMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_MetallicGlossMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BumpMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BumpMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_BumpMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_ParallaxMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_ParallaxMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_ParallaxMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_OcclusionMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_OcclusionMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_OcclusionMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_EmissionMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_EmissionMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_EmissionMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailMask_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailMask_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_DetailMask_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailAlbedoMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailAlbedoMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_DetailAlbedoMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailNormalMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailNormalMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_DetailNormalMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_SpecColor",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
+              "data": [1.0, 0.0, 0.0, 1.0]
             },
             {
               "name": "_BaseMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             },
             {
               "name": "_BaseMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
+              "data": [1.0, 1.0, 1.0, 1.0]
             },
             {
               "name": "_BaseMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BaseColor",
-              "data": [
-                0.5,
-                0.5,
-                0.5,
-                1.0
-              ]
-            },
-            {
-              "name": "_SpecGlossMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_SpecGlossMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_SpecGlossMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             },
             {
               "name": "unity_Lightmaps_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             },
             {
               "name": "unity_Lightmaps_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
+              "data": [1.0, 1.0, 1.0, 1.0]
             },
             {
               "name": "unity_Lightmaps_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             },
             {
               "name": "unity_LightmapsInd_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             },
             {
               "name": "unity_LightmapsInd_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
+              "data": [1.0, 1.0, 1.0, 1.0]
             },
             {
               "name": "unity_LightmapsInd_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             },
             {
               "name": "unity_ShadowMasks_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             },
             {
               "name": "unity_ShadowMasks_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
+              "data": [1.0, 1.0, 1.0, 1.0]
             },
             {
               "name": "unity_ShadowMasks_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             }
           ],
           "matrixs": []
         }
       },
       {
-        "name": "Lit",
-        "guid": "c3009b9f-8cb3-42e4-8c2c-8db5f8605364",
+        "name": "LitMaterial",
+        "guid": "4157b116-6fa1-4286-a06e-a5037baf0a31",
+        "shaderName": "forward",
         "renderOrder": 2000,
-        "culling": "back",
+        "culling": "both",
         "datas": {
           "textures": [],
           "floats": [
             {
-              "name": "_SrcBlend",
-              "data": 1.0
-            },
-            {
-              "name": "_DstBlend",
-              "data": 0.0
-            },
-            {
-              "name": "_Cutoff",
-              "data": 0.5
-            },
-            {
-              "name": "_ZWrite",
-              "data": 1.0
-            },
-            {
-              "name": "_Glossiness",
-              "data": 0.5
-            },
-            {
-              "name": "_GlossMapScale",
-              "data": 1.0
-            },
-            {
-              "name": "_SmoothnessTextureChannel",
-              "data": 0.0
-            },
-            {
-              "name": "_Metallic",
-              "data": 0.0
-            },
-            {
-              "name": "_SpecularHighlights",
-              "data": 1.0
-            },
-            {
-              "name": "_GlossyReflections",
-              "data": 1.0
-            },
-            {
-              "name": "_BumpScale",
-              "data": 1.0
-            },
-            {
-              "name": "_Parallax",
-              "data": 0.02
-            },
-            {
-              "name": "_OcclusionStrength",
-              "data": 1.0
-            },
-            {
-              "name": "_DetailNormalMapScale",
-              "data": 1.0
-            },
-            {
-              "name": "_SrcBlendAlpha",
-              "data": 1.0
-            },
-            {
-              "name": "_DstBlendAlpha",
-              "data": 0.0
-            },
-            {
-              "name": "_Cull",
-              "data": 2.0
-            },
-            {
-              "name": "_AlphaToMask",
-              "data": 0.0
-            },
-            {
-              "name": "_WorkflowMode",
-              "data": 1.0
-            },
-            {
-              "name": "_Smoothness",
-              "data": 0.5
-            },
-            {
-              "name": "_EnvironmentReflections",
-              "data": 1.0
-            },
-            {
-              "name": "_DetailAlbedoMapScale",
-              "data": 1.0
-            },
-            {
-              "name": "_ClearCoatMask",
-              "data": 0.0
-            },
-            {
-              "name": "_ClearCoatSmoothness",
-              "data": 0.0
-            },
-            {
-              "name": "_Surface",
-              "data": 0.0
-            },
-            {
-              "name": "_Blend",
-              "data": 0.0
-            },
-            {
-              "name": "_AlphaClip",
-              "data": 0.0
-            },
-            {
-              "name": "_BlendModePreserveSpecular",
-              "data": 1.0
-            },
-            {
-              "name": "_AddPrecomputedVelocity",
-              "data": 0.0
-            },
-            {
-              "name": "_ReceiveShadows",
-              "data": 1.0
-            },
-            {
               "name": "_QueueOffset",
+              "data": 0.0
+            },
+            {
+              "name": "_QueueControl",
               "data": 0.0
             }
           ],
           "ints": [],
           "vectors": [
             {
-              "name": "_MainTex_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_MainTex_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_MainTex_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_EmissionColor",
-              "data": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-              ]
-            },
-            {
               "name": "_Color",
-              "data": [
-                0.5,
-                0.5,
-                0.5,
-                1.0
-              ]
-            },
-            {
-              "name": "_MetallicGlossMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_MetallicGlossMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_MetallicGlossMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BumpMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BumpMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_BumpMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_ParallaxMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_ParallaxMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_ParallaxMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_OcclusionMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_OcclusionMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_OcclusionMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_EmissionMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_EmissionMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_EmissionMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailMask_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailMask_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_DetailMask_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailAlbedoMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailAlbedoMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_DetailAlbedoMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailNormalMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailNormalMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_DetailNormalMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_SpecColor",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
+              "data": [1.0, 1.0, 1.0, 1.0]
             },
             {
               "name": "_BaseMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             },
             {
               "name": "_BaseMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
+              "data": [1.0, 1.0, 1.0, 1.0]
             },
             {
               "name": "_BaseMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BaseColor",
-              "data": [
-                0.5,
-                0.5,
-                0.5,
-                1.0
-              ]
-            },
-            {
-              "name": "_SpecGlossMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_SpecGlossMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_SpecGlossMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             },
             {
               "name": "unity_Lightmaps_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             },
             {
               "name": "unity_Lightmaps_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
+              "data": [1.0, 1.0, 1.0, 1.0]
             },
             {
               "name": "unity_Lightmaps_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             },
             {
               "name": "unity_LightmapsInd_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             },
             {
               "name": "unity_LightmapsInd_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
+              "data": [1.0, 1.0, 1.0, 1.0]
             },
             {
               "name": "unity_LightmapsInd_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             },
             {
               "name": "unity_ShadowMasks_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             },
             {
               "name": "unity_ShadowMasks_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
+              "data": [1.0, 1.0, 1.0, 1.0]
             },
             {
               "name": "unity_ShadowMasks_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            }
-          ],
-          "matrixs": []
-        }
-      },
-      {
-        "name": "Lit",
-        "guid": "c3009b9f-8cb3-42e4-8c2c-8db5f8605364",
-        "renderOrder": 2000,
-        "culling": "back",
-        "datas": {
-          "textures": [],
-          "floats": [
-            {
-              "name": "_SrcBlend",
-              "data": 1.0
-            },
-            {
-              "name": "_DstBlend",
-              "data": 0.0
-            },
-            {
-              "name": "_Cutoff",
-              "data": 0.5
-            },
-            {
-              "name": "_ZWrite",
-              "data": 1.0
-            },
-            {
-              "name": "_Glossiness",
-              "data": 0.5
-            },
-            {
-              "name": "_GlossMapScale",
-              "data": 1.0
-            },
-            {
-              "name": "_SmoothnessTextureChannel",
-              "data": 0.0
-            },
-            {
-              "name": "_Metallic",
-              "data": 0.0
-            },
-            {
-              "name": "_SpecularHighlights",
-              "data": 1.0
-            },
-            {
-              "name": "_GlossyReflections",
-              "data": 1.0
-            },
-            {
-              "name": "_BumpScale",
-              "data": 1.0
-            },
-            {
-              "name": "_Parallax",
-              "data": 0.02
-            },
-            {
-              "name": "_OcclusionStrength",
-              "data": 1.0
-            },
-            {
-              "name": "_DetailNormalMapScale",
-              "data": 1.0
-            },
-            {
-              "name": "_SrcBlendAlpha",
-              "data": 1.0
-            },
-            {
-              "name": "_DstBlendAlpha",
-              "data": 0.0
-            },
-            {
-              "name": "_Cull",
-              "data": 2.0
-            },
-            {
-              "name": "_AlphaToMask",
-              "data": 0.0
-            },
-            {
-              "name": "_WorkflowMode",
-              "data": 1.0
-            },
-            {
-              "name": "_Smoothness",
-              "data": 0.5
-            },
-            {
-              "name": "_EnvironmentReflections",
-              "data": 1.0
-            },
-            {
-              "name": "_DetailAlbedoMapScale",
-              "data": 1.0
-            },
-            {
-              "name": "_ClearCoatMask",
-              "data": 0.0
-            },
-            {
-              "name": "_ClearCoatSmoothness",
-              "data": 0.0
-            },
-            {
-              "name": "_Surface",
-              "data": 0.0
-            },
-            {
-              "name": "_Blend",
-              "data": 0.0
-            },
-            {
-              "name": "_AlphaClip",
-              "data": 0.0
-            },
-            {
-              "name": "_BlendModePreserveSpecular",
-              "data": 1.0
-            },
-            {
-              "name": "_AddPrecomputedVelocity",
-              "data": 0.0
-            },
-            {
-              "name": "_ReceiveShadows",
-              "data": 1.0
-            },
-            {
-              "name": "_QueueOffset",
-              "data": 0.0
-            }
-          ],
-          "ints": [],
-          "vectors": [
-            {
-              "name": "_MainTex_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_MainTex_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_MainTex_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_EmissionColor",
-              "data": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_Color",
-              "data": [
-                0.5,
-                0.5,
-                0.5,
-                1.0
-              ]
-            },
-            {
-              "name": "_MetallicGlossMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_MetallicGlossMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_MetallicGlossMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BumpMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BumpMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_BumpMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_ParallaxMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_ParallaxMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_ParallaxMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_OcclusionMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_OcclusionMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_OcclusionMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_EmissionMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_EmissionMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_EmissionMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailMask_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailMask_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_DetailMask_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailAlbedoMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailAlbedoMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_DetailAlbedoMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailNormalMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailNormalMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_DetailNormalMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_SpecColor",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_BaseMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BaseMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_BaseMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BaseColor",
-              "data": [
-                0.5,
-                0.5,
-                0.5,
-                1.0
-              ]
-            },
-            {
-              "name": "_SpecGlossMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_SpecGlossMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_SpecGlossMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_Lightmaps_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_Lightmaps_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "unity_Lightmaps_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_LightmapsInd_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_LightmapsInd_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "unity_LightmapsInd_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_ShadowMasks_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_ShadowMasks_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "unity_ShadowMasks_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            }
-          ],
-          "matrixs": []
-        }
-      },
-      {
-        "name": "Lit",
-        "guid": "c3009b9f-8cb3-42e4-8c2c-8db5f8605364",
-        "renderOrder": 2000,
-        "culling": "back",
-        "datas": {
-          "textures": [],
-          "floats": [
-            {
-              "name": "_SrcBlend",
-              "data": 1.0
-            },
-            {
-              "name": "_DstBlend",
-              "data": 0.0
-            },
-            {
-              "name": "_Cutoff",
-              "data": 0.5
-            },
-            {
-              "name": "_ZWrite",
-              "data": 1.0
-            },
-            {
-              "name": "_Glossiness",
-              "data": 0.5
-            },
-            {
-              "name": "_GlossMapScale",
-              "data": 1.0
-            },
-            {
-              "name": "_SmoothnessTextureChannel",
-              "data": 0.0
-            },
-            {
-              "name": "_Metallic",
-              "data": 0.0
-            },
-            {
-              "name": "_SpecularHighlights",
-              "data": 1.0
-            },
-            {
-              "name": "_GlossyReflections",
-              "data": 1.0
-            },
-            {
-              "name": "_BumpScale",
-              "data": 1.0
-            },
-            {
-              "name": "_Parallax",
-              "data": 0.02
-            },
-            {
-              "name": "_OcclusionStrength",
-              "data": 1.0
-            },
-            {
-              "name": "_DetailNormalMapScale",
-              "data": 1.0
-            },
-            {
-              "name": "_SrcBlendAlpha",
-              "data": 1.0
-            },
-            {
-              "name": "_DstBlendAlpha",
-              "data": 0.0
-            },
-            {
-              "name": "_Cull",
-              "data": 2.0
-            },
-            {
-              "name": "_AlphaToMask",
-              "data": 0.0
-            },
-            {
-              "name": "_WorkflowMode",
-              "data": 1.0
-            },
-            {
-              "name": "_Smoothness",
-              "data": 0.5
-            },
-            {
-              "name": "_EnvironmentReflections",
-              "data": 1.0
-            },
-            {
-              "name": "_DetailAlbedoMapScale",
-              "data": 1.0
-            },
-            {
-              "name": "_ClearCoatMask",
-              "data": 0.0
-            },
-            {
-              "name": "_ClearCoatSmoothness",
-              "data": 0.0
-            },
-            {
-              "name": "_Surface",
-              "data": 0.0
-            },
-            {
-              "name": "_Blend",
-              "data": 0.0
-            },
-            {
-              "name": "_AlphaClip",
-              "data": 0.0
-            },
-            {
-              "name": "_BlendModePreserveSpecular",
-              "data": 1.0
-            },
-            {
-              "name": "_AddPrecomputedVelocity",
-              "data": 0.0
-            },
-            {
-              "name": "_ReceiveShadows",
-              "data": 1.0
-            },
-            {
-              "name": "_QueueOffset",
-              "data": 0.0
-            }
-          ],
-          "ints": [],
-          "vectors": [
-            {
-              "name": "_MainTex_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_MainTex_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_MainTex_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_EmissionColor",
-              "data": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_Color",
-              "data": [
-                0.5,
-                0.5,
-                0.5,
-                1.0
-              ]
-            },
-            {
-              "name": "_MetallicGlossMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_MetallicGlossMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_MetallicGlossMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BumpMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BumpMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_BumpMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_ParallaxMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_ParallaxMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_ParallaxMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_OcclusionMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_OcclusionMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_OcclusionMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_EmissionMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_EmissionMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_EmissionMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailMask_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailMask_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_DetailMask_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailAlbedoMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailAlbedoMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_DetailAlbedoMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailNormalMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailNormalMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_DetailNormalMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_SpecColor",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_BaseMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BaseMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_BaseMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BaseColor",
-              "data": [
-                0.5,
-                0.5,
-                0.5,
-                1.0
-              ]
-            },
-            {
-              "name": "_SpecGlossMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_SpecGlossMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_SpecGlossMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_Lightmaps_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_Lightmaps_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "unity_Lightmaps_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_LightmapsInd_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_LightmapsInd_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "unity_LightmapsInd_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_ShadowMasks_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_ShadowMasks_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "unity_ShadowMasks_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            }
-          ],
-          "matrixs": []
-        }
-      },
-      {
-        "name": "Lit",
-        "guid": "c3009b9f-8cb3-42e4-8c2c-8db5f8605364",
-        "renderOrder": 2000,
-        "culling": "back",
-        "datas": {
-          "textures": [],
-          "floats": [
-            {
-              "name": "_SrcBlend",
-              "data": 1.0
-            },
-            {
-              "name": "_DstBlend",
-              "data": 0.0
-            },
-            {
-              "name": "_Cutoff",
-              "data": 0.5
-            },
-            {
-              "name": "_ZWrite",
-              "data": 1.0
-            },
-            {
-              "name": "_Glossiness",
-              "data": 0.5
-            },
-            {
-              "name": "_GlossMapScale",
-              "data": 1.0
-            },
-            {
-              "name": "_SmoothnessTextureChannel",
-              "data": 0.0
-            },
-            {
-              "name": "_Metallic",
-              "data": 0.0
-            },
-            {
-              "name": "_SpecularHighlights",
-              "data": 1.0
-            },
-            {
-              "name": "_GlossyReflections",
-              "data": 1.0
-            },
-            {
-              "name": "_BumpScale",
-              "data": 1.0
-            },
-            {
-              "name": "_Parallax",
-              "data": 0.02
-            },
-            {
-              "name": "_OcclusionStrength",
-              "data": 1.0
-            },
-            {
-              "name": "_DetailNormalMapScale",
-              "data": 1.0
-            },
-            {
-              "name": "_SrcBlendAlpha",
-              "data": 1.0
-            },
-            {
-              "name": "_DstBlendAlpha",
-              "data": 0.0
-            },
-            {
-              "name": "_Cull",
-              "data": 2.0
-            },
-            {
-              "name": "_AlphaToMask",
-              "data": 0.0
-            },
-            {
-              "name": "_WorkflowMode",
-              "data": 1.0
-            },
-            {
-              "name": "_Smoothness",
-              "data": 0.5
-            },
-            {
-              "name": "_EnvironmentReflections",
-              "data": 1.0
-            },
-            {
-              "name": "_DetailAlbedoMapScale",
-              "data": 1.0
-            },
-            {
-              "name": "_ClearCoatMask",
-              "data": 0.0
-            },
-            {
-              "name": "_ClearCoatSmoothness",
-              "data": 0.0
-            },
-            {
-              "name": "_Surface",
-              "data": 0.0
-            },
-            {
-              "name": "_Blend",
-              "data": 0.0
-            },
-            {
-              "name": "_AlphaClip",
-              "data": 0.0
-            },
-            {
-              "name": "_BlendModePreserveSpecular",
-              "data": 1.0
-            },
-            {
-              "name": "_AddPrecomputedVelocity",
-              "data": 0.0
-            },
-            {
-              "name": "_ReceiveShadows",
-              "data": 1.0
-            },
-            {
-              "name": "_QueueOffset",
-              "data": 0.0
-            }
-          ],
-          "ints": [],
-          "vectors": [
-            {
-              "name": "_MainTex_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_MainTex_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_MainTex_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_EmissionColor",
-              "data": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_Color",
-              "data": [
-                0.5,
-                0.5,
-                0.5,
-                1.0
-              ]
-            },
-            {
-              "name": "_MetallicGlossMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_MetallicGlossMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_MetallicGlossMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BumpMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BumpMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_BumpMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_ParallaxMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_ParallaxMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_ParallaxMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_OcclusionMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_OcclusionMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_OcclusionMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_EmissionMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_EmissionMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_EmissionMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailMask_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailMask_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_DetailMask_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailAlbedoMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailAlbedoMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_DetailAlbedoMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailNormalMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailNormalMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_DetailNormalMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_SpecColor",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_BaseMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BaseMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_BaseMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BaseColor",
-              "data": [
-                0.5,
-                0.5,
-                0.5,
-                1.0
-              ]
-            },
-            {
-              "name": "_SpecGlossMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_SpecGlossMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_SpecGlossMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_Lightmaps_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_Lightmaps_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "unity_Lightmaps_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_LightmapsInd_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_LightmapsInd_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "unity_LightmapsInd_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_ShadowMasks_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_ShadowMasks_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "unity_ShadowMasks_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            }
-          ],
-          "matrixs": []
-        }
-      },
-      {
-        "name": "Lit",
-        "guid": "c3009b9f-8cb3-42e4-8c2c-8db5f8605364",
-        "renderOrder": 2000,
-        "culling": "back",
-        "datas": {
-          "textures": [],
-          "floats": [
-            {
-              "name": "_SrcBlend",
-              "data": 1.0
-            },
-            {
-              "name": "_DstBlend",
-              "data": 0.0
-            },
-            {
-              "name": "_Cutoff",
-              "data": 0.5
-            },
-            {
-              "name": "_ZWrite",
-              "data": 1.0
-            },
-            {
-              "name": "_Glossiness",
-              "data": 0.5
-            },
-            {
-              "name": "_GlossMapScale",
-              "data": 1.0
-            },
-            {
-              "name": "_SmoothnessTextureChannel",
-              "data": 0.0
-            },
-            {
-              "name": "_Metallic",
-              "data": 0.0
-            },
-            {
-              "name": "_SpecularHighlights",
-              "data": 1.0
-            },
-            {
-              "name": "_GlossyReflections",
-              "data": 1.0
-            },
-            {
-              "name": "_BumpScale",
-              "data": 1.0
-            },
-            {
-              "name": "_Parallax",
-              "data": 0.02
-            },
-            {
-              "name": "_OcclusionStrength",
-              "data": 1.0
-            },
-            {
-              "name": "_DetailNormalMapScale",
-              "data": 1.0
-            },
-            {
-              "name": "_SrcBlendAlpha",
-              "data": 1.0
-            },
-            {
-              "name": "_DstBlendAlpha",
-              "data": 0.0
-            },
-            {
-              "name": "_Cull",
-              "data": 2.0
-            },
-            {
-              "name": "_AlphaToMask",
-              "data": 0.0
-            },
-            {
-              "name": "_WorkflowMode",
-              "data": 1.0
-            },
-            {
-              "name": "_Smoothness",
-              "data": 0.5
-            },
-            {
-              "name": "_EnvironmentReflections",
-              "data": 1.0
-            },
-            {
-              "name": "_DetailAlbedoMapScale",
-              "data": 1.0
-            },
-            {
-              "name": "_ClearCoatMask",
-              "data": 0.0
-            },
-            {
-              "name": "_ClearCoatSmoothness",
-              "data": 0.0
-            },
-            {
-              "name": "_Surface",
-              "data": 0.0
-            },
-            {
-              "name": "_Blend",
-              "data": 0.0
-            },
-            {
-              "name": "_AlphaClip",
-              "data": 0.0
-            },
-            {
-              "name": "_BlendModePreserveSpecular",
-              "data": 1.0
-            },
-            {
-              "name": "_AddPrecomputedVelocity",
-              "data": 0.0
-            },
-            {
-              "name": "_ReceiveShadows",
-              "data": 1.0
-            },
-            {
-              "name": "_QueueOffset",
-              "data": 0.0
-            }
-          ],
-          "ints": [],
-          "vectors": [
-            {
-              "name": "_MainTex_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_MainTex_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_MainTex_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_EmissionColor",
-              "data": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_Color",
-              "data": [
-                0.5,
-                0.5,
-                0.5,
-                1.0
-              ]
-            },
-            {
-              "name": "_MetallicGlossMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_MetallicGlossMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_MetallicGlossMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BumpMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BumpMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_BumpMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_ParallaxMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_ParallaxMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_ParallaxMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_OcclusionMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_OcclusionMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_OcclusionMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_EmissionMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_EmissionMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_EmissionMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailMask_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailMask_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_DetailMask_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailAlbedoMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailAlbedoMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_DetailAlbedoMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailNormalMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailNormalMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_DetailNormalMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_SpecColor",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_BaseMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BaseMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_BaseMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BaseColor",
-              "data": [
-                0.5,
-                0.5,
-                0.5,
-                1.0
-              ]
-            },
-            {
-              "name": "_SpecGlossMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_SpecGlossMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_SpecGlossMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_Lightmaps_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_Lightmaps_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "unity_Lightmaps_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_LightmapsInd_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_LightmapsInd_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "unity_LightmapsInd_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_ShadowMasks_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "unity_ShadowMasks_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "unity_ShadowMasks_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             }
           ],
           "matrixs": []
@@ -3429,552 +237,82 @@
       },
       {
         "name": "Body_texture",
-        "guid": "8b5bed22-2a0e-4dc2-bb8c-931c77ddb6f3",
+        "guid": "e5e4f404-f9e5-4d89-8955-38ac9a440daf",
+        "shaderName": "forward",
         "renderOrder": 2000,
-        "culling": "back",
+        "culling": "both",
         "datas": {
-          "textures": [],
+          "textures": [
+            {
+              "name": "_BaseMap",
+              "path": "Assets/Models/Kindred/Body_texture.png",
+              "fileName": "Body_texture.png",
+              "originalName": "Body_texture"
+            }
+          ],
           "floats": [
             {
-              "name": "_SrcBlend",
-              "data": 1.0
-            },
-            {
-              "name": "_DstBlend",
-              "data": 0.0
-            },
-            {
-              "name": "_Cutoff",
-              "data": 0.5
-            },
-            {
-              "name": "_ZWrite",
-              "data": 1.0
-            },
-            {
-              "name": "_Glossiness",
-              "data": 0.0
-            },
-            {
-              "name": "_GlossMapScale",
-              "data": 0.0
-            },
-            {
-              "name": "_SmoothnessTextureChannel",
-              "data": 0.0
-            },
-            {
-              "name": "_Metallic",
-              "data": 0.0
-            },
-            {
-              "name": "_SpecularHighlights",
-              "data": 1.0
-            },
-            {
-              "name": "_GlossyReflections",
-              "data": 0.0
-            },
-            {
-              "name": "_BumpScale",
-              "data": 1.0
-            },
-            {
-              "name": "_Parallax",
-              "data": 0.005
-            },
-            {
-              "name": "_OcclusionStrength",
-              "data": 1.0
-            },
-            {
-              "name": "_DetailNormalMapScale",
-              "data": 1.0
-            },
-            {
-              "name": "_SrcBlendAlpha",
-              "data": 1.0
-            },
-            {
-              "name": "_DstBlendAlpha",
-              "data": 0.0
-            },
-            {
-              "name": "_Cull",
-              "data": 2.0
-            },
-            {
-              "name": "_AlphaToMask",
-              "data": 0.0
-            },
-            {
-              "name": "_WorkflowMode",
-              "data": 1.0
-            },
-            {
-              "name": "_Smoothness",
-              "data": 0.5
-            },
-            {
-              "name": "_EnvironmentReflections",
-              "data": 1.0
-            },
-            {
-              "name": "_DetailAlbedoMapScale",
-              "data": 1.0
-            },
-            {
-              "name": "_ClearCoatMask",
-              "data": 0.0
-            },
-            {
-              "name": "_ClearCoatSmoothness",
-              "data": 0.0
-            },
-            {
-              "name": "_Surface",
-              "data": 0.0
-            },
-            {
-              "name": "_Blend",
-              "data": 0.0
-            },
-            {
-              "name": "_AlphaClip",
-              "data": 0.0
-            },
-            {
-              "name": "_BlendModePreserveSpecular",
-              "data": 1.0
-            },
-            {
-              "name": "_AddPrecomputedVelocity",
-              "data": 0.0
-            },
-            {
-              "name": "_ReceiveShadows",
-              "data": 1.0
-            },
-            {
               "name": "_QueueOffset",
+              "data": 0.0
+            },
+            {
+              "name": "_QueueControl",
               "data": 0.0
             }
           ],
           "ints": [],
           "vectors": [
             {
-              "name": "_MainTex_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_MainTex_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_MainTex_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_EmissionColor",
-              "data": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-              ]
-            },
-            {
               "name": "_Color",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_MetallicGlossMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_MetallicGlossMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_MetallicGlossMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BumpMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BumpMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_BumpMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_ParallaxMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_ParallaxMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_ParallaxMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_OcclusionMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_OcclusionMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_OcclusionMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_EmissionMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_EmissionMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_EmissionMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailMask_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailMask_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_DetailMask_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailAlbedoMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailAlbedoMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_DetailAlbedoMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailNormalMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_DetailNormalMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_DetailNormalMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_SpecColor",
-              "data": [
-                0.199999928,
-                0.199999928,
-                0.199999928,
-                1.0
-              ]
+              "data": [1.0, 1.0, 1.0, 1.0]
             },
             {
               "name": "_BaseMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             },
             {
               "name": "_BaseMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
+              "data": [0.00048828125, 0.00048828125, 2048.0, 2048.0]
             },
             {
               "name": "_BaseMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_BaseColor",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_SpecGlossMap_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
-            },
-            {
-              "name": "_SpecGlossMap_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
-            },
-            {
-              "name": "_SpecGlossMap_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             },
             {
               "name": "unity_Lightmaps_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             },
             {
               "name": "unity_Lightmaps_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
+              "data": [1.0, 1.0, 1.0, 1.0]
             },
             {
               "name": "unity_Lightmaps_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             },
             {
               "name": "unity_LightmapsInd_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             },
             {
               "name": "unity_LightmapsInd_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
+              "data": [1.0, 1.0, 1.0, 1.0]
             },
             {
               "name": "unity_LightmapsInd_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             },
             {
               "name": "unity_ShadowMasks_ST",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             },
             {
               "name": "unity_ShadowMasks_TexelSize",
-              "data": [
-                1.0,
-                1.0,
-                1.0,
-                1.0
-              ]
+              "data": [1.0, 1.0, 1.0, 1.0]
             },
             {
               "name": "unity_ShadowMasks_HDR",
-              "data": [
-                1.0,
-                1.0,
-                0.0,
-                0.0
-              ]
+              "data": [1.0, 1.0, 0.0, 0.0]
             }
           ],
           "matrixs": []
@@ -3984,307 +322,59 @@
     "Components": [
       {
         "type": "Transform",
-        "guid": "fe1995e4-e9ac-482d-962e-04eb71fd1cae",
-        "position": [
-          2.82,
-          -1.16,
-          5.48
-        ],
-        "rotation": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ],
-        "scale": [
-          9.467728,
-          6.3146,
-          7.73226643
-        ]
+        "guid": "41d2ec5b-0d7a-40db-8510-1e37183a8c16",
+        "position": [2.97, 0.99, 2.09],
+        "rotation": [-0.2558989, 0.297022641, 0.185024753, 0.9011433],
+        "scale": [2.8423, 1.0, 5.0188]
       },
       {
         "type": "MeshFilter",
-        "guid": "dcdf41c6-ec03-4381-a864-fff4294cf112",
+        "guid": "008f472b-0c90-4cab-8479-eb7749576b50",
         "mesh": {
-          "path": "./resources/Models/Cube.fbx",
+          "path": "Assets/Models/Cube.fbx",
           "fileName": "Cube.fbx",
           "modelName": "Cube",
           "meshName": "Cube",
-          "boundCenter": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "boundExtent": [
-            0.5,
-            0.5,
-            0.5
-          ]
+          "boundCenter": [0.0, 0.0, 0.0],
+          "boundExtent": [0.5, 0.5, 0.5]
         }
       },
       {
         "type": "MeshRenderer",
-        "guid": "07c49607-40f4-48ea-949a-dd7f3065ef5c",
+        "guid": "23bc50b7-c1b2-49c6-b510-0b17680ebf6c",
         "mesh": {
-          "path": "./resources/Models/Cube.fbx",
+          "path": "Assets/Models/Cube.fbx",
           "fileName": "Cube.fbx",
           "modelName": "Cube",
           "meshName": "Cube",
-          "boundCenter": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "boundExtent": [
-            0.5,
-            0.5,
-            0.5
-          ]
+          "boundCenter": [0.0, 0.0, 0.0],
+          "boundExtent": [0.5, 0.5, 0.5]
         },
         "shadowCast": "On",
-        "materials": [
-          "c3009b9f-8cb3-42e4-8c2c-8db5f8605364"
-        ]
+        "materials": ["92252e3d-3cf0-440f-990b-72983ce9897b"]
       },
       {
         "type": "BoxCollider",
-        "guid": "476521e2-bb3a-420b-9ffe-32805a8a128d",
-        "aabbCenter": [
-          2.81999969,
-          -1.15999985,
-          5.48
-        ],
-        "aabbExtent": [
-          4.733864,
-          3.1573,
-          3.86613321
-        ],
+        "guid": "1d98f0b0-e981-47c1-82db-79c63bd16d0a",
+        "aabbCenter": [2.96999979, 0.99, 2.09000015],
+        "aabbExtent": [2.421537, 2.09131145, 2.80896854],
         "isTrigger": false,
         "colliderType": "box",
-        "center": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "size": [
-          1.0,
-          1.0,
-          1.0
-        ]
+        "center": [0.0, 0.0, 0.0],
+        "size": [1.0, 1.0, 1.0]
       },
       {
         "type": "Transform",
-        "guid": "b975b97a-467c-471e-b248-e7b67b7ff50b",
-        "position": [
-          -6.96,
-          0.64,
-          -0.87
-        ],
-        "rotation": [
-          0.0,
-          -0.409081757,
-          0.0,
-          0.9124978
-        ],
-        "scale": [
-          5.0,
-          5.0,
-          5.0
-        ]
-      },
-      {
-        "type": "MeshFilter",
-        "guid": "d7503681-4be5-4261-8aaa-cd4205556b6e",
-        "mesh": {
-          "path": "./resources/Models/Quad.fbx",
-          "fileName": "Quad.fbx",
-          "modelName": "Quad",
-          "meshName": "Quad",
-          "boundCenter": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "boundExtent": [
-            0.5,
-            0.5,
-            3.0616168E-17
-          ]
-        }
-      },
-      {
-        "type": "MeshRenderer",
-        "guid": "5d0a0f41-b108-43c9-be99-536f8ec3029d",
-        "mesh": {
-          "path": "./resources/Models/Quad.fbx",
-          "fileName": "Quad.fbx",
-          "modelName": "Quad",
-          "meshName": "Quad",
-          "boundCenter": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "boundExtent": [
-            0.5,
-            0.5,
-            3.0616168E-17
-          ]
-        },
-        "shadowCast": "On",
-        "materials": [
-          "c3009b9f-8cb3-42e4-8c2c-8db5f8605364"
-        ]
-      },
-      {
-        "type": "MeshCollider",
-        "guid": "5d37ebf6-d512-4524-80b0-d40f540950fb",
-        "aabbCenter": [
-          -6.96,
-          0.6399999,
-          -0.87
-        ],
-        "aabbExtent": [
-          1.66326141,
-          2.50000048,
-          1.86643112
-        ],
-        "isTrigger": false,
-        "colliderType": "mesh",
-        "convex": false,
-        "mesh": {
-          "path": "./resources/Models/Quad.fbx",
-          "fileName": "Quad.fbx",
-          "modelName": "Quad",
-          "meshName": "Quad",
-          "boundCenter": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "boundExtent": [
-            0.5,
-            0.5,
-            3.0616168E-17
-          ]
-        }
-      },
-      {
-        "type": "Transform",
-        "guid": "b512e2cc-db2c-477a-a6f1-fa4de7962994",
-        "position": [
-          1.26,
-          0.424,
-          -1.67
-        ],
-        "rotation": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ],
-        "scale": [
-          1.0,
-          1.0,
-          1.0
-        ]
-      },
-      {
-        "type": "MeshFilter",
-        "guid": "b282bdd6-75b1-4305-9a8d-d95d2afafdb3",
-        "mesh": {
-          "path": "./resources/Models/Sphere.fbx",
-          "fileName": "Sphere.fbx",
-          "modelName": "Sphere",
-          "meshName": "Sphere",
-          "boundCenter": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "boundExtent": [
-            0.5,
-            0.5,
-            0.5
-          ]
-        }
-      },
-      {
-        "type": "MeshRenderer",
-        "guid": "c9f57477-946f-45e6-a785-5776332607ba",
-        "mesh": {
-          "path": "./resources/Models/Sphere.fbx",
-          "fileName": "Sphere.fbx",
-          "modelName": "Sphere",
-          "meshName": "Sphere",
-          "boundCenter": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "boundExtent": [
-            0.5,
-            0.5,
-            0.5
-          ]
-        },
-        "shadowCast": "On",
-        "materials": [
-          "c3009b9f-8cb3-42e4-8c2c-8db5f8605364"
-        ]
-      },
-      {
-        "type": "SphereCollider",
-        "guid": "2571eade-12eb-45ba-b921-02e84c5e9e6e",
-        "aabbCenter": [
-          1.26,
-          0.424000025,
-          -1.67000008
-        ],
-        "aabbExtent": [
-          0.5,
-          0.5,
-          0.50000006
-        ],
-        "isTrigger": false,
-        "colliderType": "sphere",
-        "center": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "radius": 0.5
-      },
-      {
-        "type": "Transform",
-        "guid": "7272d0b9-9d3a-4370-a358-93105c6db904",
-        "position": [
-          3.94,
-          3.0,
-          -4.0
-        ],
-        "rotation": [
-          0.408217877,
-          -0.234569684,
-          0.109381631,
-          0.8754261
-        ],
-        "scale": [
-          1.0,
-          1.0,
-          1.0
-        ]
+        "guid": "8dbeab2c-854f-4536-a63f-001a7ed5d84b",
+        "position": [3.94, 3.0, -4.0],
+        "rotation": [0.308929265, -0.360655159, 0.1279627, 0.870698631],
+        "scale": [1.0, 1.0, 1.0]
       },
       {
         "type": "Light",
-        "guid": "4e83366e-2b33-4d3e-bee2-c5a44b874a18",
+        "guid": "00e52120-de9c-47ec-87d1-13b67f24b81c",
         "lightType": "Directional",
-        "color": [
-          1.0,
-          0.956862748,
-          0.8392157,
-          1.0
-        ],
+        "color": [1.0, 0.956862748, 0.8392157, 1.0],
         "intensity": 1.0,
         "range": 9.7,
         "innerSpotAngle": 21.80208,
@@ -4293,114 +383,14 @@
       },
       {
         "type": "Transform",
-        "guid": "2eaa1425-45a7-44b1-bb47-e9f1ee0c59f1",
-        "position": [
-          0.295,
-          0.23,
-          0.224
-        ],
-        "rotation": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ],
-        "scale": [
-          1.0,
-          1.0,
-          1.0
-        ]
-      },
-      {
-        "type": "MeshFilter",
-        "guid": "8ff7ea1b-aba8-4b81-a303-0b87401f2d8e",
-        "mesh": {
-          "path": "./resources/Models/Capsule.fbx",
-          "fileName": "Capsule.fbx",
-          "modelName": "Capsule",
-          "meshName": "Capsule",
-          "boundCenter": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "boundExtent": [
-            0.5,
-            1.0,
-            0.5
-          ]
-        }
-      },
-      {
-        "type": "MeshRenderer",
-        "guid": "af0a577c-78e8-49da-9135-ff1c92ab4019",
-        "mesh": {
-          "path": "./resources/Models/Capsule.fbx",
-          "fileName": "Capsule.fbx",
-          "modelName": "Capsule",
-          "meshName": "Capsule",
-          "boundCenter": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "boundExtent": [
-            0.5,
-            1.0,
-            0.5
-          ]
-        },
-        "shadowCast": "On",
-        "materials": [
-          "c3009b9f-8cb3-42e4-8c2c-8db5f8605364"
-        ]
-      },
-      {
-        "type": "CapsuleCollider",
-        "guid": "1c97ce6c-4f6d-4c3e-ba18-a920b6e53719",
-        "aabbCenter": [
-          0.295000017,
-          0.230000019,
-          0.223999992
-        ],
-        "aabbExtent": [
-          0.50000006,
-          1.0,
-          0.5
-        ],
-        "isTrigger": false,
-        "colliderType": "capsule",
-        "center": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "radius": 0.5,
-        "height": 2.0
-      },
-      {
-        "type": "Transform",
-        "guid": "f3e6ca16-3e53-47b9-8822-0458a5b9155d",
-        "position": [
-          0.0,
-          1.32,
-          -9.19
-        ],
-        "rotation": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ],
-        "scale": [
-          1.0,
-          1.0,
-          1.0
-        ]
+        "guid": "847bfe32-10a6-42e5-9456-d5ea5443830b",
+        "position": [0.0, 1.32, -9.19],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
       },
       {
         "type": "Camera",
-        "guid": "ce66c5ef-c835-43b6-aac0-65d5d003b259",
+        "guid": "0b29c648-a889-4afd-bdac-802b6cdbef96",
         "isOrtho": false,
         "orthoSize": 5.0,
         "near": 0.3,
@@ -4409,273 +399,182 @@
       },
       {
         "type": "Transform",
-        "guid": "4b58497d-1cf8-48d9-a9e1-43393d562f5b",
-        "position": [
-          -0.03,
-          -1.16,
-          -0.08
-        ],
-        "rotation": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ],
-        "scale": [
-          18.94,
-          1.0,
-          15.58
-        ]
+        "guid": "3bebdd18-dc50-4a6f-93db-35f4fa585545",
+        "position": [-2.95, 3.0, -0.48],
+        "rotation": [-0.0613024645, -0.39296478, -0.159649923, 0.9035113],
+        "scale": [4.2032, 2.7435, 1.0]
       },
       {
         "type": "MeshFilter",
-        "guid": "e6ed14fd-36ae-486b-9013-a2323061c4a4",
+        "guid": "52b11040-acd5-4cca-9d8a-ab8e03727b6d",
         "mesh": {
-          "path": "./resources/Models/Cube.fbx",
-          "fileName": "Cube.fbx",
-          "modelName": "Cube",
-          "meshName": "Cube",
-          "boundCenter": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "boundExtent": [
-            0.5,
-            0.5,
-            0.5
-          ]
+          "path": "Assets/Models/Quad.fbx",
+          "fileName": "Quad.fbx",
+          "modelName": "Quad",
+          "meshName": "Quad",
+          "boundCenter": [0.0, 0.0, 0.0],
+          "boundExtent": [0.5, 0.5, 3.0616168e-17]
         }
       },
       {
         "type": "MeshRenderer",
-        "guid": "fb9f3901-68e7-4456-8e28-344f67271db0",
+        "guid": "0f281fcd-439f-443a-a335-4e774741260c",
         "mesh": {
-          "path": "./resources/Models/Cube.fbx",
-          "fileName": "Cube.fbx",
-          "modelName": "Cube",
-          "meshName": "Cube",
-          "boundCenter": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "boundExtent": [
-            0.5,
-            0.5,
-            0.5
-          ]
+          "path": "Assets/Models/Quad.fbx",
+          "fileName": "Quad.fbx",
+          "modelName": "Quad",
+          "meshName": "Quad",
+          "boundCenter": [0.0, 0.0, 0.0],
+          "boundExtent": [0.5, 0.5, 3.0616168e-17]
         },
         "shadowCast": "On",
-        "materials": [
-          "c3009b9f-8cb3-42e4-8c2c-8db5f8605364"
-        ]
+        "materials": ["4157b116-6fa1-4286-a06e-a5037baf0a31"]
       },
       {
-        "type": "BoxCollider",
-        "guid": "a9d5ecee-3468-49b4-b7cf-b1c3e9b2c815",
-        "aabbCenter": [
-          -0.029999733,
-          -1.16,
-          -0.07999992
-        ],
-        "aabbExtent": [
-          9.47,
-          0.5,
-          7.79
-        ],
+        "type": "MeshCollider",
+        "guid": "065fe958-36ae-41eb-9b25-4c5388c1135e",
+        "aabbCenter": [-2.95, 3.0, -0.479999959],
+        "aabbExtent": [1.80723262, 1.79655254, 1.5536375],
         "isTrigger": false,
-        "colliderType": "box",
-        "center": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "size": [
-          1.0,
-          1.0,
-          1.0
-        ]
+        "colliderType": "mesh",
+        "convex": false,
+        "mesh": {
+          "path": "Assets/Models/Quad.fbx",
+          "fileName": "Quad.fbx",
+          "modelName": "Quad",
+          "meshName": "Quad",
+          "boundCenter": [0.0, 0.0, 0.0],
+          "boundExtent": [0.5, 0.5, 3.0616168e-17]
+        }
       },
       {
         "type": "Transform",
-        "guid": "28d447fa-b00f-4c13-9846-8930aef2b355",
-        "position": [
-          -3.51,
-          0.15,
-          -1.49
-        ],
-        "rotation": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ],
-        "scale": [
-          1.0,
-          1.0,
-          1.0
-        ]
+        "guid": "34da6804-94e8-4dc2-9c9c-a861c671aa8f",
+        "position": [-0.03, -1.16, -0.08],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [18.94, 1.0, 15.58]
       },
       {
         "type": "MeshFilter",
-        "guid": "34290c3d-ad87-4044-91d5-7cf3c5bb44d9",
+        "guid": "c8f9e3b1-3cf8-4ab6-b21c-3ad89501dc6b",
         "mesh": {
-          "path": "./resources/Models/Cube.fbx",
+          "path": "Assets/Models/Cube.fbx",
           "fileName": "Cube.fbx",
           "modelName": "Cube",
           "meshName": "Cube",
-          "boundCenter": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "boundExtent": [
-            0.5,
-            0.5,
-            0.5
-          ]
+          "boundCenter": [0.0, 0.0, 0.0],
+          "boundExtent": [0.5, 0.5, 0.5]
         }
       },
       {
         "type": "MeshRenderer",
-        "guid": "b7eb80a0-c8e6-4e2b-bf9b-d245c5e480ad",
+        "guid": "b0438a8b-2481-48be-bfd8-6e271f9de576",
         "mesh": {
-          "path": "./resources/Models/Cube.fbx",
+          "path": "Assets/Models/Cube.fbx",
           "fileName": "Cube.fbx",
           "modelName": "Cube",
           "meshName": "Cube",
-          "boundCenter": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "boundExtent": [
-            0.5,
-            0.5,
-            0.5
-          ]
+          "boundCenter": [0.0, 0.0, 0.0],
+          "boundExtent": [0.5, 0.5, 0.5]
         },
         "shadowCast": "On",
-        "materials": [
-          "c3009b9f-8cb3-42e4-8c2c-8db5f8605364"
-        ]
+        "materials": ["4157b116-6fa1-4286-a06e-a5037baf0a31"]
       },
       {
         "type": "BoxCollider",
-        "guid": "c8408d66-3794-4331-a026-a0cd7d79d1c5",
-        "aabbCenter": [
-          -3.51000023,
-          0.149999991,
-          -1.49
-        ],
-        "aabbExtent": [
-          0.5000001,
-          0.5,
-          0.5
-        ],
+        "guid": "696ae111-4146-4b52-b079-8f2e3f1610b4",
+        "aabbCenter": [-0.029999733, -1.16, -0.07999992],
+        "aabbExtent": [9.47, 0.5, 7.79],
         "isTrigger": false,
         "colliderType": "box",
-        "center": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "size": [
-          1.0,
-          1.0,
-          1.0
-        ]
+        "center": [0.0, 0.0, 0.0],
+        "size": [1.0, 1.0, 1.0]
       },
       {
         "type": "Transform",
-        "guid": "0cd7dd84-136c-4130-8751-fdb3db2d0086",
-        "position": [
-          -0.440000057,
-          0.61,
-          -0.276000023
-        ],
-        "rotation": [
-          0.0,
-          0.0,
-          0.0,
-          1.0
-        ],
-        "scale": [
-          1.0,
-          1.0,
-          1.0
-        ]
+        "guid": "f62736ef-6b74-4f0e-a3aa-f74fc3b205d4",
+        "position": [-3.07, 0.33, -1.49],
+        "rotation": [-0.219655544, 0.267087072, 0.169872016, 0.9227998],
+        "scale": [1.0, 1.0, 1.0]
       },
       {
         "type": "MeshFilter",
-        "guid": "f6e27c36-d379-4bfa-bbc9-0200654732f1",
+        "guid": "5592f1a1-3347-4f35-9ce6-8720540e3262",
         "mesh": {
-          "path": "./resources/Models/Cube.fbx",
+          "path": "Assets/Models/Cube.fbx",
           "fileName": "Cube.fbx",
           "modelName": "Cube",
           "meshName": "Cube",
-          "boundCenter": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "boundExtent": [
-            0.5,
-            0.5,
-            0.5
-          ]
+          "boundCenter": [0.0, 0.0, 0.0],
+          "boundExtent": [0.5, 0.5, 0.5]
         }
       },
       {
         "type": "MeshRenderer",
-        "guid": "fc9e9acb-acf9-4499-bf58-27f8c6f87139",
+        "guid": "f165cc00-287d-4d71-889f-8c37a08c0313",
         "mesh": {
-          "path": "./resources/Models/Cube.fbx",
+          "path": "Assets/Models/Cube.fbx",
           "fileName": "Cube.fbx",
           "modelName": "Cube",
           "meshName": "Cube",
-          "boundCenter": [
-            0.0,
-            0.0,
-            0.0
-          ],
-          "boundExtent": [
-            0.5,
-            0.5,
-            0.5
-          ]
+          "boundCenter": [0.0, 0.0, 0.0],
+          "boundExtent": [0.5, 0.5, 0.5]
         },
         "shadowCast": "On",
-        "materials": [
-          "8b5bed22-2a0e-4dc2-bb8c-931c77ddb6f3"
-        ]
+        "materials": ["92252e3d-3cf0-440f-990b-72983ce9897b"]
       },
       {
         "type": "BoxCollider",
-        "guid": "148a8d95-7db4-4b74-ba7e-dbb17358c1a3",
-        "aabbCenter": [
-          -3.94999981,
-          0.76,
-          -1.766
-        ],
-        "aabbExtent": [
-          0.499999881,
-          0.5,
-          0.5
-        ],
+        "guid": "edbdfd84-2e70-4c06-9b75-de354eba45fc",
+        "aabbCenter": [-3.07, 0.330000043, -1.49],
+        "aabbExtent": [0.8243878, 0.7690544, 0.8215248],
         "isTrigger": false,
         "colliderType": "box",
-        "center": [
-          0.0,
-          0.0,
-          0.0
-        ],
-        "size": [
-          1.0,
-          1.0,
-          1.0
-        ]
+        "center": [0.0, 0.0, 0.0],
+        "size": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "Transform",
+        "guid": "16c0ff0b-d81d-4775-9607-0ca292ccd1e6",
+        "position": [2.15, 0.61, -0.66],
+        "rotation": [0.0, 0.0, 0.0, 1.0],
+        "scale": [1.0, 1.0, 1.0]
+      },
+      {
+        "type": "MeshFilter",
+        "guid": "58b75191-89bf-41f7-afab-5c27c82a3794",
+        "mesh": {
+          "path": "Assets/Models/Sphere.fbx",
+          "fileName": "Sphere.fbx",
+          "modelName": "Sphere",
+          "meshName": "Sphere",
+          "boundCenter": [0.0, 0.0, 0.0],
+          "boundExtent": [0.5, 0.5, 0.5]
+        }
+      },
+      {
+        "type": "MeshRenderer",
+        "guid": "17a09486-2267-4010-be67-f28b6bb8b854",
+        "mesh": {
+          "path": "Assets/Models/Sphere.fbx",
+          "fileName": "Sphere.fbx",
+          "modelName": "Sphere",
+          "meshName": "Sphere",
+          "boundCenter": [0.0, 0.0, 0.0],
+          "boundExtent": [0.5, 0.5, 0.5]
+        },
+        "shadowCast": "On",
+        "materials": ["e5e4f404-f9e5-4d89-8955-38ac9a440daf"]
+      },
+      {
+        "type": "BoxCollider",
+        "guid": "32ecad76-267e-4185-9193-3d2d55473c1f",
+        "aabbCenter": [-1.88972807, 0.940271139, -3.404348],
+        "aabbExtent": [0.8243876, 0.7690544, 0.8215246],
+        "isTrigger": false,
+        "colliderType": "box",
+        "center": [0.0, 0.0, 0.0],
+        "size": [1.0, 1.0, 1.0]
       }
     ]
   }

@@ -107,6 +107,7 @@ public class BakeExtensions
                 materialJson.Add("name", material.name);
                 if (BakeUnity.TryGetGuid(material, out var guid))
                     materialJson.Add("guid", guid);
+                materialJson.Add("shaderName", material.shader.name.Split("/")[^1]);
                 materialJson.Add("renderOrder", material.renderQueue);
                 switch (material.GetInt("_Cull"))
                 {

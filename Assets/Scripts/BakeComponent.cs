@@ -168,7 +168,9 @@ public class MeshRendererProperty : BaseBakeComponent
         base.PrevProcessing();
         var obj = (MeshRenderer)target;
         var materialList = obj.sharedMaterials.ToList();
-        BakeUnity.refList_Material.AddRange(materialList);
+        foreach (var material in materialList)
+            if (!BakeUnity.refList_Material.Contains(material))
+                BakeUnity.refList_Material.Add(material);
     }
 
     public override JObject BakeComponent()
@@ -199,7 +201,9 @@ public class SkinnedMeshRendererProperty : BaseBakeComponent
         base.PrevProcessing();
         var obj = (SkinnedMeshRenderer)target;
         var materialList = obj.sharedMaterials.ToList();
-        BakeUnity.refList_Material.AddRange(materialList);
+        foreach (var material in materialList)
+            if(!BakeUnity.refList_Material.Contains(material))
+                BakeUnity.refList_Material.Add(material);
     }
     public override JObject BakeComponent()
     {
