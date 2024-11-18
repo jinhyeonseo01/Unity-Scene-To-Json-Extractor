@@ -1,6 +1,9 @@
 # Unity Scene & Object To Json Exporter
  **Extractor that converts and saves Unity scenes in JSON format.**
 
+### Package Dependencies
+ - **Newtonsoft.Json**
+
 ![2](./docs/2.png)  
 *(Direct12 Load Example)*
 

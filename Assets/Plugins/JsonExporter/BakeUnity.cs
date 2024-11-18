@@ -2,24 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEditor.SceneManagement;
 using System.Linq;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
-using Unity.VisualScripting;
-using System.Runtime.InteropServices;
-using Sirenix.OdinInspector;
-using Sirenix.Serialization;
 using UnityEditor;
 using System.IO;
-using UnityEditor.SearchService;
-
+using Unity.VisualScripting;
 
 [InitializeOnLoad]
 public class BakeUnity : MonoBehaviour
 {
-    [OdinSerialize]
+    //[OdinSerialize]
     public static string definePath_Resources = "Assets/";
     public static Dictionary<string, string> nameToPathTable = new Dictionary<string, string>(4092);
     public static Dictionary<int, string> hashToGuidTable = new Dictionary<int, string>(4092);
@@ -33,10 +27,10 @@ public class BakeUnity : MonoBehaviour
 
     [NonSerialized, HideInInspector]
     protected static string finalJson;
-    [OdinSerialize]
+    //[OdinSerialize]
     public static string exportPath = "./Assets/Exports/";
 
-    [Button]
+    //[Button]
     public static void Baking()
     {
         InitBake();
@@ -75,7 +69,7 @@ public class BakeUnity : MonoBehaviour
         Save(finalJson, scene.name);
     }
 
-    [Button]
+    //[Button]
     private static void Save(string data, string name)
     {
         var sceneName = name;
@@ -94,7 +88,7 @@ public class BakeUnity : MonoBehaviour
         Console.WriteLine("파일에 저장되었습니다.");
     }
 
-    [Button]
+    //[Button]
     public static void SelectBaking()
     {
         InitBake();
