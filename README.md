@@ -1,8 +1,12 @@
 # Unity Scene & Object To Json Exporter
  **Extractor that converts and saves Unity scenes in JSON format.**
 
-### Package Dependencies
+### Package Manager Dependencies
  - **Newtonsoft.Json**
+ - **FBX Exporter**
+
+*(Dependency Installation Required)*  
+*(종속성 설치 필요.)*  
 
 ![2](./docs/2.png)  
 *(Direct12 Load Example)*
@@ -91,6 +95,31 @@
 ]
 
 ```
+
+* * *
+
+## Guide  
+
+<details>  
+<summary> Guide </summary>  
+
+![3](./docs/3.png)  
+- **Baking:** Bake all GameObjects in the Scene.
+- **Selected Baking:** Bake all selected GameObjects in the Hierarchy.
+
+![4](./docs/4.png)  
+ - **Json Export Path:** Sets the path to save the baked JSON file.  
+ - **Resources Path:** Replaces the resource path by removing ***./Assets/*** and applying the new path.  
+ - **Path Update:** Updates the path to reflect changes for baking.  
+
+![5](./docs/5.png)  
+ - **FBX Unit Adjuster:** Open the window from the top menu ***Tools/FBX Unit Adjuster.***
+By clicking the button, it adjusts the *UnitScaleFactor* of all *.fbx* files in the specified path to 1cm.
+
+</details>
+
+* * *
+
 
 ## Example  
 
