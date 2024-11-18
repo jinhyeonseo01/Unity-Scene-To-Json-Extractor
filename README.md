@@ -1,4 +1,4 @@
-# Unity Scene To Json Extractor
+# Unity Scene & Object To Json Exporter
  **Extractor that converts and saves Unity scenes in JSON format.**
 
 ![2](./docs/2.png)  
