@@ -4,7 +4,7 @@
 ![2](./docs/2.png)  
 *(Direct12 Load Example)*
 
-**GUID Based Reference Link Serialize**
+**GUID Based Reference Link Serialized**
 ### Two-Step Processing
 1. **Preprocessing**: Assign GUIDs and compile a list of objects
 2. **Baking**: Serialize to JSON and update GUID references
