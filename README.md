@@ -16,6 +16,10 @@
 1. **Preprocessing**: Assign GUIDs and compile a list of objects
 2. **Baking**: Serialize to JSON and update GUID references
 
+#### Note: 
+ - GameObjects with a # prefix in their name are excluded from baking.
+ - Before baking, you must update the path at least once using the Bake Setting script placed in the Scene. For instructions, refer to the Guide.
+
 ## Format Structure
 ``` json
 // Base Structure
@@ -111,6 +115,8 @@
  - **Json Export Path:** Sets the path to save the baked JSON file.  
  - **Resources Path:** Replaces the resource path by removing ***./Assets/*** and applying the new path.  
  - **Path Update:** Updates the path to reflect changes for baking.  
+
+**GameObjects with a # prefix in their name are excluded from baking.**
 
 ![5](./docs/5.png)  
  - **FBX Unit Adjuster:** Open the window from the top menu ***Tools/FBX Unit Adjuster.***
