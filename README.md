@@ -1,5 +1,8 @@
-# Unity Scene & Object To Json Exporter
- **Extractor that converts and saves Unity scenes in JSON format.**
+# Unity Scene & Object To Json Exporter  
+**Export tool for converting and saving Unity scenes in JSON format.**  
+**Latest tested version: 6000.0.25f URP.**  
+**Supports GUID-based reference link serialization.**  
+<br>
 
 ### Package Manager Dependencies
  - **Newtonsoft.Json**
@@ -11,7 +14,7 @@
 ![2](./docs/2.png)  
 *(Direct12 Load Example)*
 
-**GUID Based Reference Link Serialized**
+**GUID Based Reference Link Serialize**
 ### Two-Step Processing
 1. **Preprocessing**: Assign GUIDs and compile a list of objects
 2. **Baking**: Serialize to JSON and update GUID references
