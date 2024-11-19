@@ -5,6 +5,8 @@ using System.IO;
 using UnityEditor.Formats.Fbx.Exporter; // FBX Exporter 패키지 네임스페이스
 using UnityEngine.Formats.Fbx.Exporter;
 using System.Collections.Generic;
+using System;
+using System.Linq;
 
 public class FBXUnitAdjuster : EditorWindow
 {
@@ -58,7 +60,7 @@ public class FBXUnitAdjuster : EditorWindow
             AdjustUnits();
         }
     }
-
+    public Dictionary<int, int> meshChangeIDTable = new Dictionary<int, int>();
     private void AdjustUnits()
     {
         // 폴더 경로 유효성 검사
@@ -86,6 +88,10 @@ public class FBXUnitAdjuster : EditorWindow
         // 처리된 파일 목록 저장 (성공 및 실패)
         List<string> successFiles = new List<string>();
         List<string> failedFiles = new List<string>();
+        Debug.Log(fbxFiles);
+
+        meshChangeIDTable ??= new Dictionary<int, int>();
+        meshChangeIDTable.Clear();
 
         foreach (string filePath in fbxFiles)
         {
@@ -108,73 +114,108 @@ public class FBXUnitAdjuster : EditorWindow
             //Debug.Log(assetPath);
             //Debug.Log(prefabs.Count);
 
-
-            // 기존 글로벌 스케일 가져오기
-            float existingScale = importer.globalScale;
-            //importer.globalScale = 1.0f;
-            importer.globalScale = 1.0f;
-            //importer.useFileUnits = true;
-
-            // 변경 사항 저장 및 재임포트
-            importer.SaveAndReimport();
-
-            // FBX Exporter를 사용하여 수정된 모델을 임포트한 GameObject로부터 다시 FBX로 익스포트
-            GameObject go = AssetDatabase.LoadAssetAtPath<GameObject>(assetPath);
-
-            if (go == null)
+            try
             {
-                Debug.LogWarning($"Failed to load GameObject for {assetPath}");
-                failedFiles.Add(assetPath);
-                continue;
+
+                // 기존 글로벌 스케일 가져오기
+                float existingScale = importer.globalScale;
+                //importer.globalScale = 1.0f;
+                importer.globalScale = 1.0f;
+                importer.useFileUnits = true;
+                importer.bakeAxisConversion = true;
+                importer.useFileScale = true;
+                // 변경 사항 저장 및 재임포트
+                importer.SaveAndReimport();
+
+                // FBX Exporter를 사용하여 수정된 모델을 임포트한 GameObject로부터 다시 FBX로 익스포트
+                GameObject go = AssetDatabase.LoadAssetAtPath<GameObject>(assetPath);
+                if (go == null)
+                {
+                    Debug.LogWarning($"Failed to load GameObject for {assetPath}");
+                    failedFiles.Add(assetPath);
+                    continue;
+                }
+
+
+                Dictionary<MeshFilter, int> meshPrevIDTable = new Dictionary<MeshFilter, int>();
+                Dictionary<SkinnedMeshRenderer, int> meshSkinnedPrevIDTable = new Dictionary<SkinnedMeshRenderer, int>();
+                MeshFilter[] meshFilters = go.GetComponentsInChildren<MeshFilter>(true);
+                foreach(var meshFilter in meshFilters)
+                    meshPrevIDTable.Add(meshFilter, meshFilter.sharedMesh.GetInstanceID());
+
+                SkinnedMeshRenderer[] meshSkinneds = go.GetComponentsInChildren<SkinnedMeshRenderer>(true);
+                foreach (var meshSkinned in meshSkinneds)
+                    meshSkinnedPrevIDTable.Add(meshSkinned, meshSkinned.sharedMesh.GetInstanceID());
+
+
+                // 임시 경로 설정
+                string tempExportPath = Path.Combine(Path.GetDirectoryName(filePath), Path.GetFileNameWithoutExtension(filePath) + ".fbx");
+                Debug.Log(tempExportPath);
+
+                string metaFilePath = tempExportPath + ".meta";
+                string rand = System.Guid.NewGuid().ToString();
+                // 기존 .meta 파일 백업
+                string backupMetaFilePath = tempExportPath + rand + ".bak";
+                if (File.Exists(metaFilePath))
+                {
+                    File.Copy(metaFilePath, backupMetaFilePath, true);
+                }
+
+                // 익스포트 시도
+                go.transform.localScale = go.transform.localScale * existingScale;
+                //OnPostprocessModel(go);
+                ExportModelOptions o = new ExportModelOptions();
+                o.ExportFormat = ExportFormat.Binary;
+                o.UseMayaCompatibleNames = true;
+                o.PreserveImportSettings = true;
+                ModelExporter.ExportObject(tempExportPath, go, o);
+                successFiles.Add(filePath);
+
+
+                if (File.Exists(backupMetaFilePath))
+                {
+                    File.Copy(backupMetaFilePath, metaFilePath, true);
+                    File.Delete(backupMetaFilePath);
+                }
+                AssetDatabase.ImportAsset(tempExportPath, ImportAssetOptions.ForceUpdate);
+
+
+                go = AssetDatabase.LoadAssetAtPath<GameObject>(assetPath);
+                meshFilters = go.GetComponentsInChildren<MeshFilter>(true);
+
+                foreach (var meshFilter in meshFilters)
+                    if (meshPrevIDTable.ContainsKey(meshFilter))
+                        meshChangeIDTable.Add(meshPrevIDTable[meshFilter], meshFilter.sharedMesh.GetInstanceID());
+                    else
+                        Debug.Log($"Not Found : {meshFilter.sharedMesh.GetInstanceID()}");
+
+                meshSkinneds = go.GetComponentsInChildren<SkinnedMeshRenderer>(true);
+                foreach (var meshSkinned in meshSkinneds)
+                    if (meshSkinnedPrevIDTable.ContainsKey(meshSkinned))
+                        meshChangeIDTable.Add(meshSkinnedPrevIDTable[meshSkinned], meshSkinned.sharedMesh.GetInstanceID());
+                    else
+                        Debug.Log($"Not Found : {meshSkinned.sharedMesh.GetInstanceID()}");
+
+
             }
-
-            // 임시 경로 설정
-            string tempExportPath = Path.Combine(Path.GetDirectoryName(filePath), Path.GetFileNameWithoutExtension(filePath) + ".fbx");
-
-
-            string metaFilePath = tempExportPath + ".meta";
-
-            // 기존 .meta 파일 백업
-            string backupMetaFilePath = metaFilePath + ".bak";
-            if (File.Exists(metaFilePath))
-            {
-                File.Copy(metaFilePath, backupMetaFilePath, true);
-            }
-
-
-            // 익스포트 시도
-            go.transform.localScale = go.transform.localScale * existingScale;
-            //OnPostprocessModel(go);
-            ExportModelOptions o = new ExportModelOptions();
-            o.ExportFormat = ExportFormat.ASCII;
-            o.UseMayaCompatibleNames = true;
-            o.PreserveImportSettings = true;
-            ModelExporter.ExportObject(tempExportPath, go, o);
-            successFiles.Add(filePath);
-
-
-            if (File.Exists(backupMetaFilePath))
-            {
-                File.Copy(backupMetaFilePath, metaFilePath, true);
-                File.Delete(backupMetaFilePath);
-
-                // Unity 에셋 데이터베이스 갱신
-                AssetDatabase.ImportAsset(tempExportPath);
-            }
-
-
-            go = AssetDatabase.LoadAssetAtPath<GameObject>(assetPath);
-            importer.SaveAndReimport();
-            //var objs = FindPrefabs(assetPath);
-            //for (int i = 0; i < objs.Count; i++)
-            //objs[i].transform.localScale = go.transform.localScale;
-            //foreach (var prefab in prefabs)
-            //{
-            //UpdatePrefabWithFBX(prefab, go);
-            //}
+        finally
+        {
         }
+
+
+        //var objs = FindPrefabs(assetPath);
+        //for (int i = 0; i < objs.Count; i++)
+        //objs[i].transform.localScale = go.transform.localScale;
+        //foreach (var prefab in prefabs)
+        //{
+        //UpdatePrefabWithFBX(prefab, go);
+        //}
+    }
         AssetDatabase.Refresh();
 
+        foreach (var meshID in meshChangeIDTable)
+            Debug.Log($"{meshID.Key} : {meshID.Value}");
+        FixMesh();
         // 프로그레스 바 해제
         EditorUtility.ClearProgressBar();
 
@@ -206,140 +247,79 @@ public class FBXUnitAdjuster : EditorWindow
         }
     }
 
-
-    // FBX를 참조하는 Prefab 검색
-    private List<GameObject> FindPrefabsUsingFBX(string fbxPath)
+    public void FixMesh()
     {
-        var prefabList = new List<GameObject>();
-        string[] allPrefabs = AssetDatabase.FindAssets("t:Prefab");
+        var refList_GameObject = FindObjectsByType<GameObject>(FindObjectsInactive.Include, FindObjectsSortMode.InstanceID)
+            .Where(e => !e.name.Contains("#"))
+            .ToList();
 
-        foreach (string prefabGUID in allPrefabs)
+        string[] prefabGuids = AssetDatabase.FindAssets("t:Prefab", new[] { "Assets" });
+
+        List<GameObject> prefabs = new List<GameObject>();
+        Dictionary<GameObject, string> prefabPaths = new Dictionary<GameObject, string>();
+
+        foreach (string guid in prefabGuids)
         {
-            string prefabPath = AssetDatabase.GUIDToAssetPath(prefabGUID);
-            GameObject prefab = AssetDatabase.LoadAssetAtPath<GameObject>(prefabPath);
-
-            // FBX를 참조하는 Prefab인지 확인
-            if (PrefabReferencesFBX(prefab, fbxPath))
+            string assetPath = AssetDatabase.GUIDToAssetPath(guid);
+            GameObject prefab = AssetDatabase.LoadAssetAtPath<GameObject>(assetPath);
+            if (prefab != null)
             {
-                prefabList.Add(prefab);
+                prefabs.Add(prefab);
+                prefabPaths.Add(prefab, assetPath);
             }
         }
+        refList_GameObject.AddRange(prefabs);
 
-        return prefabList;
+        for (int i = 0; i < refList_GameObject.Count; i++)
+            FixMeshLinks(refList_GameObject[i]);
+        foreach (var prefab in prefabPaths)
+            PrefabUtility.SaveAsPrefabAsset(prefab.Key, prefab.Value);
     }
-
-    // Prefab이 특정 FBX를 참조하는지 확인
-    private bool PrefabReferencesFBX(GameObject prefab, string fbxPath)
+    public void FixMeshLinks(GameObject rootObject)
     {
-        var renderers = prefab.GetComponentsInChildren<MeshFilter>(true);
-        foreach (var renderer in renderers)
-        {
-            //Debug.Log(renderer.sharedMesh);
-            //Debug.Log(renderer.mesh);
-            if (renderer.sharedMesh != null)
-            {
-                if (renderer.sharedMesh != null && AssetDatabase.GetAssetPath(renderer.sharedMesh) == AssetDatabase.GetAssetPath(AssetDatabase.LoadAssetAtPath<Object>(fbxPath)))
-                {
-                    return true;
-                }
-            }
-        }
+        // 모든 MeshFilter를 탐색
+        MeshFilter[] meshFilters = rootObject.GetComponentsInChildren<MeshFilter>();
 
-        return false;
-    }
-
-
-    private void UpdatePrefabWithFBX(GameObject prefab, GameObject importedModel)
-    {
-        // FBX의 Mesh 데이터를 Prefab에 복사
-        Debug.Log(prefab);
-        Debug.Log(importedModel);
-        var prefabInstances = prefab.GetComponentsInChildren<Transform>(true);
-        var importedInstances = importedModel.GetComponentsInChildren<Transform>(true);
-        foreach (var prefabInstance in prefabInstances)
-        {
-            foreach (var importedInstance in importedInstances)
-            {
-                if (prefabInstance.name == importedInstance.name)
-                {
-                    // MeshRenderer 연결 업데이트
-                    var prefabRenderer = prefabInstance.GetComponent<MeshFilter>();
-                    var importedRenderer = importedInstance.GetComponent<MeshFilter>();
-                    if (prefabRenderer != null && importedRenderer != null)
-                    {
-                        //prefabRenderer.sha
-                        prefabRenderer.sharedMesh = importedRenderer.sharedMesh;
-                    }
-                }
-            }
-        }
-
-        // Prefab 저장
-        PrefabUtility.SavePrefabAsset(prefab);
-        Debug.Log($"Updated Prefab: {prefab.name} with updated FBX: {importedModel.name}");
-    }
-
-
-
-
-
-
-
-
-
-
-    public static List<GameObject> FindPrefabs(string fbxPath)
-    {
-        // FBX 파일의 경로 설정 (Project 창의 FBX 파일 경로)
-        Object fbxAsset = AssetDatabase.LoadAssetAtPath<Object>(fbxPath);
-        List<GameObject> gameObjects = new List<GameObject>();
-        if (fbxAsset == null)
-        {
-            Debug.LogError($"FBX file not found at path: {fbxPath}");
-            return null;
-        }
-
-        // 모든 Prefab 검색
-        string[] allPrefabs = AssetDatabase.FindAssets("t:Prefab");
-
-        Debug.Log($"Searching for Prefabs using FBX: {fbxPath}");
-        foreach (string prefabGUID in allPrefabs)
-        {
-            string prefabPath = AssetDatabase.GUIDToAssetPath(prefabGUID);
-            GameObject prefab = AssetDatabase.LoadAssetAtPath<GameObject>(prefabPath);
-
-            if (PrefabUsesFBX(prefab, fbxAsset))
-            {
-                gameObjects.Add(prefab);
-            }
-        }
-        return gameObjects;
-    }
-
-    private static bool PrefabUsesFBX(GameObject prefab, Object fbxAsset)
-    {
-        if (prefab == null || fbxAsset == null)
-            return false;
-
-        // Prefab 내부의 모든 MeshFilter 및 SkinnedMeshRenderer를 검색
-        var meshFilters = prefab.GetComponentsInChildren<MeshFilter>(true);
         foreach (var meshFilter in meshFilters)
         {
-            if (meshFilter.sharedMesh != null && AssetDatabase.GetAssetPath(meshFilter.sharedMesh) == AssetDatabase.GetAssetPath(fbxAsset))
+            if (meshFilter.sharedMesh == null)
             {
-                return true;
+                SerializedObject serializedObject = new SerializedObject(meshFilter);
+                SerializedProperty meshProperty = serializedObject.FindProperty("m_Mesh");
+                if (meshProperty != null)
+                {
+                    if (meshChangeIDTable.ContainsKey(meshProperty.objectReferenceInstanceIDValue))
+                    {
+                        Debug.Log($"재참조 성공 : {meshProperty.objectReferenceInstanceIDValue}");
+                        meshProperty.objectReferenceInstanceIDValue = meshChangeIDTable[meshProperty.objectReferenceInstanceIDValue];
+                        serializedObject.ApplyModifiedProperties();
+                    }
+                }
+
             }
         }
 
-        var skinnedMeshRenderers = prefab.GetComponentsInChildren<SkinnedMeshRenderer>(true);
-        foreach (var skinnedMeshRenderer in skinnedMeshRenderers)
+
+        SkinnedMeshRenderer[] meshSkinneds = rootObject.GetComponentsInChildren<SkinnedMeshRenderer>();
+
+        foreach (var meshSkinned in meshSkinneds)
         {
-            if (skinnedMeshRenderer.sharedMesh != null && AssetDatabase.GetAssetPath(skinnedMeshRenderer.sharedMesh) == AssetDatabase.GetAssetPath(fbxAsset))
+            if (meshSkinned.sharedMesh == null)
             {
-                return true;
+                SerializedObject serializedObject = new SerializedObject(meshSkinned);
+                SerializedProperty meshProperty = serializedObject.FindProperty("m_Mesh");
+                if (meshProperty != null)
+                {
+                    if (meshChangeIDTable.ContainsKey(meshProperty.objectReferenceInstanceIDValue))
+                    {
+                        Debug.Log($"재참조 성공 : {meshProperty.objectReferenceInstanceIDValue}");
+                        meshProperty.objectReferenceInstanceIDValue = meshChangeIDTable[meshProperty.objectReferenceInstanceIDValue];
+                        serializedObject.ApplyModifiedProperties();
+                    }
+                }
+
             }
         }
-
-        return false;
     }
+
 }
