@@ -144,7 +144,7 @@ public class FBXUnitAdjuster : EditorWindow
 
             // 익스포트 시도
             go.transform.localScale = go.transform.localScale * existingScale;
-            OnPostprocessModel(go);
+            //OnPostprocessModel(go);
             ExportModelOptions o = new ExportModelOptions();
             o.ExportFormat = ExportFormat.ASCII;
             o.UseMayaCompatibleNames = true;
