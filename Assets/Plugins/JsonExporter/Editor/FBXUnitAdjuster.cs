@@ -144,9 +144,12 @@ public class FBXUnitAdjuster : EditorWindow
 
             // 익스포트 시도
             go.transform.localScale = go.transform.localScale * existingScale;
-            //ExportModelOptions o = new ExportModelOptions();
-            //o.ExportFormat = ExportFormat.Binary;
-            ModelExporter.ExportObject(tempExportPath, go);
+            OnPostprocessModel(go);
+            ExportModelOptions o = new ExportModelOptions();
+            o.ExportFormat = ExportFormat.ASCII;
+            o.UseMayaCompatibleNames = true;
+            o.PreserveImportSettings = true;
+            ModelExporter.ExportObject(tempExportPath, go, o);
             successFiles.Add(filePath);
 
 
@@ -187,6 +190,20 @@ public class FBXUnitAdjuster : EditorWindow
         }
 
         EditorUtility.DisplayDialog("FBX Unit Adjuster", summary, "OK");
+    }
+
+    void OnPostprocessModel(GameObject g)
+    {
+        // 모든 자식 객체에 대해 메쉬 이름을 수정
+        MeshFilter[] meshFilters = g.GetComponentsInChildren<MeshFilter>();
+        foreach (MeshFilter meshFilter in meshFilters)
+        {
+            if (meshFilter.sharedMesh != null)
+            {
+                // 원하는 메쉬 이름으로 변경
+                meshFilter.gameObject.name = meshFilter.sharedMesh.name;  // GameObject 이름과 동일하게 설정
+            }
+        }
     }
 
 
