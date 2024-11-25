@@ -2,8 +2,8 @@
  **Extractor that converts and saves Unity scenes in JSON format.**
 
 ### Package Manager Dependencies
- - **Newtonsoft.Json**
- - **FBX Exporter**
+ - **Newtonsoft.Json** ( Add package by name  : "com.unity.nuget.newtonsoft-json" )  
+ - **FBX Exporter** ( Add Unity Registry : "FBX Exporter" )  
 
 *(Dependency Installation Required)*  
 *(종속성 설치 필요.)*  
