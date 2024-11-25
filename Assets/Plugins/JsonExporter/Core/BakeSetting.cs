@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,7 @@ using UnityEngine;
 public class BakeSetting : MonoBehaviour
 {
     //[FolderPath]
+    [NonSerialized]
     public string jsonExportPath = "./Assets/Exports/";
     public string resourcesPath = "Assets/";
     public void PathUpdate()
