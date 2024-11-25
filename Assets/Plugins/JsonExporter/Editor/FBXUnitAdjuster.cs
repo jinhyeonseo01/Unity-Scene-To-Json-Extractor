@@ -121,7 +121,11 @@ public class FBXUnitAdjuster : EditorWindow
                 //importer.globalScale = 1.0f;
                 importer.globalScale = 1.0f;
                 importer.useFileUnits = true;
-                importer.bakeAxisConversion = true;
+                if(importer.bakeAxisConversion)
+                    importer.bakeAxisConversion = false;
+                else
+                    importer.bakeAxisConversion = true;
+
                 importer.useFileScale = true;
                 // 변경 사항 저장 및 재임포트
                 importer.SaveAndReimport();
@@ -176,6 +180,12 @@ public class FBXUnitAdjuster : EditorWindow
                     File.Delete(backupMetaFilePath);
                 }
                 AssetDatabase.ImportAsset(tempExportPath, ImportAssetOptions.ForceUpdate);
+
+                importer = AssetImporter.GetAtPath(assetPath) as ModelImporter;
+                if(!importer.bakeAxisConversion)
+                    importer.bakeAxisConversion = true;
+
+                importer.SaveAndReimport();
 
 
                 go = AssetDatabase.LoadAssetAtPath<GameObject>(assetPath);
