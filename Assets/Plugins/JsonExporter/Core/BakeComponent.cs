@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 using Newtonsoft.Json.Linq;
-using Sirenix.Serialization;
+//using Sirenix.Serialization;
 using UnityEngine;
 
 
@@ -10,7 +10,7 @@ public class BaseBakeComponent
 {
     public string type;
     public string guid;
-    [OdinSerialize, HideInInspector]
+    //[OdinSerialize, HideInInspector]
     public Component target;
 
     public virtual void PrevProcessing()
