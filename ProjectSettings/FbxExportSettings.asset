@@ -23,7 +23,7 @@
         "dccOptionPaths": [],
         "exportModelSettingsSerialize": {
             "exportFormat": 1,
-            "animatedSkinnedMesh": false,
+            "animatedSkinnedMesh": true,
             "mayaCompatibleNaming": true,
             "include": 2,
             "lodLevel": 0,
@@ -35,7 +35,7 @@
         },
         "convertToPrefabSettingsSerialize": {
             "exportFormat": 1,
-            "animatedSkinnedMesh": false,
+            "animatedSkinnedMesh": true,
             "mayaCompatibleNaming": true
         }
     }

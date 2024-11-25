@@ -81,7 +81,6 @@ public class FBXUnitAdjuster : EditorWindow
         int currentFile = 0;
 
         // 원본 단위를 1로 변경하기 위한 스케일 팩터 계산
-        float targetUnitScale = 1.0f; // 목표 단위 스케일 (1 단위 = 1m)
 
         // 처리된 파일 목록 저장 (성공 및 실패)
         List<string> successFiles = new List<string>();
