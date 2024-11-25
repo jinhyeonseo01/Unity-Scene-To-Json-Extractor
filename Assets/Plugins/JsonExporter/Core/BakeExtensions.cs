@@ -106,17 +106,18 @@ public class BakeExtensions
                     materialJson.Add("guid", guid);
                 materialJson.Add("shaderName", material.shader.name.Split("/")[^1]);
                 materialJson.Add("renderOrder", material.renderQueue);
-                switch (material.GetInt("_Cull"))
+                try
                 {
-                    case 0:
+                    float Data = material.GetFloat("_Cull");
+                    if(Data == 0)
                         materialJson.Add("culling", "both");
-                        break;
-                    case 1:
+                    if (Data == 1)
                         materialJson.Add("culling", "front");
-                        break;
-                    case 2:
+                    if (Data == 2)
                         materialJson.Add("culling", "back");
-                        break;
+                }
+                catch {
+                    materialJson.Add("culling", "back");
                 }
 
                 materialJson.Add("datas", dataJson);
