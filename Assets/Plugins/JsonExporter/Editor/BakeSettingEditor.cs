@@ -13,8 +13,7 @@ public class BakeSettingEditor : Editor
         }
         else
         {
-            Debug.LogWarning("선택된 경로가 프로젝트 폴더 내에 없습니다.");
-            return "";
+            return absolutePath;
         }
     }
 
